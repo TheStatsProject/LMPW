@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 from passlib.context import CryptContext
 from jose import jwt, JWTError
 from fastapi import HTTPException, Header
-from app.db import users, db
+from app.db import users
 from pymongo.errors import DuplicateKeyError
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")

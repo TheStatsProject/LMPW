@@ -10,3 +10,4 @@ stripe
 python-multipart
 reportlab
 markdown2
+email-validator

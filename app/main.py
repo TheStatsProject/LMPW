@@ -22,21 +22,41 @@ from bson import ObjectId
 from bson.errors import InvalidId
 
 from app.models import UserCreate, UserPublic
-from app.db import users, notes, subscriptions, init_db
+from app.db import users, notes, subscriptions, init_db, health_check as db_health_check
 from app.auth import hash_password, verify_password, create_jwt_token, decode_jwt_token, token_has_scope
 from app.github_sync import sync_notes
 from app.delivery import make_zip_for_note, generate_pdf_from_markdown
 from app.payments import create_checkout_for_note, STRIPE_KEY, STRIPE_WEBHOOK_SECRET, handle_webhook
+from app.webhooks import router as github_webhook_router
 import stripe
 import io as _io
-
-# Initialize DB (safe/idempotent)
-init_db()
 
 logger = logging.getLogger("app.main")
 logging.basicConfig(level=os.environ.get("LOG_LEVEL", "INFO"))
 
 app = FastAPI(title="Notes API (Markdown only) - Improved User Model")
+
+# Include the GitHub webhook router
+app.include_router(github_webhook_router)
+
+
+# ---- Health Check Endpoints ----
+@app.get("/health")
+def health():
+    """Health check endpoint for deployment platforms."""
+    return {"status": "ok"}
+
+
+@app.get("/health/db")
+def health_db():
+    """Database health check endpoint."""
+    if db_health_check():
+        return {"status": "ok", "database": "connected"}
+    return JSONResponse(
+        status_code=503,
+        content={"status": "error", "database": "disconnected"}
+    )
+
 
 # ---- Helper functions ----
 def _user_doc_to_public(doc: dict) -> dict:
@@ -91,9 +111,17 @@ def require_user(authorization: Optional[str] = Header(None)):
     user_doc, payload = get_user_by_token(token)
     return user_doc
 
-# ---- Startup sync ----
+# ---- Startup events ----
 @app.on_event("startup")
-def startup_sync():
+def startup():
+    # Initialize database connection
+    try:
+        init_db()
+        logger.info("Database initialized successfully")
+    except Exception as e:
+        logger.warning("Database initialization failed: %s (will retry on first request)", e)
+    
+    # Sync notes from GitHub if configured
     owner = os.environ.get("GITHUB_OWNER")
     repo = os.environ.get("GITHUB_REPO")
     if owner and repo:

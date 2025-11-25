@@ -6,7 +6,6 @@ from pathlib import Path
 from datetime import datetime
 from app.db import notes
 from app.storage import store_asset
-from app.db import db as _db
 
 GITHUB_OWNER = os.environ.get("GITHUB_OWNER")
 GITHUB_REPO = os.environ.get("GITHUB_REPO")

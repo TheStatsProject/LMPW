@@ -63,6 +63,23 @@ def _db_name_from_uri(uri: str) -> Optional[str]:
         return None
     return None
 
+
+def _mask_uri(uri: str) -> str:
+    """
+    Mask credentials in a Mongo URI for logging.
+    """
+    try:
+        parsed = urlparse(uri)
+        if parsed.username or parsed.password:
+            netloc = parsed.netloc
+            # replace credentials portion if present
+            if "@" in netloc:
+                cred, host = netloc.split("@", 1)
+                return uri.replace(cred + "@", "****:****@")
+        return uri
+    except Exception:
+        return "mongodb://<hidden>"
+
 # Build client options
 _client_kwargs = dict(
     connect=True,
@@ -80,7 +97,8 @@ fs: Optional[GridFS] = None
 
 def _create_client_with_retries(uri: str) -> MongoClient:
     last_exc = None
-    for attempt in range(1, _INITIAL_CONNECT_RETRIES + 1):
+    retries = max(1, _INITIAL_CONNECT_RETRIES)  # Ensure at least 1 attempt
+    for attempt in range(1, retries + 1):
         try:
             client = MongoClient(uri, **_client_kwargs)
             # Trigger server selection to validate connection
@@ -89,11 +107,14 @@ def _create_client_with_retries(uri: str) -> MongoClient:
             return client
         except Exception as exc:
             last_exc = exc
-            logger.warning("MongoDB connection attempt %d/%d failed: %s", attempt, _INITIAL_CONNECT_RETRIES, exc)
-            time.sleep(_INITIAL_CONNECT_INTERVAL)
+            logger.warning("MongoDB connection attempt %d/%d failed: %s", attempt, retries, exc)
+            if attempt < retries:
+                time.sleep(_INITIAL_CONNECT_INTERVAL)
     # Final attempt (let the exception bubble)
     logger.error("All MongoDB initial connection attempts failed")
-    raise last_exc
+    if last_exc:
+        raise last_exc
+    raise RuntimeError("MongoDB connection failed with no exception details")
 
 def init_db():
     """
@@ -148,16 +169,62 @@ def get_notes_collection():
 def get_subscriptions_collection():
     return _get_collection("subscriptions")
 
-# Publicly exported variables for convenience (import-friendly)
-init_db()  # eager init so modules importing app.db have ready collections
-db = get_db()
-client = get_client()
-users = get_users_collection()
-notes = get_notes_collection()
-subscriptions = get_subscriptions_collection()
+# Publicly exported collection references (lazy proxies)
+# These are wrapped functions that will work even if DB is not immediately available
 
-# GridFS instance
-fs = get_gridfs()
+class LazyCollection:
+    """Proxy that lazily gets the actual collection when first accessed."""
+    def __init__(self, getter):
+        self._getter = getter
+        self._collection = None
+    
+    def _get_collection(self):
+        if self._collection is None:
+            self._collection = self._getter()
+        return self._collection
+    
+    def __getattr__(self, name):
+        return getattr(self._get_collection(), name)
+
+
+# Create lazy collection proxies
+users = LazyCollection(get_users_collection)
+notes = LazyCollection(get_notes_collection)
+subscriptions = LazyCollection(get_subscriptions_collection)
+
+
+def get_gridfs_lazy() -> GridFS:
+    """Lazily get GridFS instance."""
+    global fs
+    if fs is None:
+        init_db()
+    return fs
+
+
+# For backward compatibility, also expose db and client lazily
+def get_db_lazy():
+    return get_db()
+
+
+def get_client_lazy():
+    return get_client()
+
+
+# For modules that expect db and client as module-level variables
+class LazyDB:
+    """Proxy that lazily gets the database when first accessed."""
+    def __getattr__(self, name):
+        return getattr(get_db(), name)
+
+
+class LazyClient:
+    """Proxy that lazily gets the client when first accessed."""
+    def __getattr__(self, name):
+        return getattr(get_client(), name)
+
+
+db = LazyDB()
+client = LazyClient()
 
 def ensure_indexes():
     """
@@ -213,22 +280,6 @@ def close():
             logger.exception("Error closing Mongo client")
         finally:
             _client = None
-
-def _mask_uri(uri: str) -> str:
-    """
-    Mask credentials in a Mongo URI for logging.
-    """
-    try:
-        parsed = urlparse(uri)
-        if parsed.username or parsed.password:
-            netloc = parsed.netloc
-            # replace credentials portion if present
-            if "@" in netloc:
-                cred, host = netloc.split("@", 1)
-                return uri.replace(cred + "@", "****:****@")
-        return uri
-    except Exception:
-        return "mongodb://<hidden>"
 
 # Example helper: read a note by slug (wraps DB access)
 def find_note_by_slug(slug: str):
