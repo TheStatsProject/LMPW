@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      # MongoDB Atlas connection (required)
+      # Format: mongodb+srv://username:password@cluster.mongodb.net/LMBD
+      # Or for Atlas SQL Interface: mongodb://username:password@atlas-sql-xxx.mongodb.net/LMBD?ssl=true&authSource=admin
+      - MONGO_URL=${MONGO_URL}
+      
+      # JWT/Session secret (required - generate a secure random string)
+      - SESSION_SECRET_KEY=${SESSION_SECRET_KEY:-change-me-in-production}
+      
+      # MongoDB connection settings
+      - MONGO_CONNECT_TIMEOUT_MS=${MONGO_CONNECT_TIMEOUT_MS:-10000}
+      - MONGO_SERVER_SELECTION_TIMEOUT_MS=${MONGO_SERVER_SELECTION_TIMEOUT_MS:-10000}
+      - MONGO_INITIAL_CONNECT_RETRIES=${MONGO_INITIAL_CONNECT_RETRIES:-3}
+      
+      # Optional: GitHub integration
+      - GITHUB_OWNER=${GITHUB_OWNER:-}
+      - GITHUB_REPO=${GITHUB_REPO:-}
+      - GITHUB_TOKEN=${GITHUB_TOKEN:-}
+      
+      # Logging
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    restart: unless-stopped
+
+# To deploy:
+# 1. Copy .env.example to .env
+# 2. Edit .env with your MongoDB credentials and other settings
+# 3. Run: docker-compose up -d
+# 4. Visit: http://localhost:8000/docs for API documentation
+# 5. Check health: http://localhost:8000/health

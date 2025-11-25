@@ -64,7 +64,43 @@ A FastAPI-based Notes API that syncs markdown notes from GitHub, supports paymen
 
 ## Deployment
 
-### Docker
+### Docker with Docker Compose (Recommended)
+
+The easiest way to deploy:
+
+1. Copy the environment file and configure it:
+   ```bash
+   cp .env.example .env
+   ```
+
+2. Edit `.env` with your MongoDB Atlas credentials:
+   ```bash
+   # Get your connection string from MongoDB Atlas:
+   # https://cloud.mongodb.com -> Your Cluster -> Connect -> Drivers
+   MONGO_URL=mongodb://YOUR_USERNAME:YOUR_PASSWORD@atlas-sql-687f19d2678c807903e45f78-zalniw.g.query.mongodb.net/LMBD?ssl=true&authSource=admin
+   SESSION_SECRET_KEY=your-secure-random-secret-key
+   ```
+
+3. Start the application:
+   ```bash
+   docker-compose up -d
+   ```
+
+4. Access the application:
+   - API Documentation: http://localhost:8000/docs
+   - Health Check: http://localhost:8000/health
+
+5. View logs:
+   ```bash
+   docker-compose logs -f
+   ```
+
+6. Stop the application:
+   ```bash
+   docker-compose down
+   ```
+
+### Docker (Manual)
 
 ```bash
 docker build -t lmpw .
