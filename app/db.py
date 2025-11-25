@@ -22,6 +22,7 @@ from __future__ import annotations
 import os
 import logging
 import time
+import threading
 from urllib.parse import urlparse
 from typing import Optional
 
@@ -97,7 +98,8 @@ fs: Optional[GridFS] = None
 
 def _create_client_with_retries(uri: str) -> MongoClient:
     last_exc = None
-    retries = max(1, _INITIAL_CONNECT_RETRIES)  # Ensure at least 1 attempt
+    # Ensure at least 1 attempt even if MONGO_INITIAL_CONNECT_RETRIES is set to 0
+    retries = max(1, _INITIAL_CONNECT_RETRIES)
     for attempt in range(1, retries + 1):
         try:
             client = MongoClient(uri, **_client_kwargs)
@@ -110,7 +112,7 @@ def _create_client_with_retries(uri: str) -> MongoClient:
             logger.warning("MongoDB connection attempt %d/%d failed: %s", attempt, retries, exc)
             if attempt < retries:
                 time.sleep(_INITIAL_CONNECT_INTERVAL)
-    # Final attempt (let the exception bubble)
+    # All attempts failed
     logger.error("All MongoDB initial connection attempts failed")
     if last_exc:
         raise last_exc
@@ -173,14 +175,18 @@ def get_subscriptions_collection():
 # These are wrapped functions that will work even if DB is not immediately available
 
 class LazyCollection:
-    """Proxy that lazily gets the actual collection when first accessed."""
+    """Thread-safe proxy that lazily gets the actual collection when first accessed."""
     def __init__(self, getter):
         self._getter = getter
         self._collection = None
+        self._lock = threading.Lock()
     
     def _get_collection(self):
         if self._collection is None:
-            self._collection = self._getter()
+            with self._lock:
+                # Double-check after acquiring lock
+                if self._collection is None:
+                    self._collection = self._getter()
         return self._collection
     
     def __getattr__(self, name):
