@@ -11,3 +11,4 @@ python-multipart
 reportlab
 markdown2
 email-validator
+pydantic[email]
