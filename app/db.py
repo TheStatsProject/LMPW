@@ -112,8 +112,17 @@ def _create_client_with_retries(uri: str) -> MongoClient:
             logger.warning("MongoDB connection attempt %d/%d failed: %s", attempt, retries, exc)
             if attempt < retries:
                 time.sleep(_INITIAL_CONNECT_INTERVAL)
-    # All attempts failed
-    logger.error("All MongoDB initial connection attempts failed")
+    # All attempts failed - provide actionable guidance
+    logger.error(
+        "All MongoDB initial connection attempts failed. "
+        "Troubleshooting hints: "
+        "(1) Verify MONGO_URL is correctly set and credentials are valid. "
+        "(2) For MongoDB Atlas, ensure your IP is whitelisted in Network Access settings. "
+        "(3) Check if you're using the correct scheme: 'mongodb+srv://' for Atlas clusters "
+        "or 'mongodb://' for direct connections. "
+        "(4) Verify DNS resolution and network connectivity to the MongoDB host. "
+        "(5) If using Atlas, ensure the cluster is active and not paused."
+    )
     if last_exc:
         raise last_exc
     raise RuntimeError("MongoDB connection failed with no exception details")

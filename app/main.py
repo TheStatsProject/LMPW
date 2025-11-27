@@ -111,6 +111,45 @@ def require_user(authorization: Optional[str] = Header(None)):
     user_doc, payload = get_user_by_token(token)
     return user_doc
 
+# Placeholder values that indicate unconfigured GitHub settings
+_PLACEHOLDER_OWNER = "your-github-username"
+_PLACEHOLDER_REPO = "your-notes-repo"
+
+
+def _is_auto_sync_enabled() -> bool:
+    """Check if GITHUB_AUTO_SYNC is enabled (values: '1', 'true', 'yes', case-insensitive)."""
+    value = os.environ.get("GITHUB_AUTO_SYNC", "").strip().lower()
+    return value in ("1", "true", "yes")
+
+
+def _has_valid_github_config() -> tuple[bool, str]:
+    """
+    Check if GitHub configuration is valid (non-placeholder values).
+    Returns (is_valid, message) tuple.
+    """
+    owner = os.environ.get("GITHUB_OWNER", "").strip()
+    repo = os.environ.get("GITHUB_REPO", "").strip()
+    
+    missing = []
+    if not owner:
+        missing.append("GITHUB_OWNER")
+    if not repo:
+        missing.append("GITHUB_REPO")
+    
+    if missing:
+        return False, f"GitHub auto-sync skipped: {', '.join(missing)} not set"
+    
+    if owner == _PLACEHOLDER_OWNER or repo == _PLACEHOLDER_REPO:
+        return False, (
+            f"GitHub auto-sync skipped: placeholder values detected "
+            f"(GITHUB_OWNER='{owner}', GITHUB_REPO='{repo}'). "
+            f"To enable auto-sync, set GITHUB_AUTO_SYNC=true and configure valid "
+            f"GITHUB_OWNER and GITHUB_REPO values in your environment."
+        )
+    
+    return True, ""
+
+
 # ---- Startup events ----
 @app.on_event("startup")
 def startup():
@@ -121,14 +160,19 @@ def startup():
     except Exception as e:
         logger.warning("Database initialization failed: %s (will retry on first request)", e)
     
-    # Sync notes from GitHub if configured
-    owner = os.environ.get("GITHUB_OWNER")
-    repo = os.environ.get("GITHUB_REPO")
-    if owner and repo:
-        try:
-            sync_notes()
-        except Exception as e:
-            logger.exception("Initial sync failed: %s", e)
+    # Sync notes from GitHub if auto-sync is enabled and configured properly
+    if _is_auto_sync_enabled():
+        is_valid, message = _has_valid_github_config()
+        if is_valid:
+            try:
+                sync_notes()
+                logger.info("GitHub notes sync completed successfully")
+            except Exception as e:
+                logger.exception("Initial GitHub sync failed: %s", e)
+        else:
+            logger.warning(message)
+    else:
+        logger.debug("GitHub auto-sync disabled (GITHUB_AUTO_SYNC not set to true)")
 
 # ---- Auth / user endpoints ----
 @app.post("/register", status_code=201)
