@@ -10,3 +10,6 @@ stripe
 python-multipart
 reportlab
 markdown2
+
+email-validator>=2.y.z
+pydantic[email]>=2.y.z
