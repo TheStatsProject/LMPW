@@ -130,8 +130,14 @@ def _has_valid_github_config() -> tuple[bool, str]:
     owner = os.environ.get("GITHUB_OWNER", "").strip()
     repo = os.environ.get("GITHUB_REPO", "").strip()
     
-    if not owner or not repo:
-        return False, "GITHUB_OWNER or GITHUB_REPO not set"
+    missing = []
+    if not owner:
+        missing.append("GITHUB_OWNER")
+    if not repo:
+        missing.append("GITHUB_REPO")
+    
+    if missing:
+        return False, f"GitHub auto-sync skipped: {', '.join(missing)} not set"
     
     if owner == _PLACEHOLDER_OWNER or repo == _PLACEHOLDER_REPO:
         return False, (

@@ -37,17 +37,21 @@ def _get_repo_tree(ref="main", path="notes"):
                 f"Ensure the token has 'repo' scope for private repositories."
             ) from e
         elif status_code == 403:
+            owner_val = GITHUB_OWNER or "(not set)"
+            repo_val = GITHUB_REPO or "(not set)"
             raise GitHubSyncError(
                 f"GitHub API returned 403 Forbidden. "
                 f"This may indicate rate limiting or insufficient permissions. "
                 f"Check that GITHUB_TOKEN has appropriate scopes, or verify "
-                f"the repository '{GITHUB_OWNER}/{GITHUB_REPO}' is accessible."
+                f"the repository '{owner_val}/{repo_val}' is accessible."
             ) from e
         elif status_code == 404:
+            owner_val = GITHUB_OWNER or "(not set)"
+            repo_val = GITHUB_REPO or "(not set)"
             raise GitHubSyncError(
                 f"GitHub API returned 404 Not Found. "
-                f"Verify that GITHUB_OWNER ('{GITHUB_OWNER}') and "
-                f"GITHUB_REPO ('{GITHUB_REPO}') are correct, and that "
+                f"Verify that GITHUB_OWNER ('{owner_val}') and "
+                f"GITHUB_REPO ('{repo_val}') are correct, and that "
                 f"the repository exists and is accessible with your token."
             ) from e
         else:
