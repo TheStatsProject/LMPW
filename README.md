@@ -133,6 +133,7 @@ See `.env.example` for all available configuration options.
 ### Optional Environment Variables
 
 - `GITHUB_OWNER`, `GITHUB_REPO`, `GITHUB_TOKEN`: For GitHub sync
+- `GITHUB_AUTO_SYNC`: Set to `true`, `1`, or `yes` to enable automatic sync of notes from GitHub on application startup. Requires valid `GITHUB_OWNER` and `GITHUB_REPO` values (not placeholder defaults). Disabled by default to avoid noisy errors during initial setup.
 - `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET`: For payments
 - `EMAIL_HOST`, `EMAIL_USER`, `EMAIL_PASS`: For email delivery
 

@@ -18,10 +18,42 @@ if GITHUB_TOKEN:
 
 ASSET_EXTENSIONS = {".png", ".jpg", ".jpeg", ".gif", ".svg", ".pdf", ".zip", ".csv", ".mp4", ".mp3"}
 
+class GitHubSyncError(Exception):
+    """Custom exception for GitHub sync errors with actionable guidance."""
+    pass
+
+
 def _get_repo_tree(ref="main", path="notes"):
     url = f"{BASE_API}/repos/{GITHUB_OWNER}/{GITHUB_REPO}/git/trees/{ref}?recursive=1"
-    r = httpx.get(url, headers=headers, timeout=30)
-    r.raise_for_status()
+    try:
+        r = httpx.get(url, headers=headers, timeout=30)
+        r.raise_for_status()
+    except httpx.HTTPStatusError as e:
+        status_code = e.response.status_code
+        if status_code == 401:
+            raise GitHubSyncError(
+                f"GitHub API returned 401 Unauthorized. "
+                f"Please check that GITHUB_TOKEN is set and valid. "
+                f"Ensure the token has 'repo' scope for private repositories."
+            ) from e
+        elif status_code == 403:
+            raise GitHubSyncError(
+                f"GitHub API returned 403 Forbidden. "
+                f"This may indicate rate limiting or insufficient permissions. "
+                f"Check that GITHUB_TOKEN has appropriate scopes, or verify "
+                f"the repository '{GITHUB_OWNER}/{GITHUB_REPO}' is accessible."
+            ) from e
+        elif status_code == 404:
+            raise GitHubSyncError(
+                f"GitHub API returned 404 Not Found. "
+                f"Verify that GITHUB_OWNER ('{GITHUB_OWNER}') and "
+                f"GITHUB_REPO ('{GITHUB_REPO}') are correct, and that "
+                f"the repository exists and is accessible with your token."
+            ) from e
+        else:
+            raise GitHubSyncError(
+                f"GitHub API request failed with status {status_code}: {e.response.text}"
+            ) from e
     data = r.json()
     files = [item for item in data.get("tree", []) if item["type"] == "blob" and item["path"].startswith(path)]
     return files
