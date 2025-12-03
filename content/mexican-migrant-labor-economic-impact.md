@@ -151,8 +151,6 @@ Based on that and the data provided by the FRED we have estimated the labor forc
 For get the datasets for make the calcs we build this dataset base on this variables:
 
 
-.. raw:: html
-
 
 <div style="width: 100%; max-width: 800px; margin: auto;">
   <iframe src="art1/_static/summary_table_census_fred.html"
