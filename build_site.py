@@ -22,33 +22,32 @@ SITE_TITLE = "Finance Insights Blog"
 SITE_TAGLINE = "Your trusted source for market analysis and financial news"
 
 
-# Finance-themed color palette with proportional distribution
-# Based on: 57.5% #092234, 15.1% #a82d31, 13.5% #9f6d29, 4.7% #baa98c, 3.5% #32a392
+# Elegant Finance-themed color palette
+# Colors: Verdant Green, Navy Blue, Gold, Mocha Mousse
 COLORS = {
-    # Primary (57.5%) - Dark blue for backgrounds
-    "bg_dark": "#092234",
-    "bg_nav": "#092234",
+    # Navy Blue - Primary backgrounds
+    "bg_dark": "#0a1628",
+    "bg_nav": "#0a1628",
     
-    # Secondary backgrounds
-    "bg_card": "#424237",        # Dark olive for cards (2.4%)
-    "bg_card_alt": "#1f5b67",    # Dark teal alternative (1.3%)
+    # Card backgrounds (darker navy)
+    "bg_card": "#0d1d30",
+    "bg_card_alt": "#0f2238",
     
-    # Accent Red (15.1%) - Prominent accents
-    "accent_primary": "#a82d31",  # Primary red accent
-    "border": "#a82d31",          # Red borders
-    "accent_dark_red": "#7c2831", # Dark red variant (1.1%)
+    # Gold - Prominent accent for headings, links, borders
+    "gold": "#f0b90b",
+    "gold_dark": "#c9a23d",
+    "gold_light": "#f5d060",
+    "border": "#f0b90b",
     
-    # Gold/Brown (13.5%) - Headings, links
-    "gold": "#9f6d29",
-    "gold_dark": "#634e29",       # Dark brown (1.0%)
+    # Verdant Green - Hover effects and accents
+    "accent_primary": "#2d5a3d",
+    "accent_teal": "#3d7a50",
+    "link_hover": "#4a9960",
     
-    # Tan/Beige (4.7%) - Secondary text
-    "gold_light": "#baa98c",
-    "text_secondary": "#baa98c",
-    
-    # Teal/Green (3.5%) - Subtle accents
-    "accent_teal": "#32a392",
-    "link_hover": "#32a392",
+    # Mocha Mousse - Secondary text and subtle elements
+    "text_secondary": "#a0856d",
+    "mocha": "#8b7355",
+    "mocha_light": "#c4a882",
     
     # Text colors
     "text_primary": "#ffffff",
@@ -413,7 +412,7 @@ def get_base_css():
             transition: background-color 0.2s ease;
         }}
         .contact-card a:hover {{
-            background-color: {COLORS['accent_dark_red']};
+            background-color: {COLORS['accent_teal']};
             color: {COLORS['text_primary']};
         }}
         .contact-icon {{
