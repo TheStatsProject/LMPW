@@ -1,6 +1,10 @@
-# Finance Blog Static Site Generator
+# Finance Blog - Python Powered
 
-A 100% Python-powered static site generator for a finance-themed blog. **No hand-authored HTML or JavaScript** — all HTML output is generated exclusively by Python using the `markdown` package.
+A 100% Python-powered blog for finance content. **No hand-authored HTML or JavaScript** — all HTML output is generated exclusively by Python using the `markdown` package.
+
+Choose between:
+- **Static Site Generator** (`build_site.py`) - Generates HTML files
+- **Dynamic Web Server** (`blog_server.py`) - FastAPI server that renders pages on-demand
 
 ## Features
 
@@ -16,41 +20,66 @@ A 100% Python-powered static site generator for a finance-themed blog. **No hand
 
 - Python 3.8+
 - `markdown` package
+- `fastapi` and `uvicorn` (for dynamic server only)
 
 ## Installation
 
 ```bash
+pip install -r requirements.txt
+```
+
+Or for minimal static site only:
+```bash
 pip install markdown
 ```
 
-## Usage
+---
+
+## Option 1: Static Site Generator
 
 ### Building the Site
-
-Run the build script from the repository root:
 
 ```bash
 python build_site.py
 ```
 
-This will:
-1. Read all Markdown files from the `content/` directory
-2. Extract metadata (title, date, author) from each file
-3. Convert Markdown content to HTML
-4. Generate `index.html` with a list of all posts
-5. Generate individual HTML pages for each article
-6. Output all files to the `site/` directory
+This generates HTML files in the `site/` directory.
 
-### Previewing the Site
-
-After building, you can preview the site locally:
+### Previewing Locally
 
 ```bash
 cd site
 python -m http.server 8080
 ```
 
-Then open http://localhost:8080 in your browser.
+Open http://localhost:8080 in your browser.
+
+---
+
+## Option 2: Dynamic Web Server (Recommended for Render Web Service)
+
+### Running Locally
+
+```bash
+uvicorn blog_server:app --reload --port 8000
+```
+
+Open http://localhost:8000 in your browser.
+
+### Deploying to Render as Web Service
+
+1. Go to [Render Dashboard](https://dashboard.render.com)
+2. Click **New** → **Web Service**
+3. Connect your GitHub repository
+4. Configure:
+   - **Name**: `finance-blog`
+   - **Build Command**: `pip install -r requirements.txt`
+   - **Start Command**: `uvicorn blog_server:app --host 0.0.0.0 --port $PORT`
+5. Click **Create Web Service**
+
+The dynamic server reads Markdown files on each request, so you can update content without rebuilding.
+
+---
 
 ## Adding New Articles
 
@@ -70,17 +99,10 @@ Your article content starts here...
 More content...
 ```
 
-3. Run the build script:
-
-```bash
-python build_site.py
-```
-
-4. Your new article will appear on the homepage and have its own page at `site/my-new-post.html`
+3. For static site: Run `python build_site.py`
+4. For dynamic server: Changes are immediate (just refresh the page)
 
 ## Markdown File Format
-
-Each Markdown file must start with the following format:
 
 ```markdown
 # Post Title
@@ -98,8 +120,6 @@ Content starts after the empty line...
 
 ### Supported Markdown Features
 
-The generator supports standard Markdown plus:
-
 - Headers (`##`, `###`, etc.) — automatically included in Table of Contents
 - Bold (`**text**`) and italic (`*text*`)
 - Lists (ordered and unordered)
@@ -111,76 +131,30 @@ The generator supports standard Markdown plus:
 ## Project Structure
 
 ```
-├── build_site.py          # Python static site generator
+├── build_site.py          # Static site generator
+├── blog_server.py         # Dynamic FastAPI server
 ├── content/               # Markdown source files
 │   ├── market-outlook-2024.md
 │   ├── cryptocurrency-regulation.md
 │   ├── sustainable-investing-guide.md
 │   ├── interest-rate-impact.md
 │   └── retirement-planning-basics.md
-└── site/                  # Generated HTML output (gitignored)
-    ├── index.html
-    └── [article-slug].html
+├── site/                  # Generated HTML output (static only)
+└── render.yaml            # Render deployment config
 ```
 
 ## Deploying to Render
 
-You can deploy the static site to [Render](https://render.com) as a Static Site:
+### Dynamic Web Service (Recommended)
 
-### Option 1: Using Render Dashboard
+Use the included `render.yaml` or configure manually:
+- **Build Command**: `pip install -r requirements.txt`
+- **Start Command**: `uvicorn blog_server:app --host 0.0.0.0 --port $PORT`
 
-1. **Build the site locally first**:
-   ```bash
-   python build_site.py
-   ```
+### Static Site
 
-2. **Push the `site/` folder to your repository** (temporarily remove it from `.gitignore` or use a separate branch)
-
-3. **Create a new Static Site on Render**:
-   - Go to [Render Dashboard](https://dashboard.render.com)
-   - Click **New** → **Static Site**
-   - Connect your GitHub repository
-   - Configure:
-     - **Name**: `finance-blog` (or your preferred name)
-     - **Branch**: `main` (or your branch)
-     - **Publish Directory**: `site`
-   - Click **Create Static Site**
-
-### Option 2: Using Build Command on Render
-
-1. **Create a new Static Site on Render**:
-   - Go to [Render Dashboard](https://dashboard.render.com)
-   - Click **New** → **Static Site**
-   - Connect your GitHub repository
-
-2. **Configure build settings**:
-   - **Name**: `finance-blog`
-   - **Branch**: `main`
-   - **Build Command**: `pip install markdown && python build_site.py`
-   - **Publish Directory**: `site`
-
-3. Click **Create Static Site**
-
-Render will automatically rebuild and deploy your site whenever you push changes to the repository.
-
-### Option 3: Using render.yaml
-
-Create a `render.yaml` file in your repository root:
-
-```yaml
-services:
-  - type: web
-    name: finance-blog
-    env: static
-    buildCommand: pip install markdown && python build_site.py
-    staticPublishPath: ./site
-```
-
-Then connect your repository to Render, and it will automatically detect the configuration.
-
-### Starting the Deployed Site
-
-Once deployed, Render provides a URL like `https://finance-blog.onrender.com` where your site will be live. The site starts automatically—no manual start command is needed for static sites on Render.
+- **Build Command**: `pip install markdown && python build_site.py`
+- **Publish Directory**: `site`
 
 ## Design Philosophy
 
