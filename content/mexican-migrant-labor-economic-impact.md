@@ -13,23 +13,20 @@ This is a fact-based analysis, based solely on official U.S. government sources.
 
 Why This Analysis Matters
 -------------------------
-
-**Economic Transparency** 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-- Offers a data-driven perspective on the role of migrant labor in the U.S. economy.
-- Highlights the importance of using data and science to debunk myths and misconceptions surrounding immigration.
-- Facilitates informed discussions among policymakers, researchers, and the general public by presenting unbiased and factual insights.
-
-**Policy Implications**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Highlights the contributions of foreign-born workers to inform immigration and economic policies.
+- Highlights the importance of using data and science to debunk myths and misconceptions surrounding immigration.
+- Offers a data-driven perspective on the role of migrant labor in the U.S. economy.
+- Facilitates informed discussions among policymakers, researchers, and the general public by presenting unbiased and factual insights.
 - Offers actionable insights to guide the development of balanced immigration and economic policies that maximize the potential of migrant labor.
 - Identifies high-growth sectors, such as healthcare, agriculture, and construction, where migrant labor plays a pivotal role.
 
 **Investor Insights**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 - Identifies key sectors and demographics driving economic growth.
 - Identifies high-growth sectors, such as healthcare, agriculture, and construction, where migrant labor plays a pivotal role.
@@ -41,6 +38,7 @@ Methodology Overview: Measuring America's People and Economy
 -------------------------
 
 **Recommended Readings**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -65,6 +63,7 @@ Methodology Overview: Measuring America's People and Economy
 
 **Data Sources**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 1. **U.S. Census Bureau**: Provides population data for native and foreign-born groups.
@@ -72,6 +71,7 @@ Methodology Overview: Measuring America's People and Economy
 3. **Custom Analysis**: Estimates GDP contributions by nationality based on labor force participation rates and official population statistics.
 
 **Steps**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -91,22 +91,29 @@ Based on that report, we have found the following:
 
 1. **Migrant Labor Force Participation**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    - In 2024, Mexicans born in the U.S. contributed $781 billion to the Gross Domestic Product (GDP), meaning that if they were an independent country, they would currently be the tenth largest economy in the world; while forecasts indicate that the Latino community could occupy third place in two or three years.
 
 2. **Contributions**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
    - In 2022, undocumented immigrants paid nearly $100 billion in taxes, including $25.7 billion to Social Security; $6.4 billion to Medicare; and $1.8 billion to unemployment insurance.
    - They complement the U.S. workforce in essential industries, as their workforce represents 51 percent of dairy farms and meat processing; 20 percent of manufacturing and agriculture; 15 percent of education and healthcare; 28 percent of healthcare assistants; and 25 percent of construction workers. and 54.3 percent of agricultural sorters.
 
 3. **Security**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
    - Immigrants have 60 percent less crime, and the states along the border with Mexico are safer and healthier compared to the northern border of the United States.
 
 4. **Invesment and Entrepreneurship**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
    - In 2021, one in five immigrants was an entrepreneur, generating $95.6 billion.
 
@@ -116,6 +123,8 @@ Here is some raw and crude information to help you understand this reality. Let'
 
 Statement 1 . **Migrant Labor Force Participation**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
  - In 2024, Mexicans born in the U.S. contributed $781 billion to the Gross Domestic Product (GDP), meaning that if they were an independent country, they would currently be the tenth largest economy in the world; while forecasts indicate that the Latino community could occupy third place in two or three years.
 
 ****Myths or Reality?****
@@ -303,6 +312,8 @@ But let's not finish this statement without adding that Mexico isn't the only on
 
 Statement 2 . **Contributions**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
    - In 2022, undocumented immigrants paid nearly $100 billion in taxes, including $25.7 billion to Social Security; $6.4 billion to Medicare; and $1.8 billion to unemployment insurance.
    - They complement the U.S. workforce in essential industries, as their workforce represents 51 percent of dairy farms and meat processing; 20 percent of manufacturing and agriculture; 15 percent of education and healthcare; 28 percent of healthcare assistants; and 25 percent of construction workers. and 54.3 percent of agricultural sorters.
@@ -528,6 +539,8 @@ As can be seen in the chart for both groups, the main industry where the majorit
 
 Statement 3 . **Security**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
  - Immigrants have 60 percent less crime, and the states along the border with Mexico are safer and healthier compared to the northern border of the United States.
 
 ****Myths or Reality?****
@@ -620,6 +633,8 @@ At first hand we can see that the usual violent crimes on both borders are assau
 
 Statement 4. **Invesment and Entrepreneurship**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
  - In 2021, one in five immigrants was an entrepreneur, generating $95.6 billion.
 
 ****Myths or Reality?****
@@ -686,6 +701,8 @@ But it is necessary to answer the last question... is the contribution of the Me
 
 Take Action
 ~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 - **Policy Recommendations**: Invest in sectors with high migrant labor participation (e.g., healthcare, construction).
 - **Investor Opportunities**: Develop bilingual consumer platforms to capture market share.
