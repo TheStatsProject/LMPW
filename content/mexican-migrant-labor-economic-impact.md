@@ -13,8 +13,6 @@ This is a fact-based analysis, based solely on official U.S. government sources.
 
 Why This Analysis Matters
 -------------------------
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Highlights the contributions of foreign-born workers to inform immigration and economic policies.
 - Highlights the importance of using data and science to debunk myths and misconceptions surrounding immigration.
@@ -23,10 +21,8 @@ Why This Analysis Matters
 - Offers actionable insights to guide the development of balanced immigration and economic policies that maximize the potential of migrant labor.
 - Identifies high-growth sectors, such as healthcare, agriculture, and construction, where migrant labor plays a pivotal role.
 
-**Investor Insights**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+Investor Insights
+-------------------------
 
 - Identifies key sectors and demographics driving economic growth.
 - Identifies high-growth sectors, such as healthcare, agriculture, and construction, where migrant labor plays a pivotal role.
@@ -38,8 +34,7 @@ Methodology Overview: Measuring America's People and Economy
 -------------------------
 
 **Recommended Readings**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
 
 1. **Introductory/Basic Level**  
@@ -62,18 +57,14 @@ Methodology Overview: Measuring America's People and Economy
 
 
 **Data Sources**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+-------------------------
 
 1. **U.S. Census Bureau**: Provides population data for native and foreign-born groups.
 2. **FRED ST Louis**: Supplies GDP and labor force participation rates.
 3. **Custom Analysis**: Estimates GDP contributions by nationality based on labor force participation rates and official population statistics.
 
 **Steps**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+-------------------------
 
 - Fetch and analyze GDP data for 2024 and project it forward to 2025, the FRED series (“Real Gross Domestic Product”) is reported in chained 2017 dollars, meaning 2017  is the reference (base) year for the inflation‐adjusted series for this article.
 - Estimate labor force participation for native and foreign-born populations.
