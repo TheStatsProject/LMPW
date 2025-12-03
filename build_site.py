@@ -17,21 +17,24 @@ import markdown
 # Configuration
 CONTENT_DIR = Path("content")
 OUTPUT_DIR = Path("site")
+STATIC_DIR = Path("static")
 SITE_TITLE = "Finance Insights Blog"
 SITE_TAGLINE = "Your trusted source for market analysis and financial news"
 
 
-# Finance-themed color palette (dark blue, gold/yellow accents)
+# Finance-themed color palette (updated with new colors)
 COLORS = {
-    "bg_dark": "#0a1628",
-    "bg_card": "#11243d",
-    "bg_nav": "#081020",
-    "gold": "#f0b90b",
-    "gold_light": "#ffd54f",
-    "text_primary": "#ffffff",
-    "text_secondary": "#a0b4cc",
-    "border": "#1e3a5f",
-    "link_hover": "#f5d742",
+    "bg_dark": "#092234",       # Dark blue background
+    "bg_card": "#1f5b67",       # Dark teal for cards
+    "bg_nav": "#092234",        # Dark blue for nav
+    "gold": "#9f6d29",          # Gold/brown accent
+    "gold_light": "#baa98c",    # Tan/beige for light accents
+    "text_primary": "#ffffff",   # White text
+    "text_secondary": "#baa98c", # Tan secondary text
+    "border": "#32a392",        # Teal border
+    "link_hover": "#32a392",    # Teal hover
+    "accent_red": "#a82d31",    # Red accent
+    "accent_teal": "#32a392",   # Teal accent
 }
 
 
@@ -75,6 +78,16 @@ def get_base_css():
             display: flex;
             justify-content: space-between;
             align-items: center;
+        }}
+        .logo-link {{
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }}
+        .logo-img {{
+            height: 48px;
+            width: auto;
+            margin-right: 12px;
         }}
         .logo {{
             font-size: 1.75rem;
@@ -393,12 +406,16 @@ def generate_html_page(title, body_content, page_type="article"):
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title} | {SITE_TITLE}</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <style>{css}</style>
 </head>
 <body>
     <header>
         <div class="container">
-            <a href="index.html" class="logo">Finance<span>Insights</span></a>
+            <a href="index.html" class="logo-link">
+                <img src="logo.png" alt="{SITE_TITLE}" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline';">
+                <span class="logo">Finance<span>Insights</span></span>
+            </a>
             {nav_links}
         </div>
     </header>
@@ -510,10 +527,24 @@ def generate_article_html(post, prev_post=None, next_post=None):
 
 def build_site():
     """Main function to build the static site."""
+    import shutil
+    
     print(f"Building {SITE_TITLE}...")
 
     # Create output directory
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    # Copy static files (favicon, logo) if they exist
+    if STATIC_DIR.exists():
+        favicon_src = STATIC_DIR / "favicon.svg"
+        if favicon_src.exists():
+            shutil.copy(favicon_src, OUTPUT_DIR / "favicon.svg")
+            print("  Copied: favicon.svg")
+        
+        logo_src = STATIC_DIR / "logo.png"
+        if logo_src.exists():
+            shutil.copy(logo_src, OUTPUT_DIR / "logo.png")
+            print("  Copied: logo.png")
 
     # Find all markdown files
     md_files = list(CONTENT_DIR.glob("*.md"))

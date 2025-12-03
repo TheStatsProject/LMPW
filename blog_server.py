@@ -14,26 +14,35 @@ from pathlib import Path
 import markdown
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import HTMLResponse
+from fastapi.staticfiles import StaticFiles
 
 # Configuration
 CONTENT_DIR = Path("content")
+STATIC_DIR = Path("static")
 SITE_TITLE = "Finance Insights Blog"
 SITE_TAGLINE = "Your trusted source for market analysis and financial news"
 
-# Finance-themed color palette (dark blue, gold/yellow accents)
+# Finance-themed color palette (updated with new colors)
 COLORS = {
-    "bg_dark": "#0a1628",
-    "bg_card": "#11243d",
-    "bg_nav": "#081020",
-    "gold": "#f0b90b",
-    "gold_light": "#ffd54f",
-    "text_primary": "#ffffff",
-    "text_secondary": "#a0b4cc",
-    "border": "#1e3a5f",
-    "link_hover": "#f5d742",
+    "bg_dark": "#092234",       # Dark blue background
+    "bg_card": "#1f5b67",       # Dark teal for cards
+    "bg_nav": "#092234",        # Dark blue for nav
+    "gold": "#9f6d29",          # Gold/brown accent
+    "gold_light": "#baa98c",    # Tan/beige for light accents
+    "text_primary": "#ffffff",   # White text
+    "text_secondary": "#baa98c", # Tan secondary text
+    "border": "#32a392",        # Teal border
+    "link_hover": "#32a392",    # Teal hover
+    "accent_red": "#a82d31",    # Red accent
+    "accent_teal": "#32a392",   # Teal accent
 }
 
 app = FastAPI(title=SITE_TITLE, description="Dynamic Finance Blog powered by Python")
+
+# Mount static files directory
+if STATIC_DIR.exists():
+    app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
+
 
 
 def get_base_css():
@@ -76,6 +85,16 @@ def get_base_css():
             display: flex;
             justify-content: space-between;
             align-items: center;
+        }}
+        .logo-link {{
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }}
+        .logo-img {{
+            height: 48px;
+            width: auto;
+            margin-right: 12px;
         }}
         .logo {{
             font-size: 1.75rem;
@@ -380,12 +399,16 @@ def generate_html_page(title, body_content, page_type="article"):
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title} | {SITE_TITLE}</title>
+    <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
     <style>{css}</style>
 </head>
 <body>
     <header>
         <div class="container">
-            <a href="/" class="logo">Finance<span>Insights</span></a>
+            <a href="/" class="logo-link">
+                <img src="/static/logo.png" alt="{SITE_TITLE}" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline';">
+                <span class="logo">Finance<span>Insights</span></span>
+            </a>
             {nav_links}
         </div>
     </header>
