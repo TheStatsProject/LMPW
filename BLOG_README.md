@@ -123,6 +123,65 @@ The generator supports standard Markdown plus:
     └── [article-slug].html
 ```
 
+## Deploying to Render
+
+You can deploy the static site to [Render](https://render.com) as a Static Site:
+
+### Option 1: Using Render Dashboard
+
+1. **Build the site locally first**:
+   ```bash
+   python build_site.py
+   ```
+
+2. **Push the `site/` folder to your repository** (temporarily remove it from `.gitignore` or use a separate branch)
+
+3. **Create a new Static Site on Render**:
+   - Go to [Render Dashboard](https://dashboard.render.com)
+   - Click **New** → **Static Site**
+   - Connect your GitHub repository
+   - Configure:
+     - **Name**: `finance-blog` (or your preferred name)
+     - **Branch**: `main` (or your branch)
+     - **Publish Directory**: `site`
+   - Click **Create Static Site**
+
+### Option 2: Using Build Command on Render
+
+1. **Create a new Static Site on Render**:
+   - Go to [Render Dashboard](https://dashboard.render.com)
+   - Click **New** → **Static Site**
+   - Connect your GitHub repository
+
+2. **Configure build settings**:
+   - **Name**: `finance-blog`
+   - **Branch**: `main`
+   - **Build Command**: `pip install markdown && python build_site.py`
+   - **Publish Directory**: `site`
+
+3. Click **Create Static Site**
+
+Render will automatically rebuild and deploy your site whenever you push changes to the repository.
+
+### Option 3: Using render.yaml
+
+Create a `render.yaml` file in your repository root:
+
+```yaml
+services:
+  - type: web
+    name: finance-blog
+    env: static
+    buildCommand: pip install markdown && python build_site.py
+    staticPublishPath: ./site
+```
+
+Then connect your repository to Render, and it will automatically detect the configuration.
+
+### Starting the Deployed Site
+
+Once deployed, Render provides a URL like `https://finance-blog.onrender.com` where your site will be live. The site starts automatically—no manual start command is needed for static sites on Render.
+
 ## Design Philosophy
 
 This project demonstrates that modern, professional websites can be built using **only Python** without writing any HTML, CSS, or JavaScript by hand. All styling is embedded in Python template strings, and all HTML is generated programmatically.

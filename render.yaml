@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: finance-blog
+    env: static
+    buildCommand: pip install markdown && python build_site.py
+    staticPublishPath: ./site
