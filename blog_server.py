@@ -339,6 +339,95 @@ def get_base_css():
             color: {COLORS['text_secondary']};
             font-size: 0.9rem;
         }}
+        /* Navigation Bar */
+        .main-nav {{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }}
+        .main-nav a {{
+            padding: 8px 16px;
+            color: {COLORS['text_secondary']};
+            font-weight: 500;
+            border-radius: 4px;
+            transition: all 0.2s ease;
+        }}
+        .main-nav a:hover {{
+            color: {COLORS['gold']};
+            background-color: rgba(159, 109, 41, 0.1);
+        }}
+        .main-nav a.active {{
+            color: {COLORS['gold']};
+            background-color: {COLORS['bg_card']};
+        }}
+        /* Contact Section */
+        .contact-section {{
+            background: linear-gradient(135deg, {COLORS['bg_card']} 0%, {COLORS['bg_dark']} 100%);
+            padding: 64px 0;
+            border-top: 2px solid {COLORS['accent_primary']};
+            margin-top: 48px;
+        }}
+        .contact-section h2 {{
+            font-size: 2rem;
+            color: {COLORS['gold']};
+            text-align: center;
+            margin-bottom: 16px;
+        }}
+        .contact-section p {{
+            text-align: center;
+            color: {COLORS['text_secondary']};
+            margin-bottom: 32px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }}
+        .contact-grid {{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            max-width: 900px;
+            margin: 0 auto;
+        }}
+        .contact-card {{
+            background-color: {COLORS['bg_card']};
+            border: 1px solid {COLORS['border']};
+            border-radius: 8px;
+            padding: 24px;
+            text-align: center;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }}
+        .contact-card:hover {{
+            transform: translateY(-3px);
+            border-color: {COLORS['gold']};
+        }}
+        .contact-card h3 {{
+            color: {COLORS['gold']};
+            font-size: 1.1rem;
+            margin-bottom: 12px;
+        }}
+        .contact-card p {{
+            color: {COLORS['text_secondary']};
+            font-size: 0.95rem;
+            margin-bottom: 16px;
+        }}
+        .contact-card a {{
+            display: inline-block;
+            padding: 10px 24px;
+            background-color: {COLORS['accent_primary']};
+            color: {COLORS['text_primary']};
+            border-radius: 4px;
+            font-weight: 500;
+            transition: background-color 0.2s ease;
+        }}
+        .contact-card a:hover {{
+            background-color: {COLORS['accent_dark_red']};
+            color: {COLORS['text_primary']};
+        }}
+        .contact-icon {{
+            font-size: 2rem;
+            color: {COLORS['accent_teal']};
+            margin-bottom: 12px;
+        }}
         @media (max-width: 768px) {{
             .hero h1 {{
                 font-size: 2rem;
@@ -351,6 +440,13 @@ def get_base_css():
             }}
             .article-nav {{
                 flex-direction: column;
+            }}
+            .main-nav {{
+                gap: 4px;
+            }}
+            .main-nav a {{
+                padding: 6px 12px;
+                font-size: 0.9rem;
             }}
         }}
     """
@@ -408,7 +504,48 @@ def get_all_posts():
 def generate_html_page(title, body_content, page_type="article"):
     """Generate a complete HTML page with the finance theme."""
     css = get_base_css()
-    nav_links = "" if page_type == "index" else '<nav><a href="/">Home</a></nav>'
+    
+    # Navigation bar with links
+    nav_class_home = "active" if page_type == "index" else ""
+    nav_class_articles = "active" if page_type == "article" else ""
+    
+    nav_bar = f"""
+    <nav class="main-nav">
+        <a href="/" class="{nav_class_home}">Home</a>
+        <a href="/#articles" class="{nav_class_articles}">Articles</a>
+        <a href="/#contact">Contact</a>
+    </nav>
+    """
+
+    # Contact section
+    contact_section = f"""
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>Have questions about our financial insights? Want to contribute or collaborate? We'd love to hear from you.</p>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">📧</div>
+                    <h3>Email Us</h3>
+                    <p>Send us your questions or feedback directly via email.</p>
+                    <a href="mailto:contact@financeinsights.com">Send Email</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">💼</div>
+                    <h3>Business Inquiries</h3>
+                    <p>Interested in partnerships or advertising opportunities?</p>
+                    <a href="mailto:business@financeinsights.com">Contact Sales</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">📝</div>
+                    <h3>Contribute</h3>
+                    <p>Are you a financial expert? Share your insights with our readers.</p>
+                    <a href="mailto:contribute@financeinsights.com">Write For Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    """
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -426,10 +563,11 @@ def generate_html_page(title, body_content, page_type="article"):
                 <img src="/static/logo.png" alt="{SITE_TITLE}" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline';">
                 <span class="logo">Finance<span>Insights</span></span>
             </a>
-            {nav_links}
+            {nav_bar}
         </div>
     </header>
     {body_content}
+    {contact_section}
     <footer>
         <div class="container">
             <p>&copy; {datetime.now().year} {SITE_TITLE}. All rights reserved.</p>
@@ -464,7 +602,7 @@ async def home():
             <p>{SITE_TAGLINE}</p>
         </div>
     </section>
-    <main>
+    <main id="articles">
         <div class="container">
             <div class="posts-list">
                 {posts_html}
