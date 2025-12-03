@@ -22,19 +22,36 @@ SITE_TITLE = "Finance Insights Blog"
 SITE_TAGLINE = "Your trusted source for market analysis and financial news"
 
 
-# Finance-themed color palette (updated with new colors)
+# Finance-themed color palette with proportional distribution
+# Based on: 57.5% #092234, 15.1% #a82d31, 13.5% #9f6d29, 4.7% #baa98c, 3.5% #32a392
 COLORS = {
-    "bg_dark": "#092234",       # Dark blue background
-    "bg_card": "#1f5b67",       # Dark teal for cards
-    "bg_nav": "#092234",        # Dark blue for nav
-    "gold": "#9f6d29",          # Gold/brown accent
-    "gold_light": "#baa98c",    # Tan/beige for light accents
-    "text_primary": "#ffffff",   # White text
-    "text_secondary": "#baa98c", # Tan secondary text
-    "border": "#32a392",        # Teal border
-    "link_hover": "#32a392",    # Teal hover
-    "accent_red": "#a82d31",    # Red accent
-    "accent_teal": "#32a392",   # Teal accent
+    # Primary (57.5%) - Dark blue for backgrounds
+    "bg_dark": "#092234",
+    "bg_nav": "#092234",
+    
+    # Secondary backgrounds
+    "bg_card": "#424237",        # Dark olive for cards (2.4%)
+    "bg_card_alt": "#1f5b67",    # Dark teal alternative (1.3%)
+    
+    # Accent Red (15.1%) - Prominent accents
+    "accent_primary": "#a82d31",  # Primary red accent
+    "border": "#a82d31",          # Red borders
+    "accent_dark_red": "#7c2831", # Dark red variant (1.1%)
+    
+    # Gold/Brown (13.5%) - Headings, links
+    "gold": "#9f6d29",
+    "gold_dark": "#634e29",       # Dark brown (1.0%)
+    
+    # Tan/Beige (4.7%) - Secondary text
+    "gold_light": "#baa98c",
+    "text_secondary": "#baa98c",
+    
+    # Teal/Green (3.5%) - Subtle accents
+    "accent_teal": "#32a392",
+    "link_hover": "#32a392",
+    
+    # Text colors
+    "text_primary": "#ffffff",
 }
 
 
