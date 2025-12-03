@@ -154,7 +154,7 @@ For get the datasets for make the calcs we build this dataset base on this varia
 .. raw:: html
 
     <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="_static/summary_table_census_fred.html"
+        <iframe src="content/art1/_static/summary_table_census_fred.html"
                 title="Summary Table: Census and FRED"
                 style="width: 100%; height: 340px; border: none;">
             Your browser does not support iframes. Please view the visualization directly at
