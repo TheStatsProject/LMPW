@@ -161,7 +161,6 @@ For get the datasets for make the calcs we build this dataset base on this varia
 </div>
 
 
-.. raw:: html
 
 <div style="width: 100%; max-width: 800px; margin: auto;">
   <iframe src="static/summary_table_census_fred.html"
