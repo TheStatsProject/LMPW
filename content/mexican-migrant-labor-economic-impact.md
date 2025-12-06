@@ -229,16 +229,14 @@ This is a displayed the next calc for get the Assumption 4:
 
 Assum Assumption 4 is as follows:
 
-.. raw:: html
-
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="static/employment_ratio_timeseries_2007_2025.html"
-                title="Employment Ratio Timeseries 2007-2025"
-                style="width: 100%; height: 430px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="static/employment_ratio_timeseries_2007_2025.html">this link</a>.
-        </iframe>
-    </div>
+<div style="width: 100%; max-width: 800px; margin: auto;">
+    <iframe src="static/employment_ratio_timeseries_2007_2025.html"
+            title="Employment Ratio Timeseries 2007-2025"
+            style="width: 100%; height: 430px; border: none;">
+        Your browser does not support iframes. Please view the visualization directly at
+        <a href="static/employment_ratio_timeseries_2007_2025.html">this link</a>.
+    </iframe>
+</div>
 
 **Key Takeaway:**  
 *The employment ratio has fluctuated over time, impacting GDP calculations by group. Recent years show stronger labor force participation among foreign-born populations.*
@@ -275,16 +273,14 @@ To calculate it and taking into account all the assumptions, it is as follows:
 
 With all this Assumptions and recalibrate the datasets base from `U.S. Census Bureau <https://www.census.gov/>`_ and the `Federal Reserve's FRED <https://fred.stlouisfed.org>`_ database we get the next results:
 
-.. raw:: html
-
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="static/gdp_employment_table_sorted_foreignonly_2024.html"
-                title="GDP & Employment Table by Foreign-Born Group (2024)"
-                style="width: 100%; height: 430px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="static/gdp_employment_table_sorted_foreignonly_2024.html">this link</a>.
-        </iframe>
-    </div>
+<div style="width: 100%; max-width: 800px; margin: auto;">
+    <iframe src="static/gdp_employment_table_sorted_foreignonly_2024.html"
+            title="GDP & Employment Table by Foreign-Born Group (2024)"
+            style="width: 100%; height: 430px; border: none;">
+        Your browser does not support iframes. Please view the visualization directly at
+        <a href="static/gdp_employment_table_sorted_foreignonly_2024.html">this link</a>.
+    </iframe>
+</div>
 
 **Key Takeaway:**  
 *Refined calculations reveal the GDP contribution of Mexican-born and other foreign-born groups, correcting common misconceptions in public discourse.*
@@ -294,51 +290,47 @@ As we can see in the table ¨GDP & Employment Table by Foreign-Born Group (Exclu
 What remains to be clarified at this point is to contrast the contributions made by the Mexico foreign origin born group. According to the statement (which stated that the 781 billion USD is not accurate information), ****the contribution that this group makes to the US GDP is equivalent, compared to the member economies of the OECD, to the tenth largest economy in the world****. Unfortunately, as we can see here, ****this is also unverifiable****, since considering their own (implausible) statements, the size of the contribution of 781 billion USD would ****actually be equivalent to the fifteenth largest economy in the world****. If we included Russia and China in this analysis, ****the position would move to the eighteenth largest economy****, as can be seen in the following graph.
 
 
-.. raw:: html
-
-    <div style="display: flex; justify-content: space-between; gap: 22px;">
-      <div style="flex:1; min-width:322px; max-width: 36.8%;">
-        <iframe src="static/mexican_foreign_born_gdp_vs_oecd.html" width="100%" height="368" frameborder="0" title="Mexican Foreign-born GDP vs OECD Countries">
-          Your browser does not support iframes. View the chart <a href="static/mexican_foreign_born_gdp_vs_oecd_updated.html">here</a>.
-        </iframe>
-        <div style="text-align:center; margin-top: 6px; font-weight: bold;">
-          Mexican Foreign-born GDP Contribution Compared to Top 15 OECD Countries (USD Billions)
-        </div>
-      </div>
-      <div style="flex:1; min-width:322px; max-width: 36.8%;">
-        <iframe src="static/mexican_foreign_born_vs_major_economies.html" width="100%" height="368" frameborder="0" title="Mexican Foreign-born GDP vs Major Economies">
-          Your browser does not support iframes. View the chart <a href="static/mexican_foreign_born_vs_major_economies_updated.html">here</a>.
-        </iframe>
-        <div style="text-align:center; margin-top: 6px; font-weight: bold;">
-          Mexican Foreign-born GDP Contribution Compared to Major World Economies (USD Billions)
-        </div>
-      </div>
+<div style="display: flex; justify-content: space-between; gap: 22px;">
+  <div style="flex:1; min-width:322px; max-width: 36.8%;">
+    <iframe src="static/mexican_foreign_born_gdp_vs_oecd.html" width="100%" height="368" frameborder="0" title="Mexican Foreign-born GDP vs OECD Countries">
+      Your browser does not support iframes. View the chart <a href="static/mexican_foreign_born_gdp_vs_oecd_updated.html">here</a>.
+    </iframe>
+    <div style="text-align:center; margin-top: 6px; font-weight: bold;">
+      Mexican Foreign-born GDP Contribution Compared to Top 15 OECD Countries (USD Billions)
     </div>
+  </div>
+  <div style="flex:1; min-width:322px; max-width: 36.8%;">
+    <iframe src="static/mexican_foreign_born_vs_major_economies.html" width="100%" height="368" frameborder="0" title="Mexican Foreign-born GDP vs Major Economies">
+      Your browser does not support iframes. View the chart <a href="static/mexican_foreign_born_vs_major_economies_updated.html">here</a>.
+    </iframe>
+    <div style="text-align:center; margin-top: 6px; font-weight: bold;">
+      Mexican Foreign-born GDP Contribution Compared to Major World Economies (USD Billions)
+    </div>
+  </div>
+</div>
 
 
 As we can see, even considering the contributions discussed in the official report, the reality is that according to their data, the contribution of the Mexican foreign origin group would not be the 11th largest economy but the 15th among the OECD members and 18th if we consider the major economies. But referring to the data that we have been able to collect and develop, the reality is that the contribution, as we mentioned, is **** 953.3 Billion USD****, so with that level of contribution, compared to the OECD member countries, it would place the ****Mexican foreign origin group**** as the fourteenth largest economy and if we talk about the largest economies ****the group occupy the seventeenth place**** as can be seen in the following graphs:
 
 
-.. raw:: html
-
-    <div style="display: flex; justify-content: space-between; gap: 22px;">
-      <div style="flex:1; min-width:322px; max-width: 36.8%;">
-        <iframe src="static/mexican_foreign_born_gdp_vs_oecd_updated.html" width="100%" height="368" frameborder="0" title="Mexican Foreign-born GDP vs OECD Countries">
-          Your browser does not support iframes. View the chart <a href="static/mexican_foreign_born_gdp_vs_oecd_updated.html">here</a>.
-        </iframe>
-        <div style="text-align:center; margin-top: 6px; font-weight: bold;">
-          Mexican Foreign-born GDP Contribution Compared to Top 15 OECD Countries (USD Billions)
-        </div>
-      </div>
-      <div style="flex:1; min-width:322px; max-width: 36.8%;">
-        <iframe src="static/mexican_foreign_born_vs_major_economies_updated.html" width="100%" height="368" frameborder="0" title="Mexican Foreign-born GDP vs Major Economies">
-          Your browser does not support iframes. View the chart <a href="static/mexican_foreign_born_vs_major_economies_updated.html">here</a>.
-          </iframe>
-        <div style="text-align:center; margin-top: 6px; font-weight: bold;">
-          Mexican Foreign-born GDP Contribution Compared to Major World Economies (USD Billions)
-        </div>
-      </div>
+<div style="display: flex; justify-content: space-between; gap: 22px;">
+  <div style="flex:1; min-width:322px; max-width: 36.8%;">
+    <iframe src="static/mexican_foreign_born_gdp_vs_oecd_updated.html" width="100%" height="368" frameborder="0" title="Mexican Foreign-born GDP vs OECD Countries">
+      Your browser does not support iframes. View the chart <a href="static/mexican_foreign_born_gdp_vs_oecd_updated.html">here</a>.
+    </iframe>
+    <div style="text-align:center; margin-top: 6px; font-weight: bold;">
+      Mexican Foreign-born GDP Contribution Compared to Top 15 OECD Countries (USD Billions)
     </div>
+  </div>
+  <div style="flex:1; min-width:322px; max-width: 36.8%;">
+    <iframe src="static/mexican_foreign_born_vs_major_economies_updated.html" width="100%" height="368" frameborder="0" title="Mexican Foreign-born GDP vs Major Economies">
+      Your browser does not support iframes. View the chart <a href="static/mexican_foreign_born_vs_major_economies_updated.html">here</a>.
+      </iframe>
+    <div style="text-align:center; margin-top: 6px; font-weight: bold;">
+      Mexican Foreign-born GDP Contribution Compared to Major World Economies (USD Billions)
+    </div>
+  </div>
+</div>
 
 **Key Takeaway:**  
 *Mexican foreign-born GDP contributions are significant, rivaling mid-sized OECD economies and far exceeding some official estimates.*
@@ -346,16 +338,14 @@ As we can see, even considering the contributions discussed in the official repo
 
 But let's not finish this statement without adding that Mexico isn't the only one contributing to the US GDP. Here are the top foreign origin groups that contributed the most in 2024:
 
-.. raw:: html
-
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="static/gdp_top10_foreign_contributors_2024.html"
-                title="Top 10 Foreign-born Groups by U.S. GDP Contribution (2024)"
-                style="width: 100%; height: 500px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="static/gdp_top10_foreign_contributors_2024.html">this link</a>.
-        </iframe>
-    </div>
+<div style="width: 100%; max-width: 800px; margin: auto;">
+    <iframe src="static/gdp_top10_foreign_contributors_2024.html"
+            title="Top 10 Foreign-born Groups by U.S. GDP Contribution (2024)"
+            style="width: 100%; height: 500px; border: none;">
+        Your browser does not support iframes. Please view the visualization directly at
+        <a href="static/gdp_top10_foreign_contributors_2024.html">this link</a>.
+    </iframe>
+</div>
 
 **Key Takeaway:**  
 *The top ten foreign-born groups, led by Mexican and Indian cohorts, are essential drivers of U.S. GDP growth.*
@@ -377,16 +367,14 @@ In order to address these assertions about the contributions of "undocumented" p
 
 To answer the concerns that arise it is necessary to divide the problem into some parts more accessible to the calculation, so first of all we are going to quantify the number of unauthorized persons and for this what was collected is based on the information provided by the `Office of Homeland Security Statistics <https://ohss.dhs.gov/>`_ office that collects statistical information on this subject and in whose reports you can find the most precise information, in this sense we interpolate some extraneous data and based on the results, Below is the estimated number of these unauthorized persons and how many are employed, based on the employment rates and GDP per capita estimated for the years that have been presented above, as follows:
 
-.. raw:: html
-
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="static/employed_unauthorized_population_2009_2024.html"
-                title="Employed Unauthorized Population 2009-2024"
-                style="width: 100%; height: 500px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="static/employed_unauthorized_population_2009_2024.html">this link</a>.
-        </iframe>
-    </div>
+<div style="width: 100%; max-width: 800px; margin: auto;">
+    <iframe src="static/employed_unauthorized_population_2009_2024.html"
+            title="Employed Unauthorized Population 2009-2024"
+            style="width: 100%; height: 500px; border: none;">
+        Your browser does not support iframes. Please view the visualization directly at
+        <a href="static/employed_unauthorized_population_2009_2024.html">this link</a>.
+    </iframe>
+</div>
 
 **Key Takeaway:**  
 *Unauthorized immigrant employment fluctuates with economic cycles but consistently supports key U.S. sectors.*
@@ -397,27 +385,23 @@ Some point to President Obama's strict deportation priorities and increased bord
 
 Starting in 2021, migrant caravans the size of small cities will once again make the news, but now they are a reality in the Americas. They are not just statistics on a spreadsheet; they are humanity in motion, a living barometer of the geopolitical distortions and economic inequality created by the impact of the disruption of many production lines and value chains destroyed during this process.
 
-.. raw:: html
-
-    <div style="text-align:center;">
-        <iframe src="static/pie_top10_countries_share.html" width="650" height="500" title="Top 10 Foreign-Born Groups by U.S. GDP Contribution (2024)"></iframe>
-        <div style="font-size: 90%; margin-top: 8px; color: #555;">
-            Top 10 Foreign-Born Groups by U.S. GDP Contribution (2024)
-        </div>
+<div style="text-align:center;">
+    <iframe src="static/pie_top10_countries_share.html" width="650" height="500" title="Top 10 Foreign-Born Groups by U.S. GDP Contribution (2024)"></iframe>
+    <div style="font-size: 90%; margin-top: 8px; color: #555;">
+        Top 10 Foreign-Born Groups by U.S. GDP Contribution (2024)
     </div>
+</div>
 
 To contrast the report and the comments from the Mexican government, it is necessary to compare the proportion of unauthorized Mexicans in the United States: 4 out of 10 unauthorized immigrants in the United States are Mexican citizens. This is not hyperbole that might astonish any economist; it is proof of an unbreakable bond between the United States and Mexico, that we need to study mor deeply.
 
-.. raw:: html
-
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="static/bar_employed_unauthorized_by_country_2022.html"
-                title="Employed Unauthorized by Country 2022"
-                style="width: 100%; height: 500px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="static/bar_employed_unauthorized_by_country_2022.html">this link</a>.
-        </iframe>
-    </div>
+<div style="width: 100%; max-width: 800px; margin: auto;">
+    <iframe src="static/bar_employed_unauthorized_by_country_2022.html"
+            title="Employed Unauthorized by Country 2022"
+            style="width: 100%; height: 500px; border: none;">
+        Your browser does not support iframes. Please view the visualization directly at
+        <a href="static/bar_employed_unauthorized_by_country_2022.html">this link</a>.
+    </iframe>
+</div>
 
 **Key Takeaway:**  
 *Unauthorized employment is concentrated among specific national groups, emphasizing their workforce importance.*
@@ -426,32 +410,28 @@ And the story doesn't end there. Migrants from Guatemala, El Salvador, and Hondu
 
 Based on publicly available databases and based on the unequivocal assumption that American employees pay their taxes directly, we compiled the evolution of tax collection as a percentage of GDP, resulting in the following:
 
-.. raw:: html
-
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="static/federal_tax_and_payroll_rates_2009_2024.html"
-                title="Federal Tax and Payroll Rates 2009-2024"
-                style="width: 100%; height: 500px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="static/federal_tax_and_payroll_rates_2009_2024.html">this link</a>.
-        </iframe>
-    </div>
+<div style="width: 100%; max-width: 800px; margin: auto;">
+    <iframe src="static/federal_tax_and_payroll_rates_2009_2024.html"
+            title="Federal Tax and Payroll Rates 2009-2024"
+            style="width: 100%; height: 500px; border: none;">
+        Your browser does not support iframes. Please view the visualization directly at
+        <a href="static/federal_tax_and_payroll_rates_2009_2024.html">this link</a>.
+    </iframe>
+</div>
 
 **Key Takeaway:**  
 *Immigrants contribute to federal taxes and payroll at rates similar to native-born workers.*
 
 From this contribution of the country's tax collection rates, we obtain the following distribution of the contributions that unauthorized employees generate as taxes. Once the data on contributions made by American workers and citizens is obtained, the level of contributions from unauthorized workers living in the United States is estimated. The calculation is significant. 
 
-.. raw:: html
-
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="static/bar_gdp_contribution_unauthorized_2022.html"
-                title="GDP Contribution by Unauthorized Immigrants, 2022"
-                style="width: 100%; height: 500px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="static/bar_gdp_contribution_unauthorized_2022.html">this link</a>.
-        </iframe>
-    </div>
+<div style="width: 100%; max-width: 800px; margin: auto;">
+    <iframe src="static/bar_gdp_contribution_unauthorized_2022.html"
+            title="GDP Contribution by Unauthorized Immigrants, 2022"
+            style="width: 100%; height: 500px; border: none;">
+        Your browser does not support iframes. Please view the visualization directly at
+        <a href="static/bar_gdp_contribution_unauthorized_2022.html">this link</a>.
+    </iframe>
+</div>
 
 **Key Takeaway:**  
 *Unauthorized immigrants make significant contributions to the U.S. GDP, underscoring their vital role in the economy.*
@@ -460,16 +440,14 @@ From this contribution of the country's tax collection rates, we obtain the foll
 Even unauthorized Mexican immigrant workers contribute a little over $107 billion to the treasury, a similar amount to the amount mentioned in the report. However, the proportions reported by the Mexican government are unverifiable based on the data, as the contribution to Social Security ****is just over $52 billion, $12 billion to Medicare, and just over $42 billion to income tax figures quite different from those determined in the official report.****
 
 
-.. raw:: html
-
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="static/country_unauth_tax_contributions_2022.html"
-                title="Country Unauthorized Tax Contributions 2022"
-                style="width: 100%; height: 500px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="static/country_unauth_tax_contributions_2022.html">this link</a>.
-        </iframe>
-    </div>
+<div style="width: 100%; max-width: 800px; margin: auto;">
+    <iframe src="static/country_unauth_tax_contributions_2022.html"
+            title="Country Unauthorized Tax Contributions 2022"
+            style="width: 100%; height: 500px; border: none;">
+        Your browser does not support iframes. Please view the visualization directly at
+        <a href="static/country_unauth_tax_contributions_2022.html">this link</a>.
+    </iframe>
+</div>
 
 **Key Takeaway:**  
 *Tax contributions from unauthorized immigrants vary by country of origin but are a consistent fiscal benefit.*
@@ -477,113 +455,105 @@ Even unauthorized Mexican immigrant workers contribute a little over $107 billio
 
 Another element to check is the contribution of unauthorized workers to the country's industries. To do this, we must estimate the distribution of employees by each industry in the economy for natives and foreign-born workers, which is as follows:
 
-.. raw:: html
-
-    <div style="width: 100%; max-width: 900px; margin: auto; margin-bottom: 32px;">
-        <h2 style="text-align:center; margin-top: 0;">Industry Distribution by Origin Group (2022)</h2>
-        <iframe src="static/industry_distribution_by_origin_2022.html"
-                title="Industry Distribution by Origin Group 2022"
-                style="width: 100%; height: 540px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="static/industry_distribution_by_origin_2022.html">this link</a>.
-        </iframe>
-        <p style="text-align:center; font-size:1.06em; color: #444;">
-            <b>Key Takeaway:</b><br>
-            Compares the industry employment distributions of native-born, Mexican-born, and unauthorized Mexican workers in 2022.
-        </p>
-    </div>
+<div style="width: 100%; max-width: 900px; margin: auto; margin-bottom: 32px;">
+    <h2 style="text-align:center; margin-top: 0;">Industry Distribution by Origin Group (2022)</h2>
+    <iframe src="static/industry_distribution_by_origin_2022.html"
+            title="Industry Distribution by Origin Group 2022"
+            style="width: 100%; height: 540px; border: none;">
+        Your browser does not support iframes. Please view the visualization directly at
+        <a href="static/industry_distribution_by_origin_2022.html">this link</a>.
+    </iframe>
+    <p style="text-align:center; font-size:1.06em; color: #444;">
+        <b>Key Takeaway:</b><br>
+        Compares the industry employment distributions of native-born, Mexican-born, and unauthorized Mexican workers in 2022.
+    </p>
+</div>
 
 
 Something interesting to note is that the three industries where Native Americans are most heavily employed are services, except for public administration. This represents 12.9% of the total Native American population, followed by the information sector with 8.9% and the transportation and warehousing services sector with 8.6%, showing that services and computer development have the greatest share.
 
-.. raw:: html
-
-    <div style="width: 100%; max-width: 1200px; margin: auto; margin-bottom: 32px;">
-        <h2 style="text-align:center; margin-top: 0;">Native Employed by Industry (2022)</h2>
-        <div style="position: relative; width: 100%; padding-bottom: 62.5%; min-height: 340px; height: 0;">
-            <iframe 
-                src="static/employed_by_industry_native_2022_polar.html"
-                title="Native Employed by Industry 2022"
-                style="
-                    position: absolute;
-                    top: 0; left: 0;
-                    width: 100%; height: 100%;
-                    border: none;
-                    display: block;
-                "
-                allowfullscreen
-                loading="lazy">
-                Your browser does not support iframes. Please view the visualization directly at
-                <a href="static/employed_by_industry_native_2022_polar.html">this link</a>.
-            </iframe>
-        </div>
-        <p style="text-align:center; font-size:1.06em; color: #444;">
-            <b>Key Takeaway:</b><br>
-            The distribution of native-born employment across industries in 2022.
-        </p>
+<div style="width: 100%; max-width: 1200px; margin: auto; margin-bottom: 32px;">
+    <h2 style="text-align:center; margin-top: 0;">Native Employed by Industry (2022)</h2>
+    <div style="position: relative; width: 100%; padding-bottom: 62.5%; min-height: 340px; height: 0;">
+        <iframe 
+            src="static/employed_by_industry_native_2022_polar.html"
+            title="Native Employed by Industry 2022"
+            style="
+                position: absolute;
+                top: 0; left: 0;
+                width: 100%; height: 100%;
+                border: none;
+                display: block;
+            "
+            allowfullscreen
+            loading="lazy">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="static/employed_by_industry_native_2022_polar.html">this link</a>.
+        </iframe>
     </div>
+    <p style="text-align:center; font-size:1.06em; color: #444;">
+        <b>Key Takeaway:</b><br>
+        The distribution of native-born employment across industries in 2022.
+    </p>
+</div>
 
 As well as services, information development and mobility are the sectors where there is the greatest native participation. Based on the available data on the distribution of the employed population by industry in the United States, based on the resulting distribution from population data and estimates of foreigners born in Mexico and unauthorized immigrants from Mexico, we have obtained the following results:
 
 Distribution of the foreign-born population of Mexican citizens employed in the USA by industry:
 
-.. raw:: html
-
-    <div style="width: 100%; max-width: 1200px; margin: auto; margin-bottom: 32px;">
-        <h2 style="text-align:center; margin-top: 0;">Mexican-born Employed by Industry (2022)</h2>
-        <div style="position: relative; width: 100%; padding-bottom: 62.5%; min-height: 340px; height: 0;">
-            <iframe 
-                src="static/employed_by_industry_mexico_2022_polar.html"
-                title="Mexican-born Employed by Industry 2022"
-                style="
-                    position: absolute;
-                    top: 0; left: 0;
-                    width: 120%; height: 120%;
-                    border: none;
-                    display: block;
-                "
-                allowfullscreen
-                loading="lazy">
-                Your browser does not support iframes. Please view the visualization directly at
-                <a href="static/employed_by_industry_mexico_2022_polar.html">this link</a>.
-            </iframe>
-        </div>
-        <p style="text-align:center; font-size:1.06em; color: #444;">
-            <b>Key Takeaway:</b><br>
-            The distribution of Mexican-born employment across industries in 2022.
-        </p>
+<div style="width: 100%; max-width: 1200px; margin: auto; margin-bottom: 32px;">
+    <h2 style="text-align:center; margin-top: 0;">Mexican-born Employed by Industry (2022)</h2>
+    <div style="position: relative; width: 100%; padding-bottom: 62.5%; min-height: 340px; height: 0;">
+        <iframe 
+            src="static/employed_by_industry_mexico_2022_polar.html"
+            title="Mexican-born Employed by Industry 2022"
+            style="
+                position: absolute;
+                top: 0; left: 0;
+                width: 120%; height: 120%;
+                border: none;
+                display: block;
+            "
+            allowfullscreen
+            loading="lazy">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="static/employed_by_industry_mexico_2022_polar.html">this link</a>.
+        </iframe>
     </div>
+    <p style="text-align:center; font-size:1.06em; color: #444;">
+        <b>Key Takeaway:</b><br>
+        The distribution of Mexican-born employment across industries in 2022.
+    </p>
+</div>
 
 Distribution of the unauthorized population of Mexican citizens employed in the USA by industry:
 
 
 
-.. raw:: html
-
-    <div style="width: 100%; max-width: 1200px; margin: auto; margin-bottom: 32px;">
-        <h2 style="text-align:center; margin-top: 0;">Unauthorized Mexican-born Employed by Industry (2022)</h2>
-        <div style="position: relative; width: 100%; padding-bottom: 70.5%; min-height: 340px; height: 0;">
-            <iframe 
-                src="static/employed_by_industry_mexico_unauthorized_2022_polar.html"
-                title="Unauthorized Mexican-born Employed by Industry 2022"
-                style="
-                    position: absolute;
-                    top: 0; left: 0;
-                    width: 100%; height: 100%;
-                    border: none;
-                    display: block;
-                "
-                allowfullscreen
-                loading="lazy">
-                Your browser does not support iframes. Please view the visualization directly at
-                <a href="static/employed_by_industry_mexico_unauthorized_2022_polar.html">this link</a>.
-            </iframe>
-        </div>
-        <p style="text-align:center; font-size:1.06em; color: #444;">
-            <b>Key Takeaway:</b><br>
-            The distribution of unauthorized Mexican-born employment across industries in 2022.
-        </p>
+<div style="width: 100%; max-width: 1200px; margin: auto; margin-bottom: 32px;">
+    <h2 style="text-align:center; margin-top: 0;">Unauthorized Mexican-born Employed by Industry (2022)</h2>
+    <div style="position: relative; width: 100%; padding-bottom: 70.5%; min-height: 340px; height: 0;">
+        <iframe 
+            src="static/employed_by_industry_mexico_unauthorized_2022_polar.html"
+            title="Unauthorized Mexican-born Employed by Industry 2022"
+            style="
+                position: absolute;
+                top: 0; left: 0;
+                width: 100%; height: 100%;
+                border: none;
+                display: block;
+            "
+            allowfullscreen
+            loading="lazy">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="static/employed_by_industry_mexico_unauthorized_2022_polar.html">this link</a>.
+        </iframe>
     </div>
+    <p style="text-align:center; font-size:1.06em; color: #444;">
+        <b>Key Takeaway:</b><br>
+        The distribution of unauthorized Mexican-born employment across industries in 2022.
+    </p>
+</div>
 
 As can be seen in the chart for both groups, the main industry where the majority of the employed population participates is manufacturing with a share of 15.4%, construction with 12.3%, and professionals in science, management, and administrative and waste management services with 9.6%.
 
@@ -621,19 +591,17 @@ Based on the FBI's results for the entire country, we obtained the following int
 
 As seen in the following graph, we can analyze in detail the ethnic distribution of violent crimes within the country:
 
-.. raw:: html
-
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <h3 style="text-align:center; margin-bottom:0.5em;">
-            Offender Ethnicity Profile per Crime
-        </h3>
-        <iframe src="static/offender_ethnicity_per_crime_beautifulll_small.html"
-                title="Offender Ethnicity Profile per Crime"
-                style="width: 100%; height: 500px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="static/offender_ethnicity_per_crime_beautifulll_small.html">this link</a>.
-        </iframe>
-    </div>
+<div style="width: 100%; max-width: 800px; margin: auto;">
+    <h3 style="text-align:center; margin-bottom:0.5em;">
+        Offender Ethnicity Profile per Crime
+    </h3>
+    <iframe src="static/offender_ethnicity_per_crime_beautifulll_small.html"
+            title="Offender Ethnicity Profile per Crime"
+            style="width: 100%; height: 500px; border: none;">
+        Your browser does not support iframes. Please view the visualization directly at
+        <a href="static/offender_ethnicity_per_crime_beautifulll_small.html">this link</a>.
+    </iframe>
+</div>
 
 **Key Takeaway:**  
 *Most crimes are committed by people identified as Not Hispanic or Latino, but the data also shows a significant number of 'Not Specified' and 'Unknown' offenders across all major crime types.*
@@ -642,19 +610,17 @@ One of the most controversial and politicized issues of recent decades, and curr
 
 * Result 1
 
-.. raw:: html
-
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <h3 style="text-align:center; margin-bottom:0.5em;">
-            Offender Ethnicity Profile for Drug/Narcotic Violations
-        </h3>
-        <iframe src="static/offender_ethnicity_per_crime_beautifuldrug.html"
-                title="Offender Ethnicity Profile for Drug/Narcotic Violations"
-                style="width: 100%; height: 500px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="static/offender_ethnicity_per_crime_beautifuldrug.html">this link</a>.
-        </iframe>
-    </div>
+<div style="width: 100%; max-width: 800px; margin: auto;">
+    <h3 style="text-align:center; margin-bottom:0.5em;">
+        Offender Ethnicity Profile for Drug/Narcotic Violations
+    </h3>
+    <iframe src="static/offender_ethnicity_per_crime_beautifuldrug.html"
+            title="Offender Ethnicity Profile for Drug/Narcotic Violations"
+            style="width: 100%; height: 500px; border: none;">
+        Your browser does not support iframes. Please view the visualization directly at
+        <a href="static/offender_ethnicity_per_crime_beautifuldrug.html">this link</a>.
+    </iframe>
+</div>
 
 **Key Takeaway:**  
 *Drug/Narcotic Violations have the highest proportion of Not Hispanic or Latino offenders, but also a notable number of 'Not Specified' and 'Unknown' cases.*
@@ -664,19 +630,17 @@ This is revealing because, as in the previous pattern, the incidence of drug-nar
 
 This is what happens in the United States… but what is happening within the country? … specifically in the border states? Below is the interactive map of crime on the border, since the report issued by Mexico speaks of a lower incidence rate of crime among the Latino community, and as we can see, this is graphically true.
 
-.. raw:: html
-
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <h3 style="text-align:center; margin-bottom:0.5em;">
-            Border States Crime Summary (Map)
-        </h3>
-        <iframe src="static/us_highlighted_map_border_states.html"
-                title="Border States Crime Summary (Map)"
-                style="width: 100%; height: 520px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="static/us_highlighted_map_border_states.html">this link</a>.
-        </iframe>
-    </div>
+<div style="width: 100%; max-width: 800px; margin: auto;">
+    <h3 style="text-align:center; margin-bottom:0.5em;">
+        Border States Crime Summary (Map)
+    </h3>
+    <iframe src="static/us_highlighted_map_border_states.html"
+            title="Border States Crime Summary (Map)"
+            style="width: 100%; height: 520px; border: none;">
+        Your browser does not support iframes. Please view the visualization directly at
+        <a href="static/us_highlighted_map_border_states.html">this link</a>.
+    </iframe>
+</div>
 
 **Key Takeaway:**  
 *Crime patterns and offender ethnicities vary widely across U.S. border states, with some states showing notably higher rates for certain crimes or groups.*
@@ -695,16 +659,14 @@ Statement 4. **Invesment and Entrepreneurship**
 Answering this question requires taking statistics from the U.S. Census Bureau on self-employment. According to these statistics, there are 17,296,359 native-born citizens who are self-employed through offering their services or creating their own businesses, 960,131 citizens born in Mexico who also participate in the economy through entrepreneurship, and in the case of the migrant community, a total of 528,072.
 
 
-.. raw:: html
-
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="static/polar_native_min.html"
-                title="Polar Chart: Native Self-Employed by Industry"
-                style="width: 100%; height: 400px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="static/polar_native_min.html">this link</a>.
-        </iframe>
-    </div>
+<div style="width: 100%; max-width: 800px; margin: auto;">
+    <iframe src="static/polar_native_min.html"
+            title="Polar Chart: Native Self-Employed by Industry"
+            style="width: 100%; height: 400px; border: none;">
+        Your browser does not support iframes. Please view the visualization directly at
+        <a href="static/polar_native_min.html">this link</a>.
+    </iframe>
+</div>
 
 **Key Takeaway:**  
 *This chart shows the distribution of self-employed Native workers across industries in 2022.*
@@ -712,32 +674,28 @@ Answering this question requires taking statistics from the U.S. Census Bureau o
 
 Generally speaking, 10% of native-born citizens are self-employed, while 14.6% of those born in Mexico are self-employed. In the case of the undocumented Mexican community, this represents 17.3%, and for the native-born community, it is 9.6%. It is interesting to note that the undocumented group is the most self-employed.
 
-.. raw:: html
-
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="static/polar_mexico_min.html"
-                title="Polar Chart: Mexico-born Self-Employed by Industry"
-                style="width: 100%; height: 400px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="static/polar_mexico_min.html">this link</a>.
-        </iframe>
-    </div>
+<div style="width: 100%; max-width: 800px; margin: auto;">
+    <iframe src="static/polar_mexico_min.html"
+            title="Polar Chart: Mexico-born Self-Employed by Industry"
+            style="width: 100%; height: 400px; border: none;">
+        Your browser does not support iframes. Please view the visualization directly at
+        <a href="static/polar_mexico_min.html">this link</a>.
+    </iframe>
+</div>
 
 **Key Takeaway:**  
 *This chart shows the distribution of self-employed Mexico-born workers across industries in 2022.*
 
 The lack of legal documentation creates difficulties in obtaining formal employment. However, they turn to self-employment. In a land of opportunity and a system designed for economic growth through individual productivity, it is possible to prosper even without documentation, and this is worth highlighting because it is clear evidence that strong and autonomous institutions and the preservation of justice define a country's economic conditions.
 
-.. raw:: html
-
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="static/polar_mexico_unauthorized_min.html"
-                title="Polar Chart: Unauthorized Mexican Self-Employed by Industry"
-                style="width: 100%; height: 400px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="static/polar_mexico_unauthorized_min.html">this link</a>.
-        </iframe>
-    </div>
+<div style="width: 100%; max-width: 800px; margin: auto;">
+    <iframe src="static/polar_mexico_unauthorized_min.html"
+            title="Polar Chart: Unauthorized Mexican Self-Employed by Industry"
+            style="width: 100%; height: 400px; border: none;">
+        Your browser does not support iframes. Please view the visualization directly at
+        <a href="static/polar_mexico_unauthorized_min.html">this link</a>.
+    </iframe>
+</div>
 
 **Key Takeaway:**  
 *This chart shows the distribution of self-employed Unauthorized Mexican workers across industries in 2022.*
