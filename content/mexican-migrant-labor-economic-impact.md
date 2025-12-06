@@ -51,7 +51,7 @@ Methodology Overview: Measuring America's People and Economy
    *Immigration and Economic Growth*  
    **Author:** George J. Borjas `NATIONAL BUREAU OF ECONOMIC RESEARCH Working Paper 25836 <https://www.nber.org/system/files/working_papers/w25836/w25836.pdf?utm_source=chatgpt.com>`_
 
-   This analysis provides a rigorous macro- and micro-level framework that links immigration inflows to changes in GDP growth rates and labor productivity, in close agreement with GDP projections for 2025 and GDP per worker that we estimated. It uses a formal model where $GDP = f(K, L)$ to be linear-homogeneous. This allows for the decomposition of output per worker according to the proportion of native-born and immigrant workers, thereby making it possible to more accurately measure the sensitivity of the effects on GDP of an increase or decrease in immigrants.
+   This analysis provides a rigorous macro- and micro-level framework that links immigration inflows to changes in GDP growth rates and labor productivity, in close agreement with GDP projections for 2025 and GDP per worker that we estimated. It uses a formal model where **GDP = f(K, L)** to be linear-homogeneous. This allows for the decomposition of output per worker according to the proportion of native-born and immigrant workers, thereby making it possible to more accurately measure the sensitivity of the effects on GDP of an increase or decrease in immigrants.
 
 
 **Data Sources**
@@ -126,7 +126,20 @@ C. **Assumption 3**: Total U.S. population -TUP- (2023): 334,914,895 residents
 
 Base just in this 3 assumtions, the Mexican government dares to make the following calculation that we present below:
 
-$$\left( \frac{11,710,000 \text{ MBR}}{334,914,895 \text{ TUP}} \right) \times \$22.671 \text{ T-USD} = \$781 \text{ Billion USD}$$
+<div style="text-align: center; margin: 24px 0; padding: 20px; background-color: #0d1d30; border: 1px solid #f0b90b; border-radius: 8px;">
+<span style="font-size: 1.3em; color: #f0b90b; font-family: 'Times New Roman', serif;">
+<span style="display: inline-block; vertical-align: middle;">(</span>
+<span style="display: inline-block; vertical-align: middle; text-align: center; padding: 0 8px;">
+<span style="display: block; border-bottom: 2px solid #f0b90b; padding-bottom: 4px;">11,710,000 MBR</span>
+<span style="display: block; padding-top: 4px;">334,914,895 TUP</span>
+</span>
+<span style="display: inline-block; vertical-align: middle;">)</span>
+<span style="display: inline-block; vertical-align: middle; padding: 0 8px;">×</span>
+<span style="display: inline-block; vertical-align: middle;">$22.671 T-USD</span>
+<span style="display: inline-block; vertical-align: middle; padding: 0 8px;">=</span>
+<span style="display: inline-block; vertical-align: middle; font-weight: bold;">$781 Billion USD</span>
+</span>
+</div>
 
 The result is 781 Billion USD ... itself is revelated revelated and as stated in the statement issued by the Mexican government. However, this is a MYTH. To perform these measurements, based on the three articles discussed at the beginning of this article, there is a way to address this scientific problem, and that is through measurement by GDP per person employed (at constant prices).
 
@@ -202,7 +215,17 @@ With this information we amplify the assumptions made by the Mexican government 
 D. **Assumption 4**: EMP Ratio
 
 
-This is a displayed the next calc for get the Assumption 4: $\text{EMP-Ratio} = \frac{\text{Total U.S. labor force}}{\text{Total U.S. population}}$.
+This is a displayed the next calc for get the Assumption 4:
+
+<div style="text-align: center; margin: 16px 0; padding: 12px; background-color: #0d1d30; border: 1px solid #f0b90b; border-radius: 8px;">
+<span style="font-size: 1.2em; color: #f0b90b; font-family: 'Times New Roman', serif;">
+<span style="display: inline-block; vertical-align: middle;">EMP-Ratio =</span>
+<span style="display: inline-block; vertical-align: middle; text-align: center; padding: 0 8px;">
+<span style="display: block; border-bottom: 2px solid #f0b90b; padding-bottom: 4px;">Total U.S. labor force</span>
+<span style="display: block; padding-top: 4px;">Total U.S. population</span>
+</span>
+</span>
+</div>
 
 Assum Assumption 4 is as follows:
 
@@ -227,7 +250,11 @@ E. **Assumption 6**: Foreing-group LFC
 
 Base in alll asummptions we get the next adjust calc of the labor force of USA, for know that we build the next equation:
 
-$$(\text{X Foreign-group}) \times \text{EMP-RATIO} = \text{Foreign-group LFC}$$
+<div style="text-align: center; margin: 16px 0; padding: 12px; background-color: #0d1d30; border: 1px solid #f0b90b; border-radius: 8px;">
+<span style="font-size: 1.2em; color: #f0b90b; font-family: 'Times New Roman', serif;">
+(X Foreign-group) × EMP-RATIO = Foreign-group LFC
+</span>
+</div>
 
 
 With all this ingredients we could calculate the contribution of GDP from Mexican-born LFC
@@ -236,7 +263,15 @@ F. **Contribution of GDP from Foreing-group LFC**
 
 To calculate it and taking into account all the assumptions, it is as follows:
 
-$$\frac{\text{X Foreign-group in LFC}}{\text{Total U.S. labor force}} \times 100 = \text{Contribution of GDP from Foreign-group LFC \%}$$
+<div style="text-align: center; margin: 16px 0; padding: 12px; background-color: #0d1d30; border: 1px solid #f0b90b; border-radius: 8px;">
+<span style="font-size: 1.2em; color: #f0b90b; font-family: 'Times New Roman', serif;">
+<span style="display: inline-block; vertical-align: middle; text-align: center; padding: 0 8px;">
+<span style="display: block; border-bottom: 2px solid #f0b90b; padding-bottom: 4px;">X Foreign-group in LFC</span>
+<span style="display: block; padding-top: 4px;">Total U.S. labor force</span>
+</span>
+<span style="display: inline-block; vertical-align: middle;">× 100 = Contribution of GDP from Foreign-group LFC %</span>
+</span>
+</div>
 
 With all this Assumptions and recalibrate the datasets base from `U.S. Census Bureau <https://www.census.gov/>`_ and the `Federal Reserve's FRED <https://fred.stlouisfed.org>`_ database we get the next results:
 
