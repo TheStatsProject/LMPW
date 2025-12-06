@@ -528,11 +528,32 @@ Some point to President Obama's strict deportation priorities and increased bord
 
 Starting in 2021, migrant caravans the size of small cities will once again make the news, but now they are a reality in the Americas. They are not just statistics on a spreadsheet; they are humanity in motion, a living barometer of the geopolitical distortions and economic inequality created by the impact of the disruption of many production lines and value chains destroyed during this process.
 
-<div style="text-align:center;">
-    <iframe src="static/pie_top10_countries_share.html" width="650" height="500" title="Top 10 Foreign-Born Groups by U.S. GDP Contribution (2024)"></iframe>
-    <div style="font-size: 90%; margin-top: 8px; color: #555;">
-        Top 10 Foreign-Born Groups by U.S. GDP Contribution (2024)
-    </div>
+<div id="pie-unauthorized-share" style="width: 100%; max-width: 700px; margin: auto; height: 500px;"></div>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<script>
+var data = [{
+    values: [4810, 2600, 750, 710, 560, 350, 240, 220, 210],
+    labels: ['Mexico', 'Others', 'Guatemala', 'El Salvador', 'Honduras', 'Philippines', 'Colombia', 'India', 'China'],
+    type: 'pie',
+    hole: 0.3,
+    marker: {
+        colors: ['#00ff88', '#f0b90b', '#65A596', '#C43D37', '#285F75', '#9FB4A9', '#D97E6A', '#895A1D', '#587CA1']
+    },
+    textfont: { color: '#ffffff', size: 12 },
+    textinfo: 'label+percent',
+    hovertemplate: '%{label}: %{value:,} (%{percent})<extra></extra>'
+}];
+var layout = {
+    title: { text: 'Unauthorized Population Share by Country (2022)', font: { color: '#f0b90b', size: 18 } },
+    paper_bgcolor: '#1a3a4a',
+    plot_bgcolor: '#1a3a4a',
+    legend: { font: { color: '#f0b90b' }, orientation: 'h', y: -0.1 },
+    margin: { t: 60, b: 80, l: 40, r: 40 }
+};
+Plotly.newPlot('pie-unauthorized-share', data, layout, {responsive: true});
+</script>
+<div style="font-size: 90%; margin-top: 8px; color: #f0b90b; text-align: center;">
+    Unauthorized Population Share by Country (2022) - Mexico represents ~46% of unauthorized population
 </div>
 
 To contrast the report and the comments from the Mexican government, it is necessary to compare the proportion of unauthorized Mexicans in the United States: 4 out of 10 unauthorized immigrants in the United States are Mexican citizens. This is not hyperbole that might astonish any economist; it is proof of an unbreakable bond between the United States and Mexico, that we need to study mor deeply.
