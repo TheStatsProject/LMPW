@@ -557,6 +557,16 @@ def generate_html_page(title, body_content, page_type="article"):
     <title>{title} | {SITE_TITLE}</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <style>{css}</style>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+        MathJax = {{
+            tex: {{
+                inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],
+                displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']]
+            }}
+        }};
+    </script>
 </head>
 <body>
     <header>
