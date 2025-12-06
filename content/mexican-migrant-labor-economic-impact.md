@@ -19,13 +19,8 @@ Why This Analysis Matters
 - Facilitates informed discussions among policymakers, researchers, and the general public by presenting unbiased and factual insights.
 - Offers actionable insights to guide the development of balanced immigration and economic policies that maximize the potential of migrant labor.
 - Identifies high-growth sectors, such as healthcare, agriculture, and construction, where migrant labor plays a pivotal role.
+- - Highlights key demographic trends that drive economic productivity and consumer demand.
 
-Investor Insights
--------------------------
-
-- Identifies key sectors and demographics driving economic growth.
-- Identifies high-growth sectors, such as healthcare, agriculture, and construction, where migrant labor plays a pivotal role.
-- Highlights key demographic trends that drive economic productivity and consumer demand.
 
 
 Methodology Overview: Measuring America's People and Economy
@@ -69,7 +64,7 @@ Methodology Overview: Measuring America's People and Economy
 - Calculate GDP contributions by nationality and project future trends.
 - Visualize results through interactive charts and tables.
 
----
+
 
 Key Findings: Migrant Myths vs. Reality
 -------------------------
@@ -458,7 +453,6 @@ But let's not finish this statement without adding that Mexico isn't the only on
 **Key Takeaway:**  
 *The top ten foreign-born groups, led by Mexican and Indian cohorts, are essential drivers of U.S. GDP growth.*
 
----
 
 
 Statement 2 . **Contributions**
