@@ -232,11 +232,11 @@ Assum Assumption 4 is as follows:
 .. raw:: html
 
     <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="_static/employment_ratio_timeseries_2007_2025.html"
+        <iframe src="static/employment_ratio_timeseries_2007_2025.html"
                 title="Employment Ratio Timeseries 2007-2025"
                 style="width: 100%; height: 430px; border: none;">
             Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/employment_ratio_timeseries_2007_2025.html">this link</a>.
+            <a href="static/employment_ratio_timeseries_2007_2025.html">this link</a>.
         </iframe>
     </div>
 
@@ -278,11 +278,11 @@ With all this Assumptions and recalibrate the datasets base from `U.S. Census Bu
 .. raw:: html
 
     <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="_static/gdp_employment_table_sorted_foreignonly_2024.html"
+        <iframe src="static/gdp_employment_table_sorted_foreignonly_2024.html"
                 title="GDP & Employment Table by Foreign-Born Group (2024)"
                 style="width: 100%; height: 430px; border: none;">
             Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/gdp_employment_table_sorted_foreignonly_2024.html">this link</a>.
+            <a href="static/gdp_employment_table_sorted_foreignonly_2024.html">this link</a>.
         </iframe>
     </div>
 
@@ -298,16 +298,16 @@ What remains to be clarified at this point is to contrast the contributions made
 
     <div style="display: flex; justify-content: space-between; gap: 22px;">
       <div style="flex:1; min-width:322px; max-width: 36.8%;">
-        <iframe src="_static/mexican_foreign_born_gdp_vs_oecd.html" width="100%" height="368" frameborder="0" title="Mexican Foreign-born GDP vs OECD Countries">
-          Your browser does not support iframes. View the chart <a href="_static/mexican_foreign_born_gdp_vs_oecd_updated.html">here</a>.
+        <iframe src="static/mexican_foreign_born_gdp_vs_oecd.html" width="100%" height="368" frameborder="0" title="Mexican Foreign-born GDP vs OECD Countries">
+          Your browser does not support iframes. View the chart <a href="static/mexican_foreign_born_gdp_vs_oecd_updated.html">here</a>.
         </iframe>
         <div style="text-align:center; margin-top: 6px; font-weight: bold;">
           Mexican Foreign-born GDP Contribution Compared to Top 15 OECD Countries (USD Billions)
         </div>
       </div>
       <div style="flex:1; min-width:322px; max-width: 36.8%;">
-        <iframe src="_static/mexican_foreign_born_vs_major_economies.html" width="100%" height="368" frameborder="0" title="Mexican Foreign-born GDP vs Major Economies">
-          Your browser does not support iframes. View the chart <a href="_static/mexican_foreign_born_vs_major_economies_updated.html">here</a>.
+        <iframe src="static/mexican_foreign_born_vs_major_economies.html" width="100%" height="368" frameborder="0" title="Mexican Foreign-born GDP vs Major Economies">
+          Your browser does not support iframes. View the chart <a href="static/mexican_foreign_born_vs_major_economies_updated.html">here</a>.
         </iframe>
         <div style="text-align:center; margin-top: 6px; font-weight: bold;">
           Mexican Foreign-born GDP Contribution Compared to Major World Economies (USD Billions)
@@ -323,16 +323,16 @@ As we can see, even considering the contributions discussed in the official repo
 
     <div style="display: flex; justify-content: space-between; gap: 22px;">
       <div style="flex:1; min-width:322px; max-width: 36.8%;">
-        <iframe src="_static/mexican_foreign_born_gdp_vs_oecd_updated.html" width="100%" height="368" frameborder="0" title="Mexican Foreign-born GDP vs OECD Countries">
-          Your browser does not support iframes. View the chart <a href="_static/mexican_foreign_born_gdp_vs_oecd_updated.html">here</a>.
+        <iframe src="static/mexican_foreign_born_gdp_vs_oecd_updated.html" width="100%" height="368" frameborder="0" title="Mexican Foreign-born GDP vs OECD Countries">
+          Your browser does not support iframes. View the chart <a href="static/mexican_foreign_born_gdp_vs_oecd_updated.html">here</a>.
         </iframe>
         <div style="text-align:center; margin-top: 6px; font-weight: bold;">
           Mexican Foreign-born GDP Contribution Compared to Top 15 OECD Countries (USD Billions)
         </div>
       </div>
       <div style="flex:1; min-width:322px; max-width: 36.8%;">
-        <iframe src="_static/mexican_foreign_born_vs_major_economies_updated.html" width="100%" height="368" frameborder="0" title="Mexican Foreign-born GDP vs Major Economies">
-          Your browser does not support iframes. View the chart <a href="_static/mexican_foreign_born_vs_major_economies_updated.html">here</a>.
+        <iframe src="static/mexican_foreign_born_vs_major_economies_updated.html" width="100%" height="368" frameborder="0" title="Mexican Foreign-born GDP vs Major Economies">
+          Your browser does not support iframes. View the chart <a href="static/mexican_foreign_born_vs_major_economies_updated.html">here</a>.
           </iframe>
         <div style="text-align:center; margin-top: 6px; font-weight: bold;">
           Mexican Foreign-born GDP Contribution Compared to Major World Economies (USD Billions)
@@ -349,11 +349,11 @@ But let's not finish this statement without adding that Mexico isn't the only on
 .. raw:: html
 
     <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="_static/gdp_top10_foreign_contributors_2024.html"
+        <iframe src="static/gdp_top10_foreign_contributors_2024.html"
                 title="Top 10 Foreign-born Groups by U.S. GDP Contribution (2024)"
                 style="width: 100%; height: 500px; border: none;">
             Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/gdp_top10_foreign_contributors_2024.html">this link</a>.
+            <a href="static/gdp_top10_foreign_contributors_2024.html">this link</a>.
         </iframe>
     </div>
 
@@ -380,11 +380,11 @@ To answer the concerns that arise it is necessary to divide the problem into som
 .. raw:: html
 
     <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="_static/employed_unauthorized_population_2009_2024.html"
+        <iframe src="static/employed_unauthorized_population_2009_2024.html"
                 title="Employed Unauthorized Population 2009-2024"
                 style="width: 100%; height: 500px; border: none;">
             Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/employed_unauthorized_population_2009_2024.html">this link</a>.
+            <a href="static/employed_unauthorized_population_2009_2024.html">this link</a>.
         </iframe>
     </div>
 
@@ -400,7 +400,7 @@ Starting in 2021, migrant caravans the size of small cities will once again make
 .. raw:: html
 
     <div style="text-align:center;">
-        <iframe src="_static/pie_top10_countries_share.html" width="650" height="500" title="Top 10 Foreign-Born Groups by U.S. GDP Contribution (2024)"></iframe>
+        <iframe src="static/pie_top10_countries_share.html" width="650" height="500" title="Top 10 Foreign-Born Groups by U.S. GDP Contribution (2024)"></iframe>
         <div style="font-size: 90%; margin-top: 8px; color: #555;">
             Top 10 Foreign-Born Groups by U.S. GDP Contribution (2024)
         </div>
@@ -411,11 +411,11 @@ To contrast the report and the comments from the Mexican government, it is neces
 .. raw:: html
 
     <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="_static/bar_employed_unauthorized_by_country_2022.html"
+        <iframe src="static/bar_employed_unauthorized_by_country_2022.html"
                 title="Employed Unauthorized by Country 2022"
                 style="width: 100%; height: 500px; border: none;">
             Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/bar_employed_unauthorized_by_country_2022.html">this link</a>.
+            <a href="static/bar_employed_unauthorized_by_country_2022.html">this link</a>.
         </iframe>
     </div>
 
@@ -429,11 +429,11 @@ Based on publicly available databases and based on the unequivocal assumption th
 .. raw:: html
 
     <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="_static/federal_tax_and_payroll_rates_2009_2024.html"
+        <iframe src="static/federal_tax_and_payroll_rates_2009_2024.html"
                 title="Federal Tax and Payroll Rates 2009-2024"
                 style="width: 100%; height: 500px; border: none;">
             Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/federal_tax_and_payroll_rates_2009_2024.html">this link</a>.
+            <a href="static/federal_tax_and_payroll_rates_2009_2024.html">this link</a>.
         </iframe>
     </div>
 
@@ -445,11 +445,11 @@ From this contribution of the country's tax collection rates, we obtain the foll
 .. raw:: html
 
     <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="_static/bar_gdp_contribution_unauthorized_2022.html"
+        <iframe src="static/bar_gdp_contribution_unauthorized_2022.html"
                 title="GDP Contribution by Unauthorized Immigrants, 2022"
                 style="width: 100%; height: 500px; border: none;">
             Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/bar_gdp_contribution_unauthorized_2022.html">this link</a>.
+            <a href="static/bar_gdp_contribution_unauthorized_2022.html">this link</a>.
         </iframe>
     </div>
 
@@ -463,11 +463,11 @@ Even unauthorized Mexican immigrant workers contribute a little over $107 billio
 .. raw:: html
 
     <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="_static/country_unauth_tax_contributions_2022.html"
+        <iframe src="static/country_unauth_tax_contributions_2022.html"
                 title="Country Unauthorized Tax Contributions 2022"
                 style="width: 100%; height: 500px; border: none;">
             Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/country_unauth_tax_contributions_2022.html">this link</a>.
+            <a href="static/country_unauth_tax_contributions_2022.html">this link</a>.
         </iframe>
     </div>
 
@@ -481,11 +481,11 @@ Another element to check is the contribution of unauthorized workers to the coun
 
     <div style="width: 100%; max-width: 900px; margin: auto; margin-bottom: 32px;">
         <h2 style="text-align:center; margin-top: 0;">Industry Distribution by Origin Group (2022)</h2>
-        <iframe src="_static/industry_distribution_by_origin_2022.html"
+        <iframe src="static/industry_distribution_by_origin_2022.html"
                 title="Industry Distribution by Origin Group 2022"
                 style="width: 100%; height: 540px; border: none;">
             Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/industry_distribution_by_origin_2022.html">this link</a>.
+            <a href="static/industry_distribution_by_origin_2022.html">this link</a>.
         </iframe>
         <p style="text-align:center; font-size:1.06em; color: #444;">
             <b>Key Takeaway:</b><br>
@@ -502,7 +502,7 @@ Something interesting to note is that the three industries where Native American
         <h2 style="text-align:center; margin-top: 0;">Native Employed by Industry (2022)</h2>
         <div style="position: relative; width: 100%; padding-bottom: 62.5%; min-height: 340px; height: 0;">
             <iframe 
-                src="_static/employed_by_industry_native_2022_polar.html"
+                src="static/employed_by_industry_native_2022_polar.html"
                 title="Native Employed by Industry 2022"
                 style="
                     position: absolute;
@@ -514,7 +514,7 @@ Something interesting to note is that the three industries where Native American
                 allowfullscreen
                 loading="lazy">
                 Your browser does not support iframes. Please view the visualization directly at
-                <a href="_static/employed_by_industry_native_2022_polar.html">this link</a>.
+                <a href="static/employed_by_industry_native_2022_polar.html">this link</a>.
             </iframe>
         </div>
         <p style="text-align:center; font-size:1.06em; color: #444;">
@@ -533,7 +533,7 @@ Distribution of the foreign-born population of Mexican citizens employed in the 
         <h2 style="text-align:center; margin-top: 0;">Mexican-born Employed by Industry (2022)</h2>
         <div style="position: relative; width: 100%; padding-bottom: 62.5%; min-height: 340px; height: 0;">
             <iframe 
-                src="_static/employed_by_industry_mexico_2022_polar.html"
+                src="static/employed_by_industry_mexico_2022_polar.html"
                 title="Mexican-born Employed by Industry 2022"
                 style="
                     position: absolute;
@@ -545,7 +545,7 @@ Distribution of the foreign-born population of Mexican citizens employed in the 
                 allowfullscreen
                 loading="lazy">
                 Your browser does not support iframes. Please view the visualization directly at
-                <a href="_static/employed_by_industry_mexico_2022_polar.html">this link</a>.
+                <a href="static/employed_by_industry_mexico_2022_polar.html">this link</a>.
             </iframe>
         </div>
         <p style="text-align:center; font-size:1.06em; color: #444;">
@@ -564,7 +564,7 @@ Distribution of the unauthorized population of Mexican citizens employed in the 
         <h2 style="text-align:center; margin-top: 0;">Unauthorized Mexican-born Employed by Industry (2022)</h2>
         <div style="position: relative; width: 100%; padding-bottom: 70.5%; min-height: 340px; height: 0;">
             <iframe 
-                src="_static/employed_by_industry_mexico_unauthorized_2022_polar.html"
+                src="static/employed_by_industry_mexico_unauthorized_2022_polar.html"
                 title="Unauthorized Mexican-born Employed by Industry 2022"
                 style="
                     position: absolute;
@@ -576,7 +576,7 @@ Distribution of the unauthorized population of Mexican citizens employed in the 
                 allowfullscreen
                 loading="lazy">
                 Your browser does not support iframes. Please view the visualization directly at
-                <a href="_static/employed_by_industry_mexico_unauthorized_2022_polar.html">this link</a>.
+                <a href="static/employed_by_industry_mexico_unauthorized_2022_polar.html">this link</a>.
             </iframe>
         </div>
         <p style="text-align:center; font-size:1.06em; color: #444;">
@@ -627,11 +627,11 @@ As seen in the following graph, we can analyze in detail the ethnic distribution
         <h3 style="text-align:center; margin-bottom:0.5em;">
             Offender Ethnicity Profile per Crime
         </h3>
-        <iframe src="_static/offender_ethnicity_per_crime_beautifulll_small.html"
+        <iframe src="static/offender_ethnicity_per_crime_beautifulll_small.html"
                 title="Offender Ethnicity Profile per Crime"
                 style="width: 100%; height: 500px; border: none;">
             Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/offender_ethnicity_per_crime_beautifulll_small.html">this link</a>.
+            <a href="static/offender_ethnicity_per_crime_beautifulll_small.html">this link</a>.
         </iframe>
     </div>
 
@@ -648,11 +648,11 @@ One of the most controversial and politicized issues of recent decades, and curr
         <h3 style="text-align:center; margin-bottom:0.5em;">
             Offender Ethnicity Profile for Drug/Narcotic Violations
         </h3>
-        <iframe src="_static/offender_ethnicity_per_crime_beautifuldrug.html"
+        <iframe src="static/offender_ethnicity_per_crime_beautifuldrug.html"
                 title="Offender Ethnicity Profile for Drug/Narcotic Violations"
                 style="width: 100%; height: 500px; border: none;">
             Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/offender_ethnicity_per_crime_beautifuldrug.html">this link</a>.
+            <a href="static/offender_ethnicity_per_crime_beautifuldrug.html">this link</a>.
         </iframe>
     </div>
 
@@ -670,11 +670,11 @@ This is what happens in the United States… but what is happening within the co
         <h3 style="text-align:center; margin-bottom:0.5em;">
             Border States Crime Summary (Map)
         </h3>
-        <iframe src="_static/us_highlighted_map_border_states.html"
+        <iframe src="static/us_highlighted_map_border_states.html"
                 title="Border States Crime Summary (Map)"
                 style="width: 100%; height: 520px; border: none;">
             Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/us_highlighted_map_border_states.html">this link</a>.
+            <a href="static/us_highlighted_map_border_states.html">this link</a>.
         </iframe>
     </div>
 
@@ -698,11 +698,11 @@ Answering this question requires taking statistics from the U.S. Census Bureau o
 .. raw:: html
 
     <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="_static/polar_native_min.html"
+        <iframe src="static/polar_native_min.html"
                 title="Polar Chart: Native Self-Employed by Industry"
                 style="width: 100%; height: 400px; border: none;">
             Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/polar_native_min.html">this link</a>.
+            <a href="static/polar_native_min.html">this link</a>.
         </iframe>
     </div>
 
@@ -715,11 +715,11 @@ Generally speaking, 10% of native-born citizens are self-employed, while 14.6% o
 .. raw:: html
 
     <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="_static/polar_mexico_min.html"
+        <iframe src="static/polar_mexico_min.html"
                 title="Polar Chart: Mexico-born Self-Employed by Industry"
                 style="width: 100%; height: 400px; border: none;">
             Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/polar_mexico_min.html">this link</a>.
+            <a href="static/polar_mexico_min.html">this link</a>.
         </iframe>
     </div>
 
@@ -731,11 +731,11 @@ The lack of legal documentation creates difficulties in obtaining formal employm
 .. raw:: html
 
     <div style="width: 100%; max-width: 800px; margin: auto;">
-        <iframe src="_static/polar_mexico_unauthorized_min.html"
+        <iframe src="static/polar_mexico_unauthorized_min.html"
                 title="Polar Chart: Unauthorized Mexican Self-Employed by Industry"
                 style="width: 100%; height: 400px; border: none;">
             Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/polar_mexico_unauthorized_min.html">this link</a>.
+            <a href="static/polar_mexico_unauthorized_min.html">this link</a>.
         </iframe>
     </div>
 
