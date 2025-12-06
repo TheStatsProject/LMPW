@@ -105,9 +105,9 @@ Statement 1 . **Migrant Labor Force Participation**
 
 The he argument of the Mexican government is based on the following calculation:
 
-A. **Assumption 1**: Mexican-born residents - MBR - (ACS 2022):  11,710,000 people
-B. **Assumption 2**: U.S. real GDP (2023, chained 2017): $22.671 Trillion USD (T-USD)
-C. **Assumption 3**: Total U.S. population -TUP- (2023): 334,914,895 residents
+- A. **Assumption 1**: Mexican-born residents - MBR - (ACS 2022):  11,710,000 people
+- B. **Assumption 2**: U.S. real GDP (2023, chained 2017): $22.671 Trillion USD (T-USD)
+- C. **Assumption 3**: Total U.S. population -TUP- (2023): 334,914,895 residents
 
 Base just in this 3 assumtions, the Mexican government dares to make the following calculation that we present below:
 
