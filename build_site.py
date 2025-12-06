@@ -694,8 +694,20 @@ def build_site():
     # Create output directory
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Copy static files (favicon, logo) if they exist
+    # Copy static files to _static folder for iframe embeds
     if STATIC_DIR.exists():
+        # Create _static directory for HTML embeds
+        static_output = OUTPUT_DIR / "_static"
+        static_output.mkdir(parents=True, exist_ok=True)
+        
+        # Copy all files from static/ to _static/
+        for static_file in STATIC_DIR.iterdir():
+            if static_file.is_file():
+                dest = static_output / static_file.name
+                shutil.copy(static_file, dest)
+                print(f"  Copied to _static: {static_file.name}")
+        
+        # Also copy favicon and logo to root for backward compatibility
         favicon_src = STATIC_DIR / "favicon.svg"
         if favicon_src.exists():
             shutil.copy(favicon_src, OUTPUT_DIR / "favicon.svg")
