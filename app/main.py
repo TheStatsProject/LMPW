@@ -341,3 +341,16 @@ def admin_sync(secret: str = ""):
     except Exception as e:
         logger.exception("Manual sync failed: %s", e)
         raise HTTPException(status_code=500, detail="Sync failed")
+
+
+#add objects from content
+
+# Serve files from the 'content' directory
+@app.route('/content/<path:filename>')
+def content_file(filename):
+    content_dir = os.path.join(app.root_path, 'content')
+    # Optional: validate filename to avoid path traversal
+    try:
+        return send_from_directory(content_dir, filename)
+    except Exception:
+        abort(404)

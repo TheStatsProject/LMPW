@@ -1,0 +1,17 @@
+services:
+  # Option 1: Static Site (recommended for simple blogs)
+  # - type: web
+  #   name: finance-blog-static
+  #   env: static
+  #   buildCommand: pip install markdown && python build_site.py
+  #   staticPublishPath: ./site
+
+  # Option 2: Dynamic Web Service (Python server with FastAPI)
+  - type: web
+    name: finance-blog
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn blog_server:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12"
