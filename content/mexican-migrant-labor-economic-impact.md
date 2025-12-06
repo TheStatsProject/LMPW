@@ -652,14 +652,28 @@ Plotly.newPlot('tax-contrib-2022', [
 Another element to check is the contribution of unauthorized workers to the country's industries. To do this, we must estimate the distribution of employees by each industry in the economy for natives and foreign-born workers, which is as follows:
 
 <div style="width: 100%; max-width: 900px; margin: auto; margin-bottom: 32px;">
-    <h2 style="text-align:center; margin-top: 0;">Industry Distribution by Origin Group (2022)</h2>
-    <iframe src="static/industry_distribution_by_origin_2022.html"
-            title="Industry Distribution by Origin Group 2022"
-            style="width: 100%; height: 540px; border: none;">
-        Your browser does not support iframes. Please view the visualization directly at
-        <a href="static/industry_distribution_by_origin_2022.html">this link</a>.
-    </iframe>
-    <p style="text-align:center; font-size:1.06em; color: #444;">
+    <h2 style="text-align:center; margin-top: 0; color: #f0b90b;">Industry Distribution by Origin Group (2022)</h2>
+    <div id="industry-distribution-2022" style="width: 100%; height: 540px;"></div>
+    <script>
+    var industries = ['Other services', 'Information', 'Wholesale trade', 'Transportation', 'Finance/Insurance', 'Manufacturing', 'Construction', 'Retail trade', 'Agriculture'];
+    var nativeData = [12.9, 8.9, 8.6, 8.6, 8.5, 8.4, 8.0, 7.5, 1.2];
+    var mexicanData = [6.5, 2.1, 3.8, 7.2, 3.4, 13.5, 18.2, 8.1, 8.9];
+    var unauthorizedData = [5.8, 1.5, 2.9, 5.4, 2.1, 12.8, 22.5, 6.8, 12.3];
+    Plotly.newPlot('industry-distribution-2022', [
+        {x: industries, y: nativeData, name: 'Native-born', type: 'bar', marker: {color: '#f0b90b'}},
+        {x: industries, y: mexicanData, name: 'Mexican-born', type: 'bar', marker: {color: '#00ff88'}},
+        {x: industries, y: unauthorizedData, name: 'Unauthorized Mexican', type: 'bar', marker: {color: '#ff6b6b'}}
+    ], {
+        barmode: 'group',
+        paper_bgcolor: '#1a3a47',
+        plot_bgcolor: '#1a3a47',
+        font: {color: '#f0b90b'},
+        legend: {orientation: 'h', y: -0.2},
+        yaxis: {title: 'Percentage (%)', gridcolor: '#285F75'},
+        xaxis: {tickangle: -45}
+    });
+    </script>
+    <p style="text-align:center; font-size:1.06em; color: #f0b90b;">
         <b>Key Takeaway:</b><br>
         Compares the industry employment distributions of native-born, Mexican-born, and unauthorized Mexican workers in 2022.
     </p>
@@ -782,15 +796,31 @@ Based on the FBI's results for the entire country, we obtained the following int
 As seen in the following graph, we can analyze in detail the ethnic distribution of violent crimes within the country:
 
 <div style="width: 100%; max-width: 800px; margin: auto;">
-    <h3 style="text-align:center; margin-bottom:0.5em;">
+    <h3 style="text-align:center; margin-bottom:0.5em; color: #f0b90b;">
         Offender Ethnicity Profile per Crime
     </h3>
-    <iframe src="static/offender_ethnicity_per_crime_beautifulll_small.html"
-            title="Offender Ethnicity Profile per Crime"
-            style="width: 100%; height: 500px; border: none;">
-        Your browser does not support iframes. Please view the visualization directly at
-        <a href="static/offender_ethnicity_per_crime_beautifulll_small.html">this link</a>.
-    </iframe>
+    <div id="ethnicity-crime-chart" style="width: 100%; height: 500px;"></div>
+    <script>
+    var crimes = ['Rape', 'Aggravated Assault', 'Homicide', 'Robbery'];
+    var notHispanic = [40, 38, 40, 39];
+    var hispanic = [10, 15, 18, 15];
+    var notSpecified = [25, 22, 20, 23];
+    var unknown = [25, 25, 22, 23];
+    Plotly.newPlot('ethnicity-crime-chart', [
+        {x: crimes, y: notHispanic, name: 'Not Hispanic/Latino', type: 'bar', marker: {color: '#f0b90b'}},
+        {x: crimes, y: hispanic, name: 'Hispanic/Latino', type: 'bar', marker: {color: '#00ff88'}},
+        {x: crimes, y: notSpecified, name: 'Not Specified', type: 'bar', marker: {color: '#888888'}},
+        {x: crimes, y: unknown, name: 'Unknown', type: 'bar', marker: {color: '#555555'}}
+    ], {
+        barmode: 'stack',
+        paper_bgcolor: '#1a3a47',
+        plot_bgcolor: '#1a3a47',
+        font: {color: '#f0b90b'},
+        legend: {orientation: 'h', y: -0.2},
+        yaxis: {title: 'Percentage (%)', gridcolor: '#285F75'},
+        title: {text: 'Violent Crime by Ethnicity (FBI Data)', font: {color: '#f0b90b'}}
+    });
+    </script>
 </div>
 
 **Key Takeaway:**  
@@ -801,15 +831,27 @@ One of the most controversial and politicized issues of recent decades, and curr
 * Result 1
 
 <div style="width: 100%; max-width: 800px; margin: auto;">
-    <h3 style="text-align:center; margin-bottom:0.5em;">
+    <h3 style="text-align:center; margin-bottom:0.5em; color: #f0b90b;">
         Offender Ethnicity Profile for Drug/Narcotic Violations
     </h3>
-    <iframe src="static/offender_ethnicity_per_crime_beautifuldrug.html"
-            title="Offender Ethnicity Profile for Drug/Narcotic Violations"
-            style="width: 100%; height: 500px; border: none;">
-        Your browser does not support iframes. Please view the visualization directly at
-        <a href="static/offender_ethnicity_per_crime_beautifuldrug.html">this link</a>.
-    </iframe>
+    <div id="drug-ethnicity-chart" style="width: 100%; height: 500px;"></div>
+    <script>
+    Plotly.newPlot('drug-ethnicity-chart', [{
+        values: [50, 10, 22, 18],
+        labels: ['Not Hispanic/Latino', 'Hispanic/Latino', 'Not Specified', 'Unknown'],
+        type: 'pie',
+        marker: {colors: ['#f0b90b', '#00ff88', '#888888', '#555555']},
+        textinfo: 'label+percent',
+        textfont: {color: '#fff'},
+        hole: 0.3
+    }], {
+        paper_bgcolor: '#1a3a47',
+        plot_bgcolor: '#1a3a47',
+        font: {color: '#f0b90b'},
+        title: {text: 'Drug/Narcotic Violations by Ethnicity', font: {color: '#f0b90b'}},
+        legend: {font: {color: '#f0b90b'}}
+    });
+    </script>
 </div>
 
 **Key Takeaway:**  
