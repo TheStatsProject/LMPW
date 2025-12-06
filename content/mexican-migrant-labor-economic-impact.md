@@ -457,12 +457,33 @@ In order to address these assertions about the contributions of "undocumented" p
 To answer the concerns that arise it is necessary to divide the problem into some parts more accessible to the calculation, so first of all we are going to quantify the number of unauthorized persons and for this what was collected is based on the information provided by the `Office of Homeland Security Statistics <https://ohss.dhs.gov/>`_ office that collects statistical information on this subject and in whose reports you can find the most precise information, in this sense we interpolate some extraneous data and based on the results, Below is the estimated number of these unauthorized persons and how many are employed, based on the employment rates and GDP per capita estimated for the years that have been presented above, as follows:
 
 <div style="width: 100%; max-width: 800px; margin: auto;">
-    <iframe src="static/employed_unauthorized_population_2009_2024.html"
-            title="Employed Unauthorized Population 2009-2024"
-            style="width: 100%; height: 500px; border: none;">
-        Your browser does not support iframes. Please view the visualization directly at
-        <a href="static/employed_unauthorized_population_2009_2024.html">this link</a>.
-    </iframe>
+<h4 style="text-align: center; color: #f0b90b; margin-bottom: 15px;">Estimated Employed Unauthorized Population (2009–2024)</h4>
+<table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 14px;">
+<thead>
+<tr style="background-color: #285F75;">
+<th style="padding: 10px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">Year</th>
+<th style="padding: 10px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">Employed Unauthorized</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background-color: #285F75;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2009</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,658,205</td></tr>
+<tr style="background-color: #1e4d61;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2010</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,536,777</td></tr>
+<tr style="background-color: #285F75;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2011</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,711,739</td></tr>
+<tr style="background-color: #1e4d61;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2012</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">7,015,457</td></tr>
+<tr style="background-color: #285F75;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2013</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,712,437</td></tr>
+<tr style="background-color: #1e4d61;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2014</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,965,013</td></tr>
+<tr style="background-color: #285F75;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2015</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,799,189</td></tr>
+<tr style="background-color: #1e4d61;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2016</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,803,229</td></tr>
+<tr style="background-color: #285F75;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2017</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,952,779</td></tr>
+<tr style="background-color: #1e4d61;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2018</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,729,693</td></tr>
+<tr style="background-color: #285F75;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2019</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,416,537</td></tr>
+<tr style="background-color: #1e4d61;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2020</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,309,479</td></tr>
+<tr style="background-color: #285F75;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2021</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,544,420</td></tr>
+<tr style="background-color: #1e4d61;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2022</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,608,632</td></tr>
+<tr style="background-color: #285F75;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2023</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,607,508</td></tr>
+<tr style="background-color: #1e4d61;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2024</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,589,036</td></tr>
+</tbody>
+</table>
 </div>
 
 **Key Takeaway:**  
@@ -562,25 +583,23 @@ Another element to check is the contribution of unauthorized workers to the coun
 Something interesting to note is that the three industries where Native Americans are most heavily employed are services, except for public administration. This represents 12.9% of the total Native American population, followed by the information sector with 8.9% and the transportation and warehousing services sector with 8.6%, showing that services and computer development have the greatest share.
 
 <div style="width: 100%; max-width: 1200px; margin: auto; margin-bottom: 32px;">
-    <h2 style="text-align:center; margin-top: 0;">Native Employed by Industry (2022)</h2>
-    <div style="position: relative; width: 100%; padding-bottom: 62.5%; min-height: 340px; height: 0;">
-        <iframe 
-            src="static/employed_by_industry_native_2022_polar.html"
-            title="Native Employed by Industry 2022"
-            style="
-                position: absolute;
-                top: 0; left: 0;
-                width: 100%; height: 100%;
-                border: none;
-                display: block;
-            "
-            allowfullscreen
-            loading="lazy">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="static/employed_by_industry_native_2022_polar.html">this link</a>.
-        </iframe>
-    </div>
-    <p style="text-align:center; font-size:1.06em; color: #444;">
+    <h2 style="text-align:center; margin-top: 0; color: #f0b90b;">Native Employed by Industry (2022)</h2>
+<div style="font-family: Arial, sans-serif; padding: 10px;">
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Other services (except public admin)</span><div style="background: #f0b90b; height: 18px; width: 100%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">22,098,620</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Information</span><div style="background: #f0b90b; height: 18px; width: 70%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">15,365,447</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Wholesale trade</span><div style="background: #f0b90b; height: 18px; width: 66%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">14,674,865</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Transportation and utilities</span><div style="background: #f0b90b; height: 18px; width: 66%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">14,674,865</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Finance, insurance, and real estate</span><div style="background: #f0b90b; height: 18px; width: 66%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">14,502,219</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Manufacturing</span><div style="background: #f0b90b; height: 18px; width: 65%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">14,329,574</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Construction</span><div style="background: #f0b90b; height: 18px; width: 62%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">13,638,992</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Retail trade</span><div style="background: #f0b90b; height: 18px; width: 60%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">13,293,701</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Professional and management services</span><div style="background: #f0b90b; height: 18px; width: 55%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">12,085,183</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Education and health care</span><div style="background: #f0b90b; height: 18px; width: 47%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">10,358,728</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Public administration</span><div style="background: #f0b90b; height: 18px; width: 44%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">9,668,146</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Agriculture, forestry, fishing, mining</span><div style="background: #f0b90b; height: 18px; width: 42%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">9,322,855</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Arts, entertainment, and food services</span><div style="background: #f0b90b; height: 18px; width: 37%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">8,286,983</span></div>
+</div>
+    <p style="text-align:center; font-size:1.06em; color: #f0b90b;">
         <b>Key Takeaway:</b><br>
         The distribution of native-born employment across industries in 2022.
     </p>
@@ -591,25 +610,23 @@ As well as services, information development and mobility are the sectors where 
 Distribution of the foreign-born population of Mexican citizens employed in the USA by industry:
 
 <div style="width: 100%; max-width: 1200px; margin: auto; margin-bottom: 32px;">
-    <h2 style="text-align:center; margin-top: 0;">Mexican-born Employed by Industry (2022)</h2>
-    <div style="position: relative; width: 100%; padding-bottom: 62.5%; min-height: 340px; height: 0;">
-        <iframe 
-            src="static/employed_by_industry_mexico_2022_polar.html"
-            title="Mexican-born Employed by Industry 2022"
-            style="
-                position: absolute;
-                top: 0; left: 0;
-                width: 120%; height: 120%;
-                border: none;
-                display: block;
-            "
-            allowfullscreen
-            loading="lazy">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="static/employed_by_industry_mexico_2022_polar.html">this link</a>.
-        </iframe>
-    </div>
-    <p style="text-align:center; font-size:1.06em; color: #444;">
+    <h2 style="text-align:center; margin-top: 0; color: #f0b90b;">Mexican-born Employed by Industry (2022)</h2>
+<div style="font-family: Arial, sans-serif; padding: 10px;">
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Manufacturing</span><div style="background: #00ff88; height: 18px; width: 100%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">433,861</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Construction</span><div style="background: #00ff88; height: 18px; width: 82%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">355,766</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Professional and management services</span><div style="background: #00ff88; height: 18px; width: 65%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">280,563</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Agriculture, forestry, fishing, mining</span><div style="background: #00ff88; height: 18px; width: 57%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">248,747</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Information</span><div style="background: #00ff88; height: 18px; width: 55%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">240,070</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Wholesale trade</span><div style="background: #00ff88; height: 18px; width: 51%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">219,823</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Public administration</span><div style="background: #00ff88; height: 18px; width: 49%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">214,038</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Finance, insurance, and real estate</span><div style="background: #00ff88; height: 18px; width: 45%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">196,683</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Retail trade</span><div style="background: #00ff88; height: 18px; width: 35%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">150,405</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Transportation and utilities</span><div style="background: #00ff88; height: 18px; width: 33%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">144,620</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Other services (except public admin)</span><div style="background: #00ff88; height: 18px; width: 33%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">144,620</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Arts, entertainment, and food services</span><div style="background: #00ff88; height: 18px; width: 32%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">138,835</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Education and health care</span><div style="background: #00ff88; height: 18px; width: 29%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">124,373</span></div>
+</div>
+    <p style="text-align:center; font-size:1.06em; color: #f0b90b;">
         <b>Key Takeaway:</b><br>
         The distribution of Mexican-born employment across industries in 2022.
     </p>
@@ -620,25 +637,23 @@ Distribution of the unauthorized population of Mexican citizens employed in the 
 
 
 <div style="width: 100%; max-width: 1200px; margin: auto; margin-bottom: 32px;">
-    <h2 style="text-align:center; margin-top: 0;">Unauthorized Mexican-born Employed by Industry (2022)</h2>
-    <div style="position: relative; width: 100%; padding-bottom: 70.5%; min-height: 340px; height: 0;">
-        <iframe 
-            src="static/employed_by_industry_mexico_unauthorized_2022_polar.html"
-            title="Unauthorized Mexican-born Employed by Industry 2022"
-            style="
-                position: absolute;
-                top: 0; left: 0;
-                width: 100%; height: 100%;
-                border: none;
-                display: block;
-            "
-            allowfullscreen
-            loading="lazy">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="static/employed_by_industry_mexico_unauthorized_2022_polar.html">this link</a>.
-        </iframe>
-    </div>
-    <p style="text-align:center; font-size:1.06em; color: #444;">
+    <h2 style="text-align:center; margin-top: 0; color: #f0b90b;">Unauthorized Mexican-born Employed by Industry (2022)</h2>
+<div style="font-family: Arial, sans-serif; padding: 10px;">
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Manufacturing</span><div style="background: #ff6b6b; height: 18px; width: 100%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">248,433</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Construction</span><div style="background: #ff6b6b; height: 18px; width: 83%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">205,481</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Professional and management services</span><div style="background: #ff6b6b; height: 18px; width: 66%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">164,120</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Agriculture, forestry, fishing, mining</span><div style="background: #ff6b6b; height: 18px; width: 59%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">146,621</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Information</span><div style="background: #ff6b6b; height: 18px; width: 57%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">141,848</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Wholesale trade</span><div style="background: #ff6b6b; height: 18px; width: 53%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">130,712</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Finance, insurance, and real estate</span><div style="background: #ff6b6b; height: 18px; width: 47%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">117,986</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Retail trade</span><div style="background: #ff6b6b; height: 18px; width: 37%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">92,533</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Transportation and utilities</span><div style="background: #ff6b6b; height: 18px; width: 36%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">89,351</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Other services (except public admin)</span><div style="background: #ff6b6b; height: 18px; width: 36%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">89,351</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Arts, entertainment, and food services</span><div style="background: #ff6b6b; height: 18px; width: 35%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">86,169</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Education and health care</span><div style="background: #ff6b6b; height: 18px; width: 31%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">78,215</span></div>
+<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Public administration</span><div style="background: #ff6b6b; height: 18px; width: 0%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">0</span></div>
+</div>
+    <p style="text-align:center; font-size:1.06em; color: #f0b90b;">
         <b>Key Takeaway:</b><br>
         The distribution of unauthorized Mexican-born employment across industries in 2022.
     </p>
