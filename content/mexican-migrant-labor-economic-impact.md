@@ -163,34 +163,34 @@ For get the datasets for make the calcs we build this dataset base on this varia
 </thead>
 <tbody>
 <tr style="background-color: white;">
-<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">Census.gov ACS</td>
-<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">B05002_002E</td>
-<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">Native-born population</td>
-<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">Count</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd; color: #f0b90b;">Census.gov ACS</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd; color: #f0b90b;">B05002_002E</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd; color: #f0b90b;">Native-born population</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd; color: #f0b90b;">Count</td>
 </tr>
 <tr style="background-color: #f9f9f9;">
-<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">Census.gov ACS</td>
-<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">B05006_xxxE</td>
-<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">Foreign-born population by country of birth</td>
-<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">Count</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd; color: #f0b90b;">Census.gov ACS</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd; color: #f0b90b;">B05006_xxxE</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd; color: #f0b90b;">Foreign-born population by country of birth</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd; color: #f0b90b;">Count</td>
 </tr>
 <tr style="background-color: white;">
-<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">FRED</td>
-<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">CE16OV</td>
-<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">Civilian Employment Level</td>
-<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">Thousands</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd; color: #f0b90b;">FRED</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd; color: #f0b90b;">CE16OV</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd; color: #f0b90b;">Civilian Employment Level</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd; color: #f0b90b;">Thousands</td>
 </tr>
 <tr style="background-color: #f9f9f9;">
-<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">FRED</td>
-<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">CNP16OV</td>
-<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">Civilian Noninstitutional Population (16+)</td>
-<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">Thousands</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd; color: #f0b90b;">FRED</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd; color: #f0b90b;">CNP16OV</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd; color: #f0b90b;">Civilian Noninstitutional Population (16+)</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd; color: #f0b90b;">Thousands</td>
 </tr>
 <tr style="background-color: white;">
-<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">FRED</td>
-<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">GDPC1</td>
-<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">Real Gross Domestic Product (chained 2017 dollars)</td>
-<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">Billions USD</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd; color: #f0b90b;">FRED</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd; color: #f0b90b;">GDPC1</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd; color: #f0b90b;">Real Gross Domestic Product (chained 2017 dollars)</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd; color: #f0b90b;">Billions USD</td>
 </tr>
 </tbody>
 </table>
