@@ -150,36 +150,50 @@ Based on that and the data provided by the FRED we have estimated the labor forc
 
 For get the datasets for make the calcs we build this dataset base on this variables:
 
-```html
 <div style="width: 100%; max-width: 800px; margin: auto;">
-  <iframe src="/static/summary_table_census_fred.html"
-          title="Summary Table: Census and FRED"
-          style="width: 100%; height: 340px; border: none;">
-    Your browser does not support iframes. Please view the visualization directly at
-    <a href="/static/summary_table_census_fred.html">this link</a>.
-  </iframe>
-</div>
-```
-
-
-<div style="width: 100%; max-width: 800px; margin: auto;">
-  <iframe src="content/summary_table_census_fred.html"
-          title="Summary Table: Census and FRED"
-          style="width: 100%; height: 340px; border: none;">
-    Your browser does not support iframes. Please view the visualization directly at
-    <a href="art1/_static/summary_table_census_fred.html">this link</a>.
-  </iframe>
-</div>
-
-
-
-<div style="width: 100%; max-width: 800px; margin: auto;">
-  <iframe src="static/summary_table_census_fred.html"
-          title="Summary Table: Census and FRED"
-          style="width: 100%; height: 340px; border: none;">
-    Your browser does not support iframes. Please view the visualization directly at
-    <a href="art1/_static/summary_table_census_fred.html">this link</a>.
-  </iframe>
+<h4 style="text-align:center; color: #285F75; margin-bottom: 16px;">Summary Table: Census and FRED Variables</h4>
+<table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 13px;">
+<thead>
+<tr style="background-color: #285F75; color: white;">
+<th style="padding: 10px; text-align: center; border: 1px solid #ddd;">Data Source</th>
+<th style="padding: 10px; text-align: center; border: 1px solid #ddd;">Variable Code</th>
+<th style="padding: 10px; text-align: center; border: 1px solid #ddd;">Description</th>
+<th style="padding: 10px; text-align: center; border: 1px solid #ddd;">Unit</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background-color: white;">
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">Census.gov ACS</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">B05002_002E</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">Native-born population</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">Count</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">Census.gov ACS</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">B05006_xxxE</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">Foreign-born population by country of birth</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">Count</td>
+</tr>
+<tr style="background-color: white;">
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">FRED</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">CE16OV</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">Civilian Employment Level</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">Thousands</td>
+</tr>
+<tr style="background-color: #f9f9f9;">
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">FRED</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">CNP16OV</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">Civilian Noninstitutional Population (16+)</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">Thousands</td>
+</tr>
+<tr style="background-color: white;">
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">FRED</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">GDPC1</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">Real Gross Domestic Product (chained 2017 dollars)</td>
+<td style="padding: 8px; text-align: center; border: 1px solid #ddd;">Billions USD</td>
+</tr>
+</tbody>
+</table>
 </div>
 
 
