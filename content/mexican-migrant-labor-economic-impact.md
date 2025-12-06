@@ -9,7 +9,6 @@ To answer this question, we went straight to the source by analyzing data from t
 
 This is a fact-based analysis, based solely on official U.S. government sources. No opinions or manipulations, just the numbers that matter, just the raw facts. Nothing else, just science to restore balance.
 
----
 
 Why This Analysis Matters
 -------------------------
@@ -28,7 +27,6 @@ Investor Insights
 - Identifies high-growth sectors, such as healthcare, agriculture, and construction, where migrant labor plays a pivotal role.
 - Highlights key demographic trends that drive economic productivity and consumer demand.
 
----
 
 Methodology Overview: Measuring America's People and Economy
 -------------------------
@@ -128,9 +126,9 @@ C. **Assumption 3**: Total U.S. population -TUP- (2023): 334,914,895 residents
 
 Base just in this 3 assumtions, the Mexican government dares to make the following calculation that we present below:
 
-.. math::
-
+$
      ( \frac{11,710,000 MBR}{34,914,895 TUP} ) * $22.671 T-USD = $7603 Billion USD
+$
 
 The result is 781 Billion USD ... itself is revelated revelated and as stated in the statement issued by the Mexican government. However, this is a MYTH. To perform these measurements, based on the three articles discussed at the beginning of this article, there is a way to address this scientific problem, and that is through measurement by GDP per person employed (at constant prices).
 
