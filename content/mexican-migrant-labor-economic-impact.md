@@ -75,12 +75,10 @@ Based on that report, we have found the following:
 
 1. **Migrant Labor Force Participation**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    - In 2024, Mexicans born in the U.S. contributed $781 billion to the Gross Domestic Product (GDP), meaning that if they were an independent country, they would currently be the tenth largest economy in the world; while forecasts indicate that the Latino community could occupy third place in two or three years.
 
 2. **Contributions**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -92,11 +90,13 @@ Based on that report, we have found the following:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
+
    - Immigrants have 60 percent less crime, and the states along the border with Mexico are safer and healthier compared to the northern border of the United States.
 
 4. **Invesment and Entrepreneurship**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 
    - In 2021, one in five immigrants was an entrepreneur, generating $95.6 billion.
@@ -108,6 +108,8 @@ Here is some raw and crude information to help you understand this reality. Let'
 Statement 1 . **Migrant Labor Force Participation**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 
  - In 2024, Mexicans born in the U.S. contributed $781 billion to the Gross Domestic Product (GDP), meaning that if they were an independent country, they would currently be the tenth largest economy in the world; while forecasts indicate that the Latino community could occupy third place in two or three years.
 
