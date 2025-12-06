@@ -558,14 +558,25 @@ Plotly.newPlot('pie-unauthorized-share', data, layout, {responsive: true});
 
 To contrast the report and the comments from the Mexican government, it is necessary to compare the proportion of unauthorized Mexicans in the United States: 4 out of 10 unauthorized immigrants in the United States are Mexican citizens. This is not hyperbole that might astonish any economist; it is proof of an unbreakable bond between the United States and Mexico, that we need to study mor deeply.
 
-<div style="width: 100%; max-width: 800px; margin: auto;">
-    <iframe src="static/bar_employed_unauthorized_by_country_2022.html"
-            title="Employed Unauthorized by Country 2022"
-            style="width: 100%; height: 500px; border: none;">
-        Your browser does not support iframes. Please view the visualization directly at
-        <a href="static/bar_employed_unauthorized_by_country_2022.html">this link</a>.
-    </iframe>
-</div>
+<div id="bar-employed-unauth-2022" style="width: 100%; max-width: 800px; margin: auto; height: 450px;"></div>
+<script>
+Plotly.newPlot('bar-employed-unauth-2022', [{
+    x: ['Mexico', 'All Others', 'El Salvador', 'Guatemala', 'Honduras', 'Philippines', 'Colombia', 'India', 'China'],
+    y: [3041868, 1644253, 449008, 474304, 354147, 221342, 151777, 139129, 132805],
+    type: 'bar',
+    marker: { color: ['#00ff88', '#f0b90b', '#f0b90b', '#f0b90b', '#f0b90b', '#f0b90b', '#f0b90b', '#f0b90b', '#f0b90b'] },
+    text: ['3.04M', '1.64M', '449K', '474K', '354K', '221K', '152K', '139K', '133K'],
+    textposition: 'outside',
+    textfont: { color: '#f0b90b' }
+}], {
+    title: { text: 'Estimated Employed Unauthorized by Country (2022)', font: { color: '#f0b90b' } },
+    paper_bgcolor: '#1a3a4a',
+    plot_bgcolor: '#1a3a4a',
+    xaxis: { title: 'Country', tickangle: -45, tickfont: { color: '#f0b90b' }, titlefont: { color: '#f0b90b' }, gridcolor: '#2a5a6a' },
+    yaxis: { title: 'Employed Unauthorized', tickfont: { color: '#f0b90b' }, titlefont: { color: '#f0b90b' }, gridcolor: '#2a5a6a' },
+    margin: { b: 120, t: 60 }
+}, { responsive: true });
+</script>
 
 **Key Takeaway:**  
 *Unauthorized employment is concentrated among specific national groups, emphasizing their workforce importance.*
@@ -588,14 +599,25 @@ Based on publicly available databases and based on the unequivocal assumption th
 
 From this contribution of the country's tax collection rates, we obtain the following distribution of the contributions that unauthorized employees generate as taxes. Once the data on contributions made by American workers and citizens is obtained, the level of contributions from unauthorized workers living in the United States is estimated. The calculation is significant. 
 
-<div style="width: 100%; max-width: 800px; margin: auto;">
-    <iframe src="static/bar_gdp_contribution_unauthorized_2022.html"
-            title="GDP Contribution by Unauthorized Immigrants, 2022"
-            style="width: 100%; height: 500px; border: none;">
-        Your browser does not support iframes. Please view the visualization directly at
-        <a href="static/bar_gdp_contribution_unauthorized_2022.html">this link</a>.
-    </iframe>
-</div>
+<div id="bar-gdp-contrib-unauth-2022" style="width: 100%; max-width: 800px; margin: auto; height: 450px;"></div>
+<script>
+Plotly.newPlot('bar-gdp-contrib-unauth-2022', [{
+    x: ['Mexico', 'All Others', 'Guatemala', 'El Salvador', 'Honduras', 'Philippines', 'Colombia', 'India', 'China'],
+    y: [445.6, 240.9, 69.5, 65.8, 51.9, 32.4, 22.2, 20.4, 19.5],
+    type: 'bar',
+    marker: { color: ['#00ff88', '#f0b90b', '#f0b90b', '#f0b90b', '#f0b90b', '#f0b90b', '#f0b90b', '#f0b90b', '#f0b90b'] },
+    text: ['$445.6B', '$240.9B', '$69.5B', '$65.8B', '$51.9B', '$32.4B', '$22.2B', '$20.4B', '$19.5B'],
+    textposition: 'outside',
+    textfont: { color: '#f0b90b' }
+}], {
+    title: { text: 'GDP Contribution by Unauthorized Immigrants (2022)', font: { color: '#f0b90b' } },
+    paper_bgcolor: '#1a3a4a',
+    plot_bgcolor: '#1a3a4a',
+    xaxis: { title: 'Country', tickangle: -45, tickfont: { color: '#f0b90b' }, titlefont: { color: '#f0b90b' }, gridcolor: '#2a5a6a' },
+    yaxis: { title: 'GDP Contribution (Billions USD)', tickfont: { color: '#f0b90b' }, titlefont: { color: '#f0b90b' }, gridcolor: '#2a5a6a' },
+    margin: { b: 120, t: 60 }
+}, { responsive: true });
+</script>
 
 **Key Takeaway:**  
 *Unauthorized immigrants make significant contributions to the U.S. GDP, underscoring their vital role in the economy.*
@@ -604,13 +626,23 @@ From this contribution of the country's tax collection rates, we obtain the foll
 Even unauthorized Mexican immigrant workers contribute a little over $107 billion to the treasury, a similar amount to the amount mentioned in the report. However, the proportions reported by the Mexican government are unverifiable based on the data, as the contribution to Social Security ****is just over $52 billion, $12 billion to Medicare, and just over $42 billion to income tax figures quite different from those determined in the official report.****
 
 
-<div style="width: 100%; max-width: 800px; margin: auto;">
-    <iframe src="static/country_unauth_tax_contributions_2022.html"
-            title="Country Unauthorized Tax Contributions 2022"
-            style="width: 100%; height: 500px; border: none;">
-        Your browser does not support iframes. Please view the visualization directly at
-        <a href="static/country_unauth_tax_contributions_2022.html">this link</a>.
-    </iframe>
+<div id="tax-contrib-2022" style="width: 100%; max-width: 800px; margin: auto; height: 450px;"></div>
+<script>
+Plotly.newPlot('tax-contrib-2022', [
+    { x: ['Mexico'], y: [52.5], type: 'bar', name: 'Social Security', marker: { color: '#00ff88' }, text: ['$52.5B'], textposition: 'auto' },
+    { x: ['Mexico'], y: [12.3], type: 'bar', name: 'Medicare', marker: { color: '#f0b90b' }, text: ['$12.3B'], textposition: 'auto' },
+    { x: ['Mexico'], y: [42.4], type: 'bar', name: 'Income Tax', marker: { color: '#ff6b6b' }, text: ['$42.4B'], textposition: 'auto' }
+], {
+    title: { text: 'Mexican Unauthorized Immigrant Tax Contributions (2022)', font: { color: '#f0b90b' } },
+    paper_bgcolor: '#1a3a4a',
+    plot_bgcolor: '#1a3a4a',
+    barmode: 'stack',
+    xaxis: { tickfont: { color: '#f0b90b' }, gridcolor: '#2a5a6a' },
+    yaxis: { title: 'Contribution (Billions USD)', tickfont: { color: '#f0b90b' }, titlefont: { color: '#f0b90b' }, gridcolor: '#2a5a6a' },
+    legend: { font: { color: '#f0b90b' }, orientation: 'h', y: -0.2 },
+    margin: { b: 80, t: 60 }
+}, { responsive: true });
+</script>
 </div>
 
 **Key Takeaway:**  
