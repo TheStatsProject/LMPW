@@ -87,7 +87,8 @@ Based on that report, we have found the following:
 - Immigrants have 60 percent less crime, and the states along the border with Mexico are safer and healthier compared to the northern border of the United States.
    
 **Invesment and Entrepreneurship**
-   - - In 2021, one in five immigrants was an entrepreneur, generating $95.6 billion.   
+
+- In 2021, one in five immigrants was an entrepreneur, generating $95.6 billion.   
 
 Let there be no misunderstanding about the purpose of this analysis, which is to show the general public the importance of science and the real data offered by the entities responsible for providing it. In an era of misinformation, clarity in calculations is essential, as you will see in the following points. There is a huge distortion between the official media and reality,
 
