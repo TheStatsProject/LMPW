@@ -316,22 +316,69 @@ As we can see in the table ¨GDP & Employment Table by Foreign-Born Group (Exclu
 What remains to be clarified at this point is to contrast the contributions made by the Mexico foreign origin born group. According to the statement (which stated that the 781 billion USD is not accurate information), ****the contribution that this group makes to the US GDP is equivalent, compared to the member economies of the OECD, to the tenth largest economy in the world****. Unfortunately, as we can see here, ****this is also unverifiable****, since considering their own (implausible) statements, the size of the contribution of 781 billion USD would ****actually be equivalent to the fifteenth largest economy in the world****. If we included Russia and China in this analysis, ****the position would move to the eighteenth largest economy****, as can be seen in the following graph.
 
 
-<div style="display: flex; justify-content: space-between; gap: 22px;">
-  <div style="flex:1; min-width:322px; max-width: 36.8%;">
-    <iframe src="static/mexican_foreign_born_gdp_vs_oecd.html" width="100%" height="368" frameborder="0" title="Mexican Foreign-born GDP vs OECD Countries">
-      Your browser does not support iframes. View the chart <a href="static/mexican_foreign_born_gdp_vs_oecd_updated.html">here</a>.
-    </iframe>
-    <div style="text-align:center; margin-top: 6px; font-weight: bold;">
-      Mexican Foreign-born GDP Contribution Compared to Top 15 OECD Countries (USD Billions)
-    </div>
+<div style="display: flex; justify-content: space-between; gap: 22px; flex-wrap: wrap;">
+  <div style="flex:1; min-width:322px; max-width: 48%;">
+    <h4 style="text-align:center; color: #f0b90b; font-family: Arial; margin-bottom: 10px;">Mexican Foreign-born GDP vs OECD Countries (USD Billions)</h4>
+    <table style="width: 100%; border-collapse: collapse; font-family: Arial; font-size: 11px;">
+      <thead>
+        <tr style="background-color: #285F75;">
+          <th style="padding: 6px; color: white; border: 1px solid darkslategray; text-align: center;"><b>Rank</b></th>
+          <th style="padding: 6px; color: white; border: 1px solid darkslategray; text-align: left;"><b>Country</b></th>
+          <th style="padding: 6px; color: white; border: 1px solid darkslategray; text-align: right;"><b>GDP (Billions USD)</b></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">1</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">United States</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">26,949</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">2</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Japan</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">4,232</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">3</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Germany</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">4,227</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">4</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">United Kingdom</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">3,326</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">5</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">France</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">3,031</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">6</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Canada</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">2,245</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">7</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Italy</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">2,151</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">8</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Australia</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">1,801</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">9</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">South Korea</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">1,790</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">10</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Spain</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">1,515</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">11</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Mexico</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">1,492</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">12</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Netherlands</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">1,090</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">13</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Turkey</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">1,004</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">14</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Switzerland</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">912</td></tr>
+        <tr style="background-color: #1a4a5e;"><td style="padding: 5px; color: #00ff88; border: 1px solid darkslategray; text-align: center; font-weight: bold;">15</td><td style="padding: 5px; color: #00ff88; border: 1px solid darkslategray; font-weight: bold;">Mexican Foreign-born Contribution</td><td style="padding: 5px; color: #00ff88; border: 1px solid darkslategray; text-align: right; font-weight: bold;">781</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">16</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Sweden</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">701</td></tr>
+      </tbody>
+    </table>
   </div>
-  <div style="flex:1; min-width:322px; max-width: 36.8%;">
-    <iframe src="static/mexican_foreign_born_vs_major_economies.html" width="100%" height="368" frameborder="0" title="Mexican Foreign-born GDP vs Major Economies">
-      Your browser does not support iframes. View the chart <a href="static/mexican_foreign_born_vs_major_economies_updated.html">here</a>.
-    </iframe>
-    <div style="text-align:center; margin-top: 6px; font-weight: bold;">
-      Mexican Foreign-born GDP Contribution Compared to Major World Economies (USD Billions)
-    </div>
+  <div style="flex:1; min-width:322px; max-width: 48%;">
+    <h4 style="text-align:center; color: #f0b90b; font-family: Arial; margin-bottom: 10px;">Mexican Foreign-born GDP vs Major Economies (USD Billions)</h4>
+    <table style="width: 100%; border-collapse: collapse; font-family: Arial; font-size: 11px;">
+      <thead>
+        <tr style="background-color: #285F75;">
+          <th style="padding: 6px; color: white; border: 1px solid darkslategray; text-align: center;"><b>Rank</b></th>
+          <th style="padding: 6px; color: white; border: 1px solid darkslategray; text-align: left;"><b>Country</b></th>
+          <th style="padding: 6px; color: white; border: 1px solid darkslategray; text-align: right;"><b>GDP (Billions USD)</b></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">1</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">United States</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">26,949</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">2</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">China</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">17,700</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">3</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Japan</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">4,232</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">4</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Germany</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">4,227</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">5</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">United Kingdom</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">3,326</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">6</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">India</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">3,120</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">7</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">France</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">3,031</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">8</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Canada</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">2,245</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">9</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Italy</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">2,151</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">10</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Russia</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">2,060</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">11</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Australia</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">1,801</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">12</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">South Korea</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">1,790</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">13</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Spain</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">1,515</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">14</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Mexico</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">1,492</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">15</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Netherlands</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">1,090</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">16</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Turkey</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">1,004</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">17</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Switzerland</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">912</td></tr>
+        <tr style="background-color: #1a4a5e;"><td style="padding: 5px; color: #00ff88; border: 1px solid darkslategray; text-align: center; font-weight: bold;">18</td><td style="padding: 5px; color: #00ff88; border: 1px solid darkslategray; font-weight: bold;">Mexican Foreign-born Contribution</td><td style="padding: 5px; color: #00ff88; border: 1px solid darkslategray; text-align: right; font-weight: bold;">781</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">19</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Sweden</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">701</td></tr>
+      </tbody>
+    </table>
   </div>
 </div>
 
@@ -339,22 +386,69 @@ What remains to be clarified at this point is to contrast the contributions made
 As we can see, even considering the contributions discussed in the official report, the reality is that according to their data, the contribution of the Mexican foreign origin group would not be the 11th largest economy but the 15th among the OECD members and 18th if we consider the major economies. But referring to the data that we have been able to collect and develop, the reality is that the contribution, as we mentioned, is **** 953.3 Billion USD****, so with that level of contribution, compared to the OECD member countries, it would place the ****Mexican foreign origin group**** as the fourteenth largest economy and if we talk about the largest economies ****the group occupy the seventeenth place**** as can be seen in the following graphs:
 
 
-<div style="display: flex; justify-content: space-between; gap: 22px;">
-  <div style="flex:1; min-width:322px; max-width: 36.8%;">
-    <iframe src="static/mexican_foreign_born_gdp_vs_oecd_updated.html" width="100%" height="368" frameborder="0" title="Mexican Foreign-born GDP vs OECD Countries">
-      Your browser does not support iframes. View the chart <a href="static/mexican_foreign_born_gdp_vs_oecd_updated.html">here</a>.
-    </iframe>
-    <div style="text-align:center; margin-top: 6px; font-weight: bold;">
-      Mexican Foreign-born GDP Contribution Compared to Top 15 OECD Countries (USD Billions)
-    </div>
+<div style="display: flex; justify-content: space-between; gap: 22px; flex-wrap: wrap;">
+  <div style="flex:1; min-width:322px; max-width: 48%;">
+    <h4 style="text-align:center; color: #f0b90b; font-family: Arial; margin-bottom: 10px;">Mexican Foreign-born GDP vs OECD (Updated - $953.3B)</h4>
+    <table style="width: 100%; border-collapse: collapse; font-family: Arial; font-size: 11px;">
+      <thead>
+        <tr style="background-color: #285F75;">
+          <th style="padding: 6px; color: white; border: 1px solid darkslategray; text-align: center;"><b>Rank</b></th>
+          <th style="padding: 6px; color: white; border: 1px solid darkslategray; text-align: left;"><b>Country</b></th>
+          <th style="padding: 6px; color: white; border: 1px solid darkslategray; text-align: right;"><b>GDP (Billions USD)</b></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">1</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">United States</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">26,949</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">2</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Japan</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">4,232</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">3</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Germany</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">4,227</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">4</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">United Kingdom</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">3,326</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">5</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">France</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">3,031</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">6</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Canada</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">2,245</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">7</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Italy</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">2,151</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">8</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Australia</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">1,801</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">9</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">South Korea</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">1,790</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">10</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Spain</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">1,515</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">11</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Mexico</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">1,492</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">12</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Netherlands</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">1,090</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">13</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Turkey</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">1,004</td></tr>
+        <tr style="background-color: #1a4a5e;"><td style="padding: 5px; color: #00ff88; border: 1px solid darkslategray; text-align: center; font-weight: bold;">14</td><td style="padding: 5px; color: #00ff88; border: 1px solid darkslategray; font-weight: bold;">Mexican Foreign-born Contribution</td><td style="padding: 5px; color: #00ff88; border: 1px solid darkslategray; text-align: right; font-weight: bold;">953.3</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">15</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Switzerland</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">912</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">16</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Sweden</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">701</td></tr>
+      </tbody>
+    </table>
   </div>
-  <div style="flex:1; min-width:322px; max-width: 36.8%;">
-    <iframe src="static/mexican_foreign_born_vs_major_economies_updated.html" width="100%" height="368" frameborder="0" title="Mexican Foreign-born GDP vs Major Economies">
-      Your browser does not support iframes. View the chart <a href="static/mexican_foreign_born_vs_major_economies_updated.html">here</a>.
-      </iframe>
-    <div style="text-align:center; margin-top: 6px; font-weight: bold;">
-      Mexican Foreign-born GDP Contribution Compared to Major World Economies (USD Billions)
-    </div>
+  <div style="flex:1; min-width:322px; max-width: 48%;">
+    <h4 style="text-align:center; color: #f0b90b; font-family: Arial; margin-bottom: 10px;">Mexican Foreign-born GDP vs Major Economies (Updated - $953.3B)</h4>
+    <table style="width: 100%; border-collapse: collapse; font-family: Arial; font-size: 11px;">
+      <thead>
+        <tr style="background-color: #285F75;">
+          <th style="padding: 6px; color: white; border: 1px solid darkslategray; text-align: center;"><b>Rank</b></th>
+          <th style="padding: 6px; color: white; border: 1px solid darkslategray; text-align: left;"><b>Country</b></th>
+          <th style="padding: 6px; color: white; border: 1px solid darkslategray; text-align: right;"><b>GDP (Billions USD)</b></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">1</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">United States</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">26,949</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">2</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">China</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">17,700</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">3</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Japan</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">4,232</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">4</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Germany</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">4,227</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">5</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">United Kingdom</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">3,326</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">6</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">India</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">3,120</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">7</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">France</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">3,031</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">8</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Canada</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">2,245</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">9</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Italy</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">2,151</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">10</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Russia</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">2,060</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">11</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Australia</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">1,801</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">12</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">South Korea</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">1,790</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">13</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Spain</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">1,515</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">14</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Mexico</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">1,492</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">15</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Netherlands</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">1,090</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">16</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Turkey</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">1,004</td></tr>
+        <tr style="background-color: #1a4a5e;"><td style="padding: 5px; color: #00ff88; border: 1px solid darkslategray; text-align: center; font-weight: bold;">17</td><td style="padding: 5px; color: #00ff88; border: 1px solid darkslategray; font-weight: bold;">Mexican Foreign-born Contribution</td><td style="padding: 5px; color: #00ff88; border: 1px solid darkslategray; text-align: right; font-weight: bold;">953.3</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">18</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Switzerland</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">912</td></tr>
+        <tr style="background-color: #285F75;"><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">19</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray;">Sweden</td><td style="padding: 5px; color: #f0b90b; border: 1px solid darkslategray; text-align: right;">701</td></tr>
+      </tbody>
+    </table>
   </div>
 </div>
 
