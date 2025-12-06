@@ -151,7 +151,7 @@ Based on that and the data provided by the FRED we have estimated the labor forc
 For get the datasets for make the calcs we build this dataset base on this variables:
 
 <div style="width: 100%; max-width: 800px; margin: auto;">
-<h4 style="text-align:center; color: #285F75; margin-bottom: 16px;">Summary Table: Census and FRED Variables</h4>
+<h4 style="text-align:center; color: #f0b90b; margin-bottom: 16px;">Summary Table: Census and FRED Variables</h4>
 <table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 13px;">
 <thead>
 <tr style="background-color: #285F75; color: white;">
