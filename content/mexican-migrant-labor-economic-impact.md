@@ -299,13 +299,30 @@ To calculate it and taking into account all the assumptions, it is as follows:
 
 With all this Assumptions and recalibrate the datasets base from `U.S. Census Bureau <https://www.census.gov/>`_ and the `Federal Reserve's FRED <https://fred.stlouisfed.org>`_ database we get the next results:
 
-<div style="width: 100%; max-width: 800px; margin: auto;">
-    <iframe src="static/gdp_employment_table_sorted_foreignonly_2024.html"
-            title="GDP & Employment Table by Foreign-Born Group (2024)"
-            style="width: 100%; height: 430px; border: none;">
-        Your browser does not support iframes. Please view the visualization directly at
-        <a href="static/gdp_employment_table_sorted_foreignonly_2024.html">this link</a>.
-    </iframe>
+<div style="width: 100%; max-width: 900px; margin: auto;">
+<h4 style="text-align:center; color: #f0b90b; font-family: Arial; margin-bottom: 16px;">GDP & Employment Table by Foreign-Born Group (Excludes Native, 2024)</h4>
+<table style="width: 100%; border-collapse: collapse; font-family: Arial; font-size: 12px;">
+  <thead>
+    <tr style="background-color: #285F75;">
+      <th style="padding: 10px; color: white; border: 1px solid darkslategray; text-align: center;"><b>Group</b></th>
+      <th style="padding: 10px; color: white; border: 1px solid darkslategray; text-align: center;"><b>Employed in Group</b></th>
+      <th style="padding: 10px; color: white; border: 1px solid darkslategray; text-align: center;"><b>GDP Contribution (B USD)</b></th>
+      <th style="padding: 10px; color: white; border: 1px solid darkslategray; text-align: center;"><b>GDP per Employed (k USD)</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #1a4a5e;"><td style="padding: 8px; color: #00ff88; font-weight: bold; border: 1px solid darkslategray; text-align: center;">🇲🇽 Mexico</td><td style="padding: 8px; color: #00ff88; font-weight: bold; border: 1px solid darkslategray; text-align: center;">6,545,991</td><td style="padding: 8px; color: #00ff88; font-weight: bold; border: 1px solid darkslategray; text-align: center;">953.3</td><td style="padding: 8px; color: #00ff88; font-weight: bold; border: 1px solid darkslategray; text-align: center;">145.6</td></tr>
+    <tr style="background-color: #285F75;"><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">India</td><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">1,744,711</td><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">254.1</td><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">145.6</td></tr>
+    <tr style="background-color: #285F75;"><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">China</td><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">1,695,303</td><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">246.9</td><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">145.6</td></tr>
+    <tr style="background-color: #285F75;"><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">Philippines</td><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">1,230,213</td><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">179.2</td><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">145.6</td></tr>
+    <tr style="background-color: #285F75;"><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">El Salvador</td><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">896,246</td><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">130.5</td><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">145.6</td></tr>
+    <tr style="background-color: #285F75;"><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">Cuba</td><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">869,829</td><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">126.7</td><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">145.6</td></tr>
+    <tr style="background-color: #285F75;"><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">Vietnam</td><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">818,888</td><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">119.3</td><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">145.6</td></tr>
+    <tr style="background-color: #285F75;"><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">Dominican Republic</td><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">758,567</td><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">110.5</td><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">145.6</td></tr>
+    <tr style="background-color: #285F75;"><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">Guatemala</td><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">749,467</td><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">109.1</td><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">145.6</td></tr>
+    <tr style="background-color: #285F75;"><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">Honduras</td><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">560,348</td><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">81.6</td><td style="padding: 8px; color: #f0b90b; border: 1px solid darkslategray; text-align: center;">145.6</td></tr>
+  </tbody>
+</table>
 </div>
 
 **Key Takeaway:**  
@@ -423,12 +440,19 @@ As we can see, even considering the contributions discussed in the official repo
 But let's not finish this statement without adding that Mexico isn't the only one contributing to the US GDP. Here are the top foreign origin groups that contributed the most in 2024:
 
 <div style="width: 100%; max-width: 800px; margin: auto;">
-    <iframe src="static/gdp_top10_foreign_contributors_2024.html"
-            title="Top 10 Foreign-born Groups by U.S. GDP Contribution (2024)"
-            style="width: 100%; height: 500px; border: none;">
-        Your browser does not support iframes. Please view the visualization directly at
-        <a href="static/gdp_top10_foreign_contributors_2024.html">this link</a>.
-    </iframe>
+<h4 style="text-align:center; color: #f0b90b; font-family: Arial; margin-bottom: 10px;">Top 10 Foreign-Born GDP Contributors (2024) - USD Billions</h4>
+<div style="font-family: Arial; font-size: 12px;">
+  <div style="display:flex; align-items:center; margin:4px 0; background:#1a4a5e; padding:4px; border-radius:4px;"><span style="width:130px; color:#00ff88; font-weight:bold;">🇲🇽 Mexico</span><div style="background:#00ff88; height:20px; width:100%;"></div><span style="color:#00ff88; margin-left:6px; font-weight:bold;">953.3</span></div>
+  <div style="display:flex; align-items:center; margin:4px 0;"><span style="width:130px; color:#f0b90b;">India</span><div style="background:#f0b90b; height:20px; width:26.7%;"></div><span style="color:#f0b90b; margin-left:6px;">254.1</span></div>
+  <div style="display:flex; align-items:center; margin:4px 0;"><span style="width:130px; color:#f0b90b;">China</span><div style="background:#f0b90b; height:20px; width:25.9%;"></div><span style="color:#f0b90b; margin-left:6px;">246.9</span></div>
+  <div style="display:flex; align-items:center; margin:4px 0;"><span style="width:130px; color:#f0b90b;">Philippines</span><div style="background:#f0b90b; height:20px; width:18.8%;"></div><span style="color:#f0b90b; margin-left:6px;">179.2</span></div>
+  <div style="display:flex; align-items:center; margin:4px 0;"><span style="width:130px; color:#f0b90b;">El Salvador</span><div style="background:#f0b90b; height:20px; width:13.7%;"></div><span style="color:#f0b90b; margin-left:6px;">130.5</span></div>
+  <div style="display:flex; align-items:center; margin:4px 0;"><span style="width:130px; color:#f0b90b;">Cuba</span><div style="background:#f0b90b; height:20px; width:13.3%;"></div><span style="color:#f0b90b; margin-left:6px;">126.7</span></div>
+  <div style="display:flex; align-items:center; margin:4px 0;"><span style="width:130px; color:#f0b90b;">Vietnam</span><div style="background:#f0b90b; height:20px; width:12.5%;"></div><span style="color:#f0b90b; margin-left:6px;">119.3</span></div>
+  <div style="display:flex; align-items:center; margin:4px 0;"><span style="width:130px; color:#f0b90b;">Dominican Rep.</span><div style="background:#f0b90b; height:20px; width:11.6%;"></div><span style="color:#f0b90b; margin-left:6px;">110.5</span></div>
+  <div style="display:flex; align-items:center; margin:4px 0;"><span style="width:130px; color:#f0b90b;">Guatemala</span><div style="background:#f0b90b; height:20px; width:11.4%;"></div><span style="color:#f0b90b; margin-left:6px;">109.1</span></div>
+  <div style="display:flex; align-items:center; margin:4px 0;"><span style="width:130px; color:#f0b90b;">Honduras</span><div style="background:#f0b90b; height:20px; width:8.6%;"></div><span style="color:#f0b90b; margin-left:6px;">81.6</span></div>
+</div>
 </div>
 
 **Key Takeaway:**  
