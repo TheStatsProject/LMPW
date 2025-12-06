@@ -456,34 +456,67 @@ In order to address these assertions about the contributions of "undocumented" p
 
 To answer the concerns that arise it is necessary to divide the problem into some parts more accessible to the calculation, so first of all we are going to quantify the number of unauthorized persons and for this what was collected is based on the information provided by the `Office of Homeland Security Statistics <https://ohss.dhs.gov/>`_ office that collects statistical information on this subject and in whose reports you can find the most precise information, in this sense we interpolate some extraneous data and based on the results, Below is the estimated number of these unauthorized persons and how many are employed, based on the employment rates and GDP per capita estimated for the years that have been presented above, as follows:
 
-<div style="width: 100%; max-width: 800px; margin: auto;">
+<div style="width: 100%; max-width: 900px; margin: auto;">
 <h4 style="text-align: center; color: #f0b90b; margin-bottom: 15px;">Estimated Employed Unauthorized Population (2009–2024)</h4>
-<table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 14px;">
-<thead>
-<tr style="background-color: #285F75;">
-<th style="padding: 10px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">Year</th>
-<th style="padding: 10px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">Employed Unauthorized</th>
-</tr>
-</thead>
-<tbody>
-<tr style="background-color: #285F75;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2009</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,658,205</td></tr>
-<tr style="background-color: #1e4d61;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2010</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,536,777</td></tr>
-<tr style="background-color: #285F75;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2011</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,711,739</td></tr>
-<tr style="background-color: #1e4d61;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2012</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">7,015,457</td></tr>
-<tr style="background-color: #285F75;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2013</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,712,437</td></tr>
-<tr style="background-color: #1e4d61;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2014</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,965,013</td></tr>
-<tr style="background-color: #285F75;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2015</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,799,189</td></tr>
-<tr style="background-color: #1e4d61;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2016</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,803,229</td></tr>
-<tr style="background-color: #285F75;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2017</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,952,779</td></tr>
-<tr style="background-color: #1e4d61;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2018</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,729,693</td></tr>
-<tr style="background-color: #285F75;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2019</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,416,537</td></tr>
-<tr style="background-color: #1e4d61;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2020</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,309,479</td></tr>
-<tr style="background-color: #285F75;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2021</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,544,420</td></tr>
-<tr style="background-color: #1e4d61;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2022</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,608,632</td></tr>
-<tr style="background-color: #285F75;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2023</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,607,508</td></tr>
-<tr style="background-color: #1e4d61;"><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: center;">2024</td><td style="padding: 8px; border: 1px solid #1a4a5e; color: #f0b90b; text-align: right;">6,589,036</td></tr>
-</tbody>
-</table>
+<div id="employed-unauthorized-chart" style="width: 100%; height: 450px;"></div>
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<script>
+(function() {
+    var years = [2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024];
+    var employed = [6658205, 6536777, 6711739, 7015457, 6712437, 6965013, 6799189, 6803229, 6952779, 6729693, 6416537, 6309479, 6544420, 6608632, 6607508, 6589036];
+    
+    var trace = {
+        x: years,
+        y: employed,
+        type: 'scatter',
+        mode: 'lines+markers',
+        name: 'Employed Unauthorized',
+        line: {
+            color: '#f0b90b',
+            width: 3
+        },
+        marker: {
+            color: '#f0b90b',
+            size: 8
+        },
+        hovertemplate: '<b>Year:</b> %{x}<br><b>Employed:</b> %{y:,.0f}<extra></extra>'
+    };
+    
+    var layout = {
+        title: {
+            text: '',
+            font: { color: '#f0b90b', size: 16 }
+        },
+        xaxis: {
+            title: { text: 'Year', font: { color: '#f0b90b' } },
+            tickfont: { color: '#f0b90b' },
+            gridcolor: '#1a4a5e',
+            linecolor: '#f0b90b',
+            tickmode: 'linear',
+            dtick: 1
+        },
+        yaxis: {
+            title: { text: 'Employed Unauthorized Population', font: { color: '#f0b90b' } },
+            tickfont: { color: '#f0b90b' },
+            gridcolor: '#1a4a5e',
+            linecolor: '#f0b90b',
+            tickformat: ',.0f'
+        },
+        paper_bgcolor: '#285F75',
+        plot_bgcolor: '#1e4d61',
+        margin: { t: 30, r: 30, b: 60, l: 100 },
+        showlegend: false
+    };
+    
+    var config = {
+        responsive: true,
+        displayModeBar: true,
+        modeBarButtonsToRemove: ['pan2d', 'select2d', 'lasso2d', 'autoScale2d']
+    };
+    
+    Plotly.newPlot('employed-unauthorized-chart', [trace], layout, config);
+})();
+</script>
 </div>
 
 **Key Takeaway:**  
