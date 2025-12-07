@@ -646,9 +646,7 @@ Plotly.newPlot('bar-gdp-contrib-unauth-2022', [{
 **Key Takeaway:**  
 *Unauthorized immigrants make significant contributions to the U.S. GDP, underscoring their vital role in the economy.*
 
-
 Even unauthorized Mexican immigrant workers contribute a little over $107 billion to the treasury, a similar amount to the amount mentioned in the report. However, the proportions reported by the Mexican government are unverifiable based on the data, as the contribution to Social Security ****is just over $52 billion, $12 billion to Medicare, and just over $42 billion to income tax figures quite different from those determined in the official report.****
-
 
 <div id="tax-contrib-2022" style="width: 100%; max-width: 800px; margin: auto; height: 450px;"></div>
 <script>
@@ -671,7 +669,6 @@ Plotly.newPlot('tax-contrib-2022', [
 
 **Key Takeaway:**  
 *Tax contributions from unauthorized immigrants vary by country of origin but are a consistent fiscal benefit.*
-
 
 Another element to check is the contribution of unauthorized workers to the country's industries. To do this, we must estimate the distribution of employees by each industry in the economy for natives and foreign-born workers, which is as follows:
 
@@ -702,7 +699,6 @@ Another element to check is the contribution of unauthorized workers to the coun
         Compares the industry employment distributions of native-born, Mexican-born, and unauthorized Mexican workers in 2022.
     </p>
 </div>
-
 
 Something interesting to note is that the three industries where Native Americans are most heavily employed are services, except for public administration. This represents 12.9% of the total Native American population, followed by the information sector with 8.9% and the transportation and warehousing services sector with 8.6%, showing that services and computer development have the greatest share.
 
