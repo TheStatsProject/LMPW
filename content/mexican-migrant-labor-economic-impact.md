@@ -22,7 +22,6 @@ Why This Analysis Matters
 - Highlights key demographic trends that drive economic productivity and consumer demand.
 
 
-
 Methodology Overview: Measuring America's People and Economy
 -------------------------
 
@@ -63,7 +62,6 @@ Methodology Overview: Measuring America's People and Economy
 - Estimate labor force participation for native and foreign-born populations.
 - Calculate GDP contributions by nationality and project future trends.
 - Visualize results through interactive charts and tables.
-
 
 
 Key Findings: Migrant Myths vs. Reality
@@ -319,7 +317,7 @@ What remains to be clarified at this point is to contrast the contributions made
 
 <div style="display: flex; justify-content: space-between; gap: 22px; flex-wrap: wrap;">
   <div style="flex:1; min-width:322px; max-width: 48%;">
-    <h4 style="text-align:center; color: #f0b90b; font-family: Arial; margin-bottom: 10px;">Mexican Foreign-born GDP vs OECD Countries (USD Billions)</h4>
+    <h4 style="text-align:center; color: #f0b90b; font-family: Arial; margin-bottom: 16px;">Mexican Foreign-born GDP vs OECD Countries (USD Billions)</h4>
     <div style="font-family: Arial; font-size: 11px;">
       <div style="display:flex; align-items:center; margin:2px 0;"><span style="width:100px; color:#f0b90b;">United States</span><div style="background:#f0b90b; height:16px; width:100%;"></div><span style="color:#f0b90b; margin-left:4px;">26,949</span></div>
       <div style="display:flex; align-items:center; margin:2px 0;"><span style="width:100px; color:#f0b90b;">Japan</span><div style="background:#f0b90b; height:16px; width:15.7%;"></div><span style="color:#f0b90b; margin-left:4px;">4,232</span></div>
@@ -340,7 +338,7 @@ What remains to be clarified at this point is to contrast the contributions made
     </div>
   </div>
   <div style="flex:1; min-width:322px; max-width: 48%;">
-    <h4 style="text-align:center; color: #f0b90b; font-family: Arial; margin-bottom: 10px;">Mexican Foreign-born GDP vs Major Economies (USD Billions)</h4>
+    <h4 style="text-align:center; color: #f0b90b; font-family: Arial; margin-bottom: 16px;">Mexican Foreign-born GDP vs Major Economies (USD Billions)</h4>
     <div style="font-family: Arial; font-size: 11px;">
       <div style="display:flex; align-items:center; margin:2px 0;"><span style="width:100px; color:#f0b90b;">United States</span><div style="background:#f0b90b; height:16px; width:100%;"></div><span style="color:#f0b90b; margin-left:4px;">26,949</span></div>
       <div style="display:flex; align-items:center; margin:2px 0;"><span style="width:100px; color:#f0b90b;">China</span><div style="background:#f0b90b; height:16px; width:65.7%;"></div><span style="color:#f0b90b; margin-left:4px;">17,700</span></div>
@@ -371,7 +369,7 @@ As we can see, even considering the contributions discussed in the official repo
 
 <div style="display: flex; justify-content: space-between; gap: 22px; flex-wrap: wrap;">
   <div style="flex:1; min-width:322px; max-width: 48%;">
-    <h4 style="text-align:center; color: #f0b90b; font-family: Arial; margin-bottom: 10px;">Mexican Foreign-born GDP vs OECD (Updated - $953.3B)</h4>
+    <h4 style="text-align:center; color: #f0b90b; font-family: Arial; margin-bottom: 16px;">Mexican Foreign-born GDP vs OECD (Updated - $953.3B)</h4>
     <div style="font-family: Arial; font-size: 11px;">
       <div style="display:flex; align-items:center; margin:2px 0;"><span style="width:100px; color:#f0b90b;">United States</span><div style="background:#f0b90b; height:16px; width:100%;"></div><span style="color:#f0b90b; margin-left:4px;">26,949</span></div>
       <div style="display:flex; align-items:center; margin:2px 0;"><span style="width:100px; color:#f0b90b;">Japan</span><div style="background:#f0b90b; height:16px; width:15.7%;"></div><span style="color:#f0b90b; margin-left:4px;">4,232</span></div>
@@ -392,7 +390,7 @@ As we can see, even considering the contributions discussed in the official repo
     </div>
   </div>
   <div style="flex:1; min-width:322px; max-width: 48%;">
-    <h4 style="text-align:center; color: #f0b90b; font-family: Arial; margin-bottom: 10px;">Mexican Foreign-born GDP vs Major Economies (Updated - $953.3B)</h4>
+    <h4 style="text-align:center; color: #f0b90b; font-family: Arial; margin-bottom: 16px;">Mexican Foreign-born GDP vs Major Economies (Updated - $953.3B)</h4>
     <div style="font-family: Arial; font-size: 11px;">
       <div style="display:flex; align-items:center; margin:2px 0;"><span style="width:100px; color:#f0b90b;">United States</span><div style="background:#f0b90b; height:16px; width:100%;"></div><span style="color:#f0b90b; margin-left:4px;">26,949</span></div>
       <div style="display:flex; align-items:center; margin:2px 0;"><span style="width:100px; color:#f0b90b;">China</span><div style="background:#f0b90b; height:16px; width:65.7%;"></div><span style="color:#f0b90b; margin-left:4px;">17,700</span></div>
@@ -424,7 +422,7 @@ As we can see, even considering the contributions discussed in the official repo
 But let's not finish this statement without adding that Mexico isn't the only one contributing to the US GDP. Here are the top foreign origin groups that contributed the most in 2024:
 
 <div style="width: 100%; max-width: 800px; margin: auto;">
-<h4 style="text-align:center; color: #f0b90b; font-family: Arial; margin-bottom: 10px;">Top 10 Foreign-Born GDP Contributors (2024) - USD Billions</h4>
+<h4 style="text-align:center; color: #f0b90b; font-family: Arial; margin-bottom: 16px;">Top 10 Foreign-Born GDP Contributors (2024) - USD Billions</h4>
 <div style="font-family: Arial; font-size: 12px;">
   <div style="display:flex; align-items:center; margin:4px 0; background:#1a4a5e; padding:4px; border-radius:4px;"><span style="width:130px; color:#00ff88; font-weight:bold;">🇲🇽 Mexico</span><div style="background:#00ff88; height:20px; width:100%;"></div><span style="color:#00ff88; margin-left:6px; font-weight:bold;">953.3</span></div>
   <div style="display:flex; align-items:center; margin:4px 0;"><span style="width:130px; color:#f0b90b;">India</span><div style="background:#f0b90b; height:20px; width:26.7%;"></div><span style="color:#f0b90b; margin-left:6px;">254.1</span></div>
@@ -443,7 +441,6 @@ But let's not finish this statement without adding that Mexico isn't the only on
 *The top ten foreign-born groups, led by Mexican and Indian cohorts, are essential drivers of U.S. GDP growth.*
 
 
-
 Statement 2 . **Contributions**
 -------------------------
 
@@ -457,7 +454,7 @@ In order to address these assertions about the contributions of "undocumented" p
 To answer the concerns that arise it is necessary to divide the problem into some parts more accessible to the calculation, so first of all we are going to quantify the number of unauthorized persons and for this what was collected is based on the information provided by the `Office of Homeland Security Statistics <https://ohss.dhs.gov/>`_ office that collects statistical information on this subject and in whose reports you can find the most precise information, in this sense we interpolate some extraneous data and based on the results, Below is the estimated number of these unauthorized persons and how many are employed, based on the employment rates and GDP per capita estimated for the years that have been presented above, as follows:
 
 <div style="width: 100%; max-width: 900px; margin: auto;">
-<h4 style="text-align: center; color: #f0b90b; margin-bottom: 15px;">Estimated Employed Unauthorized Population (2009–2024)</h4>
+<h4 style="text-align: center; color: #f0b90b; margin-bottom: 16px;">Estimated Employed Unauthorized Population (2009–2024)</h4>
 <div id="employed-unauthorized-chart" style="width: 100%; height: 450px;"></div>
 <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
 <script>
@@ -762,7 +759,6 @@ Distribution of the foreign-born population of Mexican citizens employed in the 
 </div>
 
 Distribution of the unauthorized population of Mexican citizens employed in the USA by industry:
-
 
 
 <div style="width: 100%; max-width: 1200px; margin: auto; margin-bottom: 32px;">
