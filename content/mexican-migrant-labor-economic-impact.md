@@ -188,11 +188,10 @@ For get the datasets for make the calcs we build this dataset base on this varia
 </table>
 </div>
 
-**Key Takeaway:**  
-*This table provides a unified summary of key variables from the U.S. Census and FRED, forming the baseline for all following calculations.*
+<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
+<em>This table provides a unified summary of key variables from the U.S. Census and FRED, forming the baseline for all following calculations.</em></p>
 
-
-With this information we amplify the assumptions made by the Mexican government and will add additional elements to refine this analys adding as follow:
+<p style="color: #f0b90b;">With this information we amplify the assumptions made by the Mexican government and will add additional elements to refine this analys adding as follow:</p>
 
 D. **Assumption 4**: EMP Ratio
 
@@ -246,15 +245,15 @@ Assum Assumption 4 is as follows:
 </table>
 </div>
 
-**Key Takeaway:**  
-*The employment ratio has fluctuated over time, impacting GDP calculations by group. Recent years show stronger labor force participation among foreign-born populations.*
+<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
+<em>The employment ratio has fluctuated over time, impacting GDP calculations by group. Recent years show stronger labor force participation among foreign-born populations.</em></p>
 
-By obtaining the EMP ratio, we can calculate, based on this estimator, the number of people by origin group within the United States that are part of the country's workforce. To do this, the following general formula will be used.
+<p style="color: #f0b90b;">By obtaining the EMP ratio, we can calculate, based on this estimator, the number of people by origin group within the United States that are part of the country's workforce. To do this, the following general formula will be used.</p>
 
 
-E. **Assumption 6**: Foreing-group LFC 
+<p style="color: #f0b90b;">E. <b>Assumption 6</b>: Foreing-group LFC</p>
 
-Base in alll asummptions we get the next adjust calc of the labor force of USA, for know that we build the next equation:
+<p style="color: #f0b90b;">Base in alll asummptions we get the next adjust calc of the labor force of USA, for know that we build the next equation:</p>
 
 <div style="text-align: center; margin: 16px 0; padding: 12px; background-color: #0d1d30; border: 1px solid #f0b90b; border-radius: 8px;">
 <span style="font-size: 1.2em; color: #f0b90b; font-family: 'Times New Roman', serif;">
@@ -307,12 +306,12 @@ With all this Assumptions and recalibrate the datasets base from `U.S. Census Bu
 </table>
 </div>
 
-**Key Takeaway:**  
-*Refined calculations reveal the GDP contribution of Mexican-born and other foreign-born groups, correcting common misconceptions in public discourse.*
+<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
+<em>Refined calculations reveal the GDP contribution of Mexican-born and other foreign-born groups, correcting common misconceptions in public discourse.</em></p>
 
-As we can see in the table ¨GDP & Employment Table by Foreign-Born Group (Excludes Native, 2024)¨ the calculation issued by the Mexican authority has a quite important variation since when considering the total population, as we have mentioned before, it generates distortions that distance us from reality, according to these results the statement of Mexicans born in the U.S. contributed $781 billion to the Gross Domestic Product (GDP) since their real contribution is ****$953.3 billion to the Gross Domestic Product (GDP)****
+<p style="color: #f0b90b;">As we can see in the table ¨GDP & Employment Table by Foreign-Born Group (Excludes Native, 2024)¨ the calculation issued by the Mexican authority has a quite important variation since when considering the total population, as we have mentioned before, it generates distortions that distance us from reality, according to these results the statement of Mexicans born in the U.S. contributed $781 billion to the Gross Domestic Product (GDP) since their real contribution is <strong>$953.3 billion to the Gross Domestic Product (GDP)</strong></p>
 
-What remains to be clarified at this point is to contrast the contributions made by the Mexico foreign origin born group. According to the statement (which stated that the 781 billion USD is not accurate information), ****the contribution that this group makes to the US GDP is equivalent, compared to the member economies of the OECD, to the tenth largest economy in the world****. Unfortunately, as we can see here, ****this is also unverifiable****, since considering their own (implausible) statements, the size of the contribution of 781 billion USD would ****actually be equivalent to the fifteenth largest economy in the world****. If we included Russia and China in this analysis, ****the position would move to the eighteenth largest economy****, as can be seen in the following graph.
+<p style="color: #f0b90b;">What remains to be clarified at this point is to contrast the contributions made by the Mexico foreign origin born group. According to the statement (which stated that the 781 billion USD is not accurate information), <strong>the contribution that this group makes to the US GDP is equivalent, compared to the member economies of the OECD, to the tenth largest economy in the world</strong>. Unfortunately, as we can see here, <strong>this is also unverifiable</strong>, since considering their own (implausible) statements, the size of the contribution of 781 billion USD would <strong>actually be equivalent to the fifteenth largest economy in the world</strong>. If we included Russia and China in this analysis, <strong>the position would move to the eighteenth largest economy</strong>, as can be seen in the following graph.</p>
 
 
 <div style="display: flex; justify-content: space-between; gap: 22px; flex-wrap: wrap;">
@@ -415,11 +414,10 @@ As we can see, even considering the contributions discussed in the official repo
   </div>
 </div>
 
-**Key Takeaway:**  
-*Mexican foreign-born GDP contributions are significant, rivaling mid-sized OECD economies and far exceeding some official estimates.*
+<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
+<em>Mexican foreign-born GDP contributions are significant, rivaling mid-sized OECD economies and far exceeding some official estimates.</em></p>
 
-
-But let's not finish this statement without adding that Mexico isn't the only one contributing to the US GDP. Here are the top foreign origin groups that contributed the most in 2024:
+<p style="color: #f0b90b;">But let's not finish this statement without adding that Mexico isn't the only one contributing to the US GDP. Here are the top foreign origin groups that contributed the most in 2024:</p>
 
 <div style="width: 100%; max-width: 800px; margin: auto;">
 <h4 style="text-align:center; color: #f0b90b; font-family: Arial; margin-bottom: 16px;">Top 10 Foreign-Born GDP Contributors (2024) - USD Billions</h4>
@@ -437,19 +435,19 @@ But let's not finish this statement without adding that Mexico isn't the only on
 </div>
 </div>
 
-**Key Takeaway:**  
-*The top ten foreign-born groups, led by Mexican and Indian cohorts, are essential drivers of U.S. GDP growth.*
+<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
+<em>The top ten foreign-born groups, led by Mexican and Indian cohorts, are essential drivers of U.S. GDP growth.</em></p>
 
 
-Statement 2 . **Contributions**
--------------------------
+<p style="color: #f0b90b;"><b>Statement 2 . Contributions</b></p>
+<hr style="border-color: #f0b90b;">
 
-   - In 2022, undocumented immigrants paid nearly $100 billion in taxes, including $25.7 billion to Social Security; $6.4 billion to Medicare; and $1.8 billion to unemployment insurance.
-   - They complement the U.S. workforce in essential industries, as their workforce represents 51 percent of dairy farms and meat processing; 20 percent of manufacturing and agriculture; 15 percent of education and healthcare; 28 percent of healthcare assistants; and 25 percent of construction workers. and 54.3 percent of agricultural sorters.
+<p style="color: #f0b90b;">- In 2022, undocumented immigrants paid nearly $100 billion in taxes, including $25.7 billion to Social Security; $6.4 billion to Medicare; and $1.8 billion to unemployment insurance.<br>
+- They complement the U.S. workforce in essential industries, as their workforce represents 51 percent of dairy farms and meat processing; 20 percent of manufacturing and agriculture; 15 percent of education and healthcare; 28 percent of healthcare assistants; and 25 percent of construction workers. and 54.3 percent of agricultural sorters.</p>
 
-****Myths or Reality?****
+<p style="color: #f0b90b;"><strong>Myths or Reality?</strong></p>
 
-In order to address these assertions about the contributions of "undocumented" people, understood as those stays not authorized by the state are employed. The way in which these details are obtained is even more confusing, given that even within the same statistical analysis groups of the census boreau, they agree on the difficulty of obtaining precise data on this point. However, we attempt to obtain more credible statistics based on the information available at the time of this analysis.
+<p style="color: #f0b90b;">In order to address these assertions about the contributions of "undocumented" people, understood as those stays not authorized by the state are employed. The way in which these details are obtained is even more confusing, given that even within the same statistical analysis groups of the census boreau, they agree on the difficulty of obtaining precise data on this point. However, we attempt to obtain more credible statistics based on the information available at the time of this analysis.</p>
 
 To answer the concerns that arise it is necessary to divide the problem into some parts more accessible to the calculation, so first of all we are going to quantify the number of unauthorized persons and for this what was collected is based on the information provided by the `Office of Homeland Security Statistics <https://ohss.dhs.gov/>`_ office that collects statistical information on this subject and in whose reports you can find the most precise information, in this sense we interpolate some extraneous data and based on the results, Below is the estimated number of these unauthorized persons and how many are employed, based on the employment rates and GDP per capita estimated for the years that have been presented above, as follows:
 
@@ -517,14 +515,14 @@ To answer the concerns that arise it is necessary to divide the problem into som
 </script>
 </div>
 
-**Key Takeaway:**  
-*Unauthorized immigrant employment fluctuates with economic cycles but consistently supports key U.S. sectors.*
+<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
+<em>Unauthorized immigrant employment fluctuates with economic cycles but consistently supports key U.S. sectors.</em></p>
 
-Based on the data already collected in point 1 and the data on unauthorized individuals in the United States, we will calculate the number of unauthorized employees. Based on the same methodology used to calculate the contribution of citizens of Mexican parents, we need to do the same and determine how many unauthorized individuals are of Mexican origin, as shown in the following graph. Similar to the trends in unauthorized immigration, one of the interesting aspects of this research is that, after 2017, unauthorized immigration to the United States not only decreased, but actually plummeted, as shown in the graph.
+<p style="color: #f0b90b;">Based on the data already collected in point 1 and the data on unauthorized individuals in the United States, we will calculate the number of unauthorized employees. Based on the same methodology used to calculate the contribution of citizens of Mexican parents, we need to do the same and determine how many unauthorized individuals are of Mexican origin, as shown in the following graph. Similar to the trends in unauthorized immigration, one of the interesting aspects of this research is that, after 2017, unauthorized immigration to the United States not only decreased, but actually plummeted, as shown in the graph.</p>
 
-Some point to President Obama's strict deportation priorities and increased border patrols; others, to the devastating COVID-19 lockdowns. Whatever the cause, migration came to a complete halt, only to resurface strongly in 2021 and continue to increase as economic crises related to the disruption of economic dynamism in Latin American countries, the Middle East, and most of the world due to lockdown measures had global repercussions.
+<p style="color: #f0b90b;">Some point to President Obama's strict deportation priorities and increased border patrols; others, to the devastating COVID-19 lockdowns. Whatever the cause, migration came to a complete halt, only to resurface strongly in 2021 and continue to increase as economic crises related to the disruption of economic dynamism in Latin American countries, the Middle East, and most of the world due to lockdown measures had global repercussions.</p>
 
-Starting in 2021, migrant caravans the size of small cities will once again make the news, but now they are a reality in the Americas. They are not just statistics on a spreadsheet; they are humanity in motion, a living barometer of the geopolitical distortions and economic inequality created by the impact of the disruption of many production lines and value chains destroyed during this process.
+<p style="color: #f0b90b;">Starting in 2021, migrant caravans the size of small cities will once again make the news, but now they are a reality in the Americas. They are not just statistics on a spreadsheet; they are humanity in motion, a living barometer of the geopolitical distortions and economic inequality created by the impact of the disruption of many production lines and value chains destroyed during this process.</p>
 
 <div id="pie-unauthorized-share" style="width: 100%; max-width: 700px; margin: auto; height: 500px;"></div>
 <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
@@ -578,12 +576,12 @@ Plotly.newPlot('bar-employed-unauth-2022', [{
 }, { responsive: true });
 </script>
 
-**Key Takeaway:**  
-*Unauthorized employment is concentrated among specific national groups, emphasizing their workforce importance.*
+<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
+<em>Unauthorized employment is concentrated among specific national groups, emphasizing their workforce importance.</em></p>
 
-And the story doesn't end there. Migrants from Guatemala, El Salvador, and Honduras, driven by violence, climate disasters, and extreme poverty, are arriving en masse, turning a regional tragedy into a continental movement. Even China has quietly claimed its share of this migration pie, representing approximately 2% of the unauthorized population, reminding us that the current global economic distortions spare no one.
+<p style="color: #f0b90b;">And the story doesn't end there. Migrants from Guatemala, El Salvador, and Honduras, driven by violence, climate disasters, and extreme poverty, are arriving en masse, turning a regional tragedy into a continental movement. Even China has quietly claimed its share of this migration pie, representing approximately 2% of the unauthorized population, reminding us that the current global economic distortions spare no one.</p>
 
-Based on publicly available databases and based on the unequivocal assumption that American employees pay their taxes directly, we compiled the evolution of tax collection as a percentage of GDP, resulting in the following:
+<p style="color: #f0b90b;">Based on publicly available databases and based on the unequivocal assumption that American employees pay their taxes directly, we compiled the evolution of tax collection as a percentage of GDP, resulting in the following:</p>
 
 <div id="fed-tax-payroll-chart" style="width: 100%; max-width: 800px; margin: auto; height: 450px;"></div>
 <script>
@@ -619,10 +617,10 @@ Plotly.newPlot('fed-tax-payroll-chart', [
 });
 </script>
 
-**Key Takeaway:**  
-*Immigrants contribute to federal taxes and payroll at rates similar to native-born workers.*
+<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
+<em>Immigrants contribute to federal taxes and payroll at rates similar to native-born workers.</em></p>
 
-From this contribution of the country's tax collection rates, we obtain the following distribution of the contributions that unauthorized employees generate as taxes. Once the data on contributions made by American workers and citizens is obtained, the level of contributions from unauthorized workers living in the United States is estimated. The calculation is significant. 
+<p style="color: #f0b90b;">From this contribution of the country's tax collection rates, we obtain the following distribution of the contributions that unauthorized employees generate as taxes. Once the data on contributions made by American workers and citizens is obtained, the level of contributions from unauthorized workers living in the United States is estimated. The calculation is significant.</p> 
 
 <div id="bar-gdp-contrib-unauth-2022" style="width: 100%; max-width: 800px; margin: auto; height: 450px;"></div>
 <script>
@@ -645,10 +643,10 @@ Plotly.newPlot('bar-gdp-contrib-unauth-2022', [{
 }, { responsive: true });
 </script>
 
-**Key Takeaway:**  
-*Unauthorized immigrants make significant contributions to the U.S. GDP, underscoring their vital role in the economy.*
+<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
+<em>Unauthorized immigrants make significant contributions to the U.S. GDP, underscoring their vital role in the economy.</em></p>
 
-Even unauthorized Mexican immigrant workers contribute a little over $107 billion to the treasury, a similar amount to the amount mentioned in the report. However, the proportions reported by the Mexican government are unverifiable based on the data, as the contribution to Social Security ****is just over $52 billion, $12 billion to Medicare, and just over $42 billion to income tax figures quite different from those determined in the official report.****
+<p style="color: #f0b90b;">Even unauthorized Mexican immigrant workers contribute a little over $107 billion to the treasury, a similar amount to the amount mentioned in the report. However, the proportions reported by the Mexican government are unverifiable based on the data, as the contribution to Social Security <strong>is just over $52 billion, $12 billion to Medicare, and just over $42 billion to income tax figures quite different from those determined in the official report.</strong></p>
 
 <div id="tax-contrib-2022" style="width: 100%; max-width: 800px; margin: auto; height: 450px;"></div>
 <script>
