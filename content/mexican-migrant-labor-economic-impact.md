@@ -789,8 +789,8 @@ As can be seen in the chart for both groups, the main industry where the majorit
 
 
 Statement 3 . **Security**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
+
 
  - Immigrants have 60 percent less crime, and the states along the border with Mexico are safer and healthier compared to the northern border of the United States.
 
@@ -798,17 +798,17 @@ Statement 3 . **Security**
 
 In order to answer the question of crime, we had to adapt our search to the analysis of cub scouts offered by the best agency, the FBI. For this, we analyzed the violent crimes reported on their website (link). From there, we branched the search by violent crimes and the origin of those who commit them. With these assumptions, we classified violent crimes according to the FBI under the following categories:
 
-* Rape
-* Aggravated Assault
-* Homicide
-* Robbery
+--* Rape
+--* Aggravated Assault
+--* Homicide
+--* Robbery
 
 To identify the Latinos mentioned in the report, each group was categorized as follows:
 
-- Not Hispanic or Latino
-- Not Specified
-- Unknown
-- Hispanic or Latino
+-- Not Hispanic or Latino
+-- Not Specified
+-- Unknown
+-- Hispanic or Latino
 
 Based on the FBI's results for the entire country, we obtained the following interesting conclusions about violent crimes committed in the United States:
 
