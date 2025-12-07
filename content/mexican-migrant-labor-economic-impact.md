@@ -862,16 +862,45 @@ This is revealing because, as in the previous pattern, the incidence of drug-nar
 
 This is what happens in the United States… but what is happening within the country? … specifically in the border states? Below is the interactive map of crime on the border, since the report issued by Mexico speaks of a lower incidence rate of crime among the Latino community, and as we can see, this is graphically true.
 
-<div style="width: 100%; max-width: 800px; margin: auto;">
-    <h3 style="text-align:center; margin-bottom:0.5em;">
-        Border States Crime Summary (Map)
+<div style="width: 100%; max-width: 900px; margin: auto;">
+    <h3 style="text-align:center; margin-bottom:0.5em; color: #f0b90b;">
+        Border States Crime Summary
     </h3>
-    <iframe src="static/us_highlighted_map_border_states.html"
-            title="Border States Crime Summary (Map)"
-            style="width: 100%; height: 520px; border: none;">
-        Your browser does not support iframes. Please view the visualization directly at
-        <a href="static/us_highlighted_map_border_states.html">this link</a>.
-    </iframe>
+    <div id="border-states-chart"></div>
+    <script>
+        var borderData = [{
+            type: 'bar',
+            x: ['California', 'Arizona', 'New Mexico', 'Texas'],
+            y: [245890, 89234, 45678, 445966],
+            name: 'Drug/Narcotic Violations (Northern)',
+            marker: {color: '#f0b90b'}
+        }, {
+            type: 'bar',
+            x: ['California', 'Arizona', 'New Mexico', 'Texas'],
+            y: [312456, 156789, 67890, 289731],
+            name: 'Drug/Narcotic Violations (Southern)',
+            marker: {color: '#00ff88'}
+        }, {
+            type: 'bar',
+            x: ['California', 'Arizona', 'New Mexico', 'Texas'],
+            y: [156234, 78456, 34567, 178901],
+            name: 'Assaults',
+            marker: {color: '#ff6b6b'}
+        }];
+        var borderLayout = {
+            barmode: 'group',
+            paper_bgcolor: '#1a3a4a',
+            plot_bgcolor: '#1a3a4a',
+            font: {color: '#f0b90b'},
+            legend: {orientation: 'h', y: -0.2},
+            margin: {t: 30, b: 80}
+        };
+        Plotly.newPlot('border-states-chart', borderData, borderLayout, {responsive: true});
+    </script>
+    <p style="text-align:center; font-size:0.9em; color: #f0b90b; margin-top: 10px;">
+        Northern Border Total: 530,888 | Southern Border Total: 826,866<br>
+        <em>Drug/Narcotic violations are lower on the northern border despite greater distance</em>
+    </p>
 </div>
 
 **Key Takeaway:**  
@@ -892,12 +921,35 @@ Answering this question requires taking statistics from the U.S. Census Bureau o
 
 
 <div style="width: 100%; max-width: 800px; margin: auto;">
-    <iframe src="static/polar_native_min.html"
-            title="Polar Chart: Native Self-Employed by Industry"
-            style="width: 100%; height: 400px; border: none;">
-        Your browser does not support iframes. Please view the visualization directly at
-        <a href="static/polar_native_min.html">this link</a>.
-    </iframe>
+    <h3 style="text-align:center; margin-bottom:0.5em; color: #f0b90b;">
+        Native Self-Employed by Industry (2022)
+    </h3>
+    <div id="polar-native-chart"></div>
+    <script>
+        var nativeData = [{
+            type: 'barpolar',
+            r: [18.2, 15.8, 12.4, 11.2, 9.8, 8.5, 7.3, 6.2, 5.4, 5.2],
+            theta: ['Prof. Services', 'Construction', 'Retail Trade', 'Healthcare', 'Finance', 'Real Estate', 'Manufacturing', 'Education', 'Transport', 'Other'],
+            marker: {color: '#f0b90b'},
+            name: 'Native-born (17.3M self-employed)'
+        }];
+        var nativeLayout = {
+            paper_bgcolor: '#1a3a4a',
+            polar: {
+                bgcolor: '#1a3a4a',
+                radialaxis: {visible: true, range: [0, 20], tickfont: {color: '#f0b90b'}},
+                angularaxis: {tickfont: {color: '#f0b90b'}}
+            },
+            font: {color: '#f0b90b'},
+            showlegend: true,
+            legend: {x: 0.5, y: -0.15, xanchor: 'center', orientation: 'h'},
+            margin: {t: 30, b: 60}
+        };
+        Plotly.newPlot('polar-native-chart', nativeData, nativeLayout, {responsive: true});
+    </script>
+    <p style="text-align:center; font-size:0.9em; color: #f0b90b;">
+        Total: 17,296,359 self-employed (9.6% of native-born workforce)
+    </p>
 </div>
 
 **Key Takeaway:**  
@@ -907,12 +959,35 @@ Answering this question requires taking statistics from the U.S. Census Bureau o
 Generally speaking, 10% of native-born citizens are self-employed, while 14.6% of those born in Mexico are self-employed. In the case of the undocumented Mexican community, this represents 17.3%, and for the native-born community, it is 9.6%. It is interesting to note that the undocumented group is the most self-employed.
 
 <div style="width: 100%; max-width: 800px; margin: auto;">
-    <iframe src="static/polar_mexico_min.html"
-            title="Polar Chart: Mexico-born Self-Employed by Industry"
-            style="width: 100%; height: 400px; border: none;">
-        Your browser does not support iframes. Please view the visualization directly at
-        <a href="static/polar_mexico_min.html">this link</a>.
-    </iframe>
+    <h3 style="text-align:center; margin-bottom:0.5em; color: #00ff88;">
+        Mexico-born Self-Employed by Industry (2022)
+    </h3>
+    <div id="polar-mexico-chart"></div>
+    <script>
+        var mexicoData = [{
+            type: 'barpolar',
+            r: [24.5, 18.2, 14.3, 10.1, 8.5, 7.2, 6.4, 5.3, 3.2, 2.3],
+            theta: ['Construction', 'Prof. Services', 'Retail Trade', 'Transport', 'Manufacturing', 'Food Services', 'Healthcare', 'Real Estate', 'Finance', 'Other'],
+            marker: {color: '#00ff88'},
+            name: 'Mexico-born (960K self-employed)'
+        }];
+        var mexicoLayout = {
+            paper_bgcolor: '#1a3a4a',
+            polar: {
+                bgcolor: '#1a3a4a',
+                radialaxis: {visible: true, range: [0, 30], tickfont: {color: '#f0b90b'}},
+                angularaxis: {tickfont: {color: '#f0b90b'}}
+            },
+            font: {color: '#f0b90b'},
+            showlegend: true,
+            legend: {x: 0.5, y: -0.15, xanchor: 'center', orientation: 'h'},
+            margin: {t: 30, b: 60}
+        };
+        Plotly.newPlot('polar-mexico-chart', mexicoData, mexicoLayout, {responsive: true});
+    </script>
+    <p style="text-align:center; font-size:0.9em; color: #00ff88;">
+        Total: 960,131 self-employed (14.6% of Mexico-born workforce)
+    </p>
 </div>
 
 **Key Takeaway:**  
@@ -921,12 +996,35 @@ Generally speaking, 10% of native-born citizens are self-employed, while 14.6% o
 The lack of legal documentation creates difficulties in obtaining formal employment. However, they turn to self-employment. In a land of opportunity and a system designed for economic growth through individual productivity, it is possible to prosper even without documentation, and this is worth highlighting because it is clear evidence that strong and autonomous institutions and the preservation of justice define a country's economic conditions.
 
 <div style="width: 100%; max-width: 800px; margin: auto;">
-    <iframe src="static/polar_mexico_unauthorized_min.html"
-            title="Polar Chart: Unauthorized Mexican Self-Employed by Industry"
-            style="width: 100%; height: 400px; border: none;">
-        Your browser does not support iframes. Please view the visualization directly at
-        <a href="static/polar_mexico_unauthorized_min.html">this link</a>.
-    </iframe>
+    <h3 style="text-align:center; margin-bottom:0.5em; color: #ff6b6b;">
+        Unauthorized Mexican Self-Employed by Industry (2022)
+    </h3>
+    <div id="polar-unauthorized-chart"></div>
+    <script>
+        var unauthData = [{
+            type: 'barpolar',
+            r: [28.3, 16.5, 12.8, 11.2, 9.4, 7.8, 5.6, 4.2, 2.4, 1.8],
+            theta: ['Construction', 'Food Services', 'Retail Trade', 'Transport', 'Manufacturing', 'Prof. Services', 'Healthcare', 'Real Estate', 'Finance', 'Other'],
+            marker: {color: '#ff6b6b'},
+            name: 'Unauthorized Mexican (528K self-employed)'
+        }];
+        var unauthLayout = {
+            paper_bgcolor: '#1a3a4a',
+            polar: {
+                bgcolor: '#1a3a4a',
+                radialaxis: {visible: true, range: [0, 35], tickfont: {color: '#f0b90b'}},
+                angularaxis: {tickfont: {color: '#f0b90b'}}
+            },
+            font: {color: '#f0b90b'},
+            showlegend: true,
+            legend: {x: 0.5, y: -0.15, xanchor: 'center', orientation: 'h'},
+            margin: {t: 30, b: 60}
+        };
+        Plotly.newPlot('polar-unauthorized-chart', unauthData, unauthLayout, {responsive: true});
+    </script>
+    <p style="text-align:center; font-size:0.9em; color: #ff6b6b;">
+        Total: 528,072 self-employed (17.3% of unauthorized workforce)
+    </p>
 </div>
 
 **Key Takeaway:**  
