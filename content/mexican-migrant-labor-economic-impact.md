@@ -505,7 +505,8 @@ To answer the concerns that arise it is necessary to divide the problem into som
         paper_bgcolor: '#285F75',
         plot_bgcolor: '#1e4d61',
         margin: { t: 30, r: 30, b: 60, l: 100 },
-        showlegend: false
+        showlegend: false,
+        annotations: [{ text: '@TheTruthProject', xref: 'paper', yref: 'paper', x: 0.99, y: 0.01, showarrow: false, font: { color: '#f0b90b', size: 10 }, opacity: 0.7 }]
     };
     
     var config = {
@@ -548,7 +549,8 @@ var layout = {
     paper_bgcolor: '#1a3a4a',
     plot_bgcolor: '#1a3a4a',
     legend: { font: { color: '#f0b90b' }, orientation: 'h', y: -0.1 },
-    margin: { t: 60, b: 80, l: 40, r: 40 }
+    margin: { t: 60, b: 80, l: 40, r: 40 },
+    annotations: [{ text: '@TheTruthProject', xref: 'paper', yref: 'paper', x: 0.99, y: 0.01, showarrow: false, font: { color: '#f0b90b', size: 10 }, opacity: 0.7 }]
 };
 Plotly.newPlot('pie-unauthorized-share', data, layout, {responsive: true});
 </script>
@@ -574,7 +576,8 @@ Plotly.newPlot('bar-employed-unauth-2022', [{
     plot_bgcolor: '#1a3a4a',
     xaxis: { title: 'Country', tickangle: -45, tickfont: { color: '#f0b90b' }, titlefont: { color: '#f0b90b' }, gridcolor: '#2a5a6a' },
     yaxis: { title: 'Employed Unauthorized', tickfont: { color: '#f0b90b' }, titlefont: { color: '#f0b90b' }, gridcolor: '#2a5a6a' },
-    margin: { b: 120, t: 60 }
+    margin: { b: 120, t: 60 },
+    annotations: [{ text: '@TheTruthProject', xref: 'paper', yref: 'paper', x: 0.99, y: 0.01, showarrow: false, font: { color: '#f0b90b', size: 10 }, opacity: 0.7 }]
 }, { responsive: true });
 </script>
 
@@ -614,7 +617,8 @@ Plotly.newPlot('fed-tax-payroll-chart', [
     plot_bgcolor: '#1a2530',
     font: { color: '#f0b90b' },
     legend: { x: 0.5, y: -0.15, xanchor: 'center', orientation: 'h', font: { color: '#f0b90b' } },
-    margin: { t: 50, b: 80 }
+    margin: { t: 50, b: 80 },
+    annotations: [{ text: '@TheTruthProject', xref: 'paper', yref: 'paper', x: 0.99, y: 0.01, showarrow: false, font: { color: '#f0b90b', size: 10 }, opacity: 0.7 }]
 });
 </script>
 
@@ -639,7 +643,8 @@ Plotly.newPlot('bar-gdp-contrib-unauth-2022', [{
     plot_bgcolor: '#1a3a4a',
     xaxis: { title: 'Country', tickangle: -45, tickfont: { color: '#f0b90b' }, titlefont: { color: '#f0b90b' }, gridcolor: '#2a5a6a' },
     yaxis: { title: 'GDP Contribution (Billions USD)', tickfont: { color: '#f0b90b' }, titlefont: { color: '#f0b90b' }, gridcolor: '#2a5a6a' },
-    margin: { b: 120, t: 60 }
+    margin: { b: 120, t: 60 },
+    annotations: [{ text: '@TheTruthProject', xref: 'paper', yref: 'paper', x: 0.99, y: 0.01, showarrow: false, font: { color: '#f0b90b', size: 10 }, opacity: 0.7 }]
 }, { responsive: true });
 </script>
 
@@ -662,7 +667,8 @@ Plotly.newPlot('tax-contrib-2022', [
     xaxis: { tickfont: { color: '#f0b90b' }, gridcolor: '#2a5a6a' },
     yaxis: { title: 'Contribution (Billions USD)', tickfont: { color: '#f0b90b' }, titlefont: { color: '#f0b90b' }, gridcolor: '#2a5a6a' },
     legend: { font: { color: '#f0b90b' }, orientation: 'h', y: -0.2 },
-    margin: { b: 80, t: 60 }
+    margin: { b: 80, t: 60 },
+    annotations: [{ text: '@TheTruthProject', xref: 'paper', yref: 'paper', x: 0.99, y: 0.01, showarrow: false, font: { color: '#f0b90b', size: 10 }, opacity: 0.7 }]
 }, { responsive: true });
 </script>
 </div>
@@ -691,7 +697,8 @@ Another element to check is the contribution of unauthorized workers to the coun
         font: {color: '#f0b90b'},
         legend: {orientation: 'h', y: -0.2},
         yaxis: {title: 'Percentage (%)', gridcolor: '#285F75'},
-        xaxis: {tickangle: -45}
+        xaxis: {tickangle: -45},
+        annotations: [{ text: '@TheTruthProject', xref: 'paper', yref: 'paper', x: 0.99, y: 0.01, showarrow: false, font: { color: '#f0b90b', size: 10 }, opacity: 0.7 }]
     });
     </script>
     <p style="text-align:center; font-size:1.06em; color: #f0b90b;">
@@ -718,6 +725,7 @@ Something interesting to note is that the three industries where Native American
 <div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Public administration</span><div style="background: #f0b90b; height: 18px; width: 44%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">9,668,146</span></div>
 <div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Agriculture, forestry, fishing, mining</span><div style="background: #f0b90b; height: 18px; width: 42%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">9,322,855</span></div>
 <div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Arts, entertainment, and food services</span><div style="background: #f0b90b; height: 18px; width: 37%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">8,286,983</span></div>
+<p style="text-align:right; font-size:0.8em; color: #f0b90b; opacity: 0.7; margin: 2px 0;">@TheTruthProject</p>
 </div>
     <p style="text-align:center; font-size:1.06em; color: #f0b90b;">
         <b>Key Takeaway:</b><br>
@@ -745,6 +753,7 @@ Distribution of the foreign-born population of Mexican citizens employed in the 
 <div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Other services (except public admin)</span><div style="background: #00ff88; height: 18px; width: 33%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">144,620</span></div>
 <div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Arts, entertainment, and food services</span><div style="background: #00ff88; height: 18px; width: 32%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">138,835</span></div>
 <div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Education and health care</span><div style="background: #00ff88; height: 18px; width: 29%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">124,373</span></div>
+<p style="text-align:right; font-size:0.8em; color: #00ff88; opacity: 0.7; margin: 2px 0;">@TheTruthProject</p>
 </div>
     <p style="text-align:center; font-size:1.06em; color: #f0b90b;">
         <b>Key Takeaway:</b><br>
@@ -772,6 +781,7 @@ Distribution of the unauthorized population of Mexican citizens employed in the 
 <div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Arts, entertainment, and food services</span><div style="background: #ff6b6b; height: 18px; width: 35%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">86,169</span></div>
 <div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Education and health care</span><div style="background: #ff6b6b; height: 18px; width: 31%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">78,215</span></div>
 <div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Public administration</span><div style="background: #ff6b6b; height: 18px; width: 0%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">0</span></div>
+<p style="text-align:right; font-size:0.8em; color: #ff6b6b; opacity: 0.7; margin: 2px 0;">@TheTruthProject</p>
 </div>
     <p style="text-align:center; font-size:1.06em; color: #f0b90b;">
         <b>Key Takeaway:</b><br>
@@ -838,7 +848,8 @@ As seen in the following graph, we can analyze in detail the ethnic distribution
         font: {color: '#f0b90b'},
         legend: {orientation: 'h', y: -0.2},
         yaxis: {title: 'Percentage (%)', gridcolor: '#285F75'},
-        title: {text: 'Violent Crime by Ethnicity (FBI Data)', font: {color: '#f0b90b'}}
+        title: {text: 'Violent Crime by Ethnicity (FBI Data)', font: {color: '#f0b90b'}},
+        annotations: [{ text: '@TheTruthProject', xref: 'paper', yref: 'paper', x: 0.99, y: 0.01, showarrow: false, font: { color: '#f0b90b', size: 10 }, opacity: 0.7 }]
     });
     </script>
 </div>
@@ -869,7 +880,8 @@ One of the most controversial and politicized issues of recent decades, and curr
         plot_bgcolor: '#1a3a47',
         font: {color: '#f0b90b'},
         title: {text: 'Drug/Narcotic Violations by Ethnicity', font: {color: '#f0b90b'}},
-        legend: {font: {color: '#f0b90b'}}
+        legend: {font: {color: '#f0b90b'}},
+        annotations: [{ text: '@TheTruthProject', xref: 'paper', yref: 'paper', x: 0.99, y: 0.01, showarrow: false, font: { color: '#f0b90b', size: 10 }, opacity: 0.7 }]
     });
     </script>
 </div>
@@ -913,7 +925,8 @@ This is what happens in the United States… but what is happening within the co
             plot_bgcolor: '#1a3a4a',
             font: {color: '#f0b90b'},
             legend: {orientation: 'h', y: -0.2},
-            margin: {t: 30, b: 80}
+            margin: {t: 30, b: 80},
+            annotations: [{ text: '@TheTruthProject', xref: 'paper', yref: 'paper', x: 0.99, y: 0.01, showarrow: false, font: { color: '#f0b90b', size: 10 }, opacity: 0.7 }]
         };
         Plotly.newPlot('border-states-chart', borderData, borderLayout, {responsive: true});
     </script>
@@ -963,7 +976,8 @@ Answering this question requires taking statistics from the U.S. Census Bureau o
             font: {color: '#f0b90b'},
             showlegend: true,
             legend: {x: 0.5, y: -0.15, xanchor: 'center', orientation: 'h'},
-            margin: {t: 30, b: 60}
+            margin: {t: 30, b: 60},
+            annotations: [{ text: '@TheTruthProject', xref: 'paper', yref: 'paper', x: 0.99, y: 0.01, showarrow: false, font: { color: '#f0b90b', size: 10 }, opacity: 0.7 }]
         };
         Plotly.newPlot('polar-native-chart', nativeData, nativeLayout, {responsive: true});
     </script>
@@ -1001,7 +1015,8 @@ Generally speaking, 10% of native-born citizens are self-employed, while 14.6% o
             font: {color: '#f0b90b'},
             showlegend: true,
             legend: {x: 0.5, y: -0.15, xanchor: 'center', orientation: 'h'},
-            margin: {t: 30, b: 60}
+            margin: {t: 30, b: 60},
+            annotations: [{ text: '@TheTruthProject', xref: 'paper', yref: 'paper', x: 0.99, y: 0.01, showarrow: false, font: { color: '#f0b90b', size: 10 }, opacity: 0.7 }]
         };
         Plotly.newPlot('polar-mexico-chart', mexicoData, mexicoLayout, {responsive: true});
     </script>
@@ -1038,7 +1053,8 @@ The lack of legal documentation creates difficulties in obtaining formal employm
             font: {color: '#f0b90b'},
             showlegend: true,
             legend: {x: 0.5, y: -0.15, xanchor: 'center', orientation: 'h'},
-            margin: {t: 30, b: 60}
+            margin: {t: 30, b: 60},
+            annotations: [{ text: '@TheTruthProject', xref: 'paper', yref: 'paper', x: 0.99, y: 0.01, showarrow: false, font: { color: '#f0b90b', size: 10 }, opacity: 0.7 }]
         };
         Plotly.newPlot('polar-unauthorized-chart', unauthData, unauthLayout, {responsive: true});
     </script>
