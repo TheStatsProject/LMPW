@@ -585,14 +585,38 @@ And the story doesn't end there. Migrants from Guatemala, El Salvador, and Hondu
 
 Based on publicly available databases and based on the unequivocal assumption that American employees pay their taxes directly, we compiled the evolution of tax collection as a percentage of GDP, resulting in the following:
 
-<div style="width: 100%; max-width: 800px; margin: auto;">
-    <iframe src="static/federal_tax_and_payroll_rates_2009_2024.html"
-            title="Federal Tax and Payroll Rates 2009-2024"
-            style="width: 100%; height: 500px; border: none;">
-        Your browser does not support iframes. Please view the visualization directly at
-        <a href="static/federal_tax_and_payroll_rates_2009_2024.html">this link</a>.
-    </iframe>
-</div>
+<div id="fed-tax-payroll-chart" style="width: 100%; max-width: 800px; margin: auto; height: 450px;"></div>
+<script>
+Plotly.newPlot('fed-tax-payroll-chart', [
+    {
+        x: [2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+        y: [14.6, 14.6, 15.0, 15.3, 16.7, 17.4, 17.7, 17.2, 17.2, 16.6, 16.3, 16.0, 17.8, 19.6, 18.4, 17.8],
+        type: 'scatter',
+        mode: 'lines+markers',
+        name: 'Federal Tax Rate (%)',
+        line: { color: '#f0b90b', width: 3 },
+        marker: { size: 8, color: '#f0b90b' }
+    },
+    {
+        x: [2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+        y: [6.3, 6.1, 5.7, 5.8, 6.0, 6.1, 6.2, 6.1, 6.0, 6.0, 6.0, 6.1, 6.2, 6.0, 5.9, 5.8],
+        type: 'scatter',
+        mode: 'lines+markers',
+        name: 'Payroll Tax Rate (%)',
+        line: { color: '#00ff88', width: 3 },
+        marker: { size: 8, color: '#00ff88' }
+    }
+], {
+    title: { text: 'Federal Tax and Payroll Rates (2009-2024)', font: { color: '#f0b90b', size: 16 } },
+    xaxis: { title: 'Year', color: '#f0b90b', gridcolor: '#334455', tickmode: 'linear', dtick: 2 },
+    yaxis: { title: 'Rate (% of GDP)', color: '#f0b90b', gridcolor: '#334455', range: [0, 22] },
+    paper_bgcolor: '#1a2530',
+    plot_bgcolor: '#1a2530',
+    font: { color: '#f0b90b' },
+    legend: { x: 0.5, y: -0.15, xanchor: 'center', orientation: 'h', font: { color: '#f0b90b' } },
+    margin: { t: 50, b: 80 }
+});
+</script>
 
 **Key Takeaway:**  
 *Immigrants contribute to federal taxes and payroll at rates similar to native-born workers.*
