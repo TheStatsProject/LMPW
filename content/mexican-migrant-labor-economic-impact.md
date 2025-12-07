@@ -670,10 +670,10 @@ Plotly.newPlot('tax-contrib-2022', [
 </script>
 </div>
 
-**Key Takeaway:**  
-*Tax contributions from unauthorized immigrants vary by country of origin but are a consistent fiscal benefit.*
+<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
+<em>Tax contributions from unauthorized immigrants vary by country of origin but are a consistent fiscal benefit.</em></p>
 
-Another element to check is the contribution of unauthorized workers to the country's industries. To do this, we must estimate the distribution of employees by each industry in the economy for natives and foreign-born workers, which is as follows:
+<p style="color: #f0b90b;">Another element to check is the contribution of unauthorized workers to the country's industries. To do this, we must estimate the distribution of employees by each industry in the economy for natives and foreign-born workers, which is as follows:</p>
 
 <div style="width: 100%; max-width: 900px; margin: auto; margin-bottom: 32px;">
     <h2 style="text-align:center; margin-top: 0; color: #f0b90b;">Industry Distribution by Origin Group (2022)</h2>
@@ -704,7 +704,7 @@ Another element to check is the contribution of unauthorized workers to the coun
     </p>
 </div>
 
-Something interesting to note is that the three industries where Native Americans are most heavily employed are services, except for public administration. This represents 12.9% of the total Native American population, followed by the information sector with 8.9% and the transportation and warehousing services sector with 8.6%, showing that services and computer development have the greatest share.
+<p style="color: #f0b90b;">Something interesting to note is that the three industries where Native Americans are most heavily employed are services, except for public administration. This represents 12.9% of the total Native American population, followed by the information sector with 8.9% and the transportation and warehousing services sector with 8.6%, showing that services and computer development have the greatest share.</p>
 
 <div style="width: 100%; max-width: 1200px; margin: auto; margin-bottom: 32px;">
     <h2 style="text-align:center; margin-top: 0; color: #f0b90b;">Native Employed by Industry (2022)</h2>
@@ -730,9 +730,9 @@ Something interesting to note is that the three industries where Native American
     </p>
 </div>
 
-As well as services, information development and mobility are the sectors where there is the greatest native participation. Based on the available data on the distribution of the employed population by industry in the United States, based on the resulting distribution from population data and estimates of foreigners born in Mexico and unauthorized immigrants from Mexico, we have obtained the following results:
+<p style="color: #f0b90b;">As well as services, information development and mobility are the sectors where there is the greatest native participation. Based on the available data on the distribution of the employed population by industry in the United States, based on the resulting distribution from population data and estimates of foreigners born in Mexico and unauthorized immigrants from Mexico, we have obtained the following results:</p>
 
-Distribution of the foreign-born population of Mexican citizens employed in the USA by industry:
+<p style="color: #f0b90b;">Distribution of the foreign-born population of Mexican citizens employed in the USA by industry:</p>
 
 <div style="width: 100%; max-width: 1200px; margin: auto; margin-bottom: 32px;">
     <h2 style="text-align:center; margin-top: 0; color: #f0b90b;">Mexican-born Employed by Industry (2022)</h2>
@@ -758,7 +758,7 @@ Distribution of the foreign-born population of Mexican citizens employed in the 
     </p>
 </div>
 
-Distribution of the unauthorized population of Mexican citizens employed in the USA by industry:
+<p style="color: #f0b90b;">Distribution of the unauthorized population of Mexican citizens employed in the USA by industry:</p>
 
 
 <div style="width: 100%; max-width: 1200px; margin: auto; margin-bottom: 32px;">
@@ -785,41 +785,41 @@ Distribution of the unauthorized population of Mexican citizens employed in the 
     </p>
 </div>
 
-As can be seen in the chart for both groups, the main industry where the majority of the employed population participates is manufacturing with a share of 15.4%, construction with 12.3%, and professionals in science, management, and administrative and waste management services with 9.6%.
+<p style="color: #f0b90b;">As can be seen in the chart for both groups, the main industry where the majority of the employed population participates is manufacturing with a share of 15.4%, construction with 12.3%, and professionals in science, management, and administrative and waste management services with 9.6%.</p>
 
-****Interesting results, since it is normally thought that the foreign-born population is dedicated solely to agricultural construction; however, the agricultural sector (8.7%) is the fourth largest activity. These results do not support what Mexican authorities have said about the distribution of immigrant labor and undocumented immigrants in the United States. Again, we address the inconsistency of the Mexican government's information.****
+<p style="color: #f0b90b;"><b>Interesting results, since it is normally thought that the foreign-born population is dedicated solely to agricultural construction; however, the agricultural sector (8.7%) is the fourth largest activity. These results do not support what Mexican authorities have said about the distribution of immigrant labor and undocumented immigrants in the United States. Again, we address the inconsistency of the Mexican government's information.</b></p>
 
 
 Statement 3 . **Security**
 -------------------------
 
 
- - Immigrants have 60 percent less crime, and the states along the border with Mexico are safer and healthier compared to the northern border of the United States.
+<p style="color: #f0b90b;"> - Immigrants have 60 percent less crime, and the states along the border with Mexico are safer and healthier compared to the northern border of the United States.</p>
 
-****Myths or Reality?****
+<p style="color: #f0b90b;"><b>Myths or Reality?</b></p>
 
-In order to answer the question of crime, we had to adapt our search to the analysis of cub scouts offered by the best agency, the FBI. For this, we analyzed the violent crimes reported on their website (link). From there, we branched the search by violent crimes and the origin of those who commit them. With these assumptions, we classified violent crimes according to the FBI under the following categories:
+<p style="color: #f0b90b;">In order to answer the question of crime, we had to adapt our search to the analysis of cub scouts offered by the best agency, the FBI. For this, we analyzed the violent crimes reported on their website (link). From there, we branched the search by violent crimes and the origin of those who commit them. With these assumptions, we classified violent crimes according to the FBI under the following categories:</p>
 
---* Rape
---* Aggravated Assault
---* Homicide
---* Robbery
+<p style="color: #f0b90b;">--* Rape<br>
+--* Aggravated Assault<br>
+--* Homicide<br>
+--* Robbery</p>
 
-To identify the Latinos mentioned in the report, each group was categorized as follows:
+<p style="color: #f0b90b;">To identify the Latinos mentioned in the report, each group was categorized as follows:</p>
 
--- Not Hispanic or Latino
--- Not Specified
--- Unknown
--- Hispanic or Latino
+<p style="color: #f0b90b;">-- Not Hispanic or Latino<br>
+-- Not Specified<br>
+-- Unknown<br>
+-- Hispanic or Latino</p>
 
-Based on the FBI's results for the entire country, we obtained the following interesting conclusions about violent crimes committed in the United States:
+<p style="color: #f0b90b;">Based on the FBI's results for the entire country, we obtained the following interesting conclusions about violent crimes committed in the United States:</p>
 
-- Rape is the second most frequent violent crime in the country, with 205,593 violent crimes, according to statistics provided by the FBI. Of these crimes, 4 out of 10 were committed by non-Hispanic or non-Latino groups. Based on the data for this atrocious violent crime, the Latino community has the lowest incidence, with 1 in 10 cases of rape as a violent crime in the USA (67,267).
-- Aggravated Assault presents similar patterns in this case, with 4 out of 10 cases generated within the country being of non-Hispanic or non-Latino origin (38,171).
-- In this case, homicide is observed to be of Latino origin (8,576), while 4 out of 10 are from non-Hispanic or non-Latino groups (38,171).
-- Robbery repeats the same pattern, with approximately 3.9 incidents per 10 inhabitants caused by non-Hispanic or non-Latino groups (412,161).
+<p style="color: #f0b90b;">- Rape is the second most frequent violent crime in the country, with 205,593 violent crimes, according to statistics provided by the FBI. Of these crimes, 4 out of 10 were committed by non-Hispanic or non-Latino groups. Based on the data for this atrocious violent crime, the Latino community has the lowest incidence, with 1 in 10 cases of rape as a violent crime in the USA (67,267).<br>
+- Aggravated Assault presents similar patterns in this case, with 4 out of 10 cases generated within the country being of non-Hispanic or non-Latino origin (38,171).<br>
+- In this case, homicide is observed to be of Latino origin (8,576), while 4 out of 10 are from non-Hispanic or non-Latino groups (38,171).<br>
+- Robbery repeats the same pattern, with approximately 3.9 incidents per 10 inhabitants caused by non-Hispanic or non-Latino groups (412,161).</p>
 
-As seen in the following graph, we can analyze in detail the ethnic distribution of violent crimes within the country:
+<p style="color: #f0b90b;">As seen in the following graph, we can analyze in detail the ethnic distribution of violent crimes within the country:</p>
 
 <div style="width: 100%; max-width: 800px; margin: auto;">
     <h3 style="text-align:center; margin-bottom:0.5em; color: #f0b90b;">
@@ -850,12 +850,12 @@ As seen in the following graph, we can analyze in detail the ethnic distribution
     </script>
 </div>
 
-**Key Takeaway:**  
-*Most crimes are committed by people identified as Not Hispanic or Latino, but the data also shows a significant number of 'Not Specified' and 'Unknown' offenders across all major crime types.*
+<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
+<em>Most crimes are committed by people identified as Not Hispanic or Latino, but the data also shows a significant number of 'Not Specified' and 'Unknown' offenders across all major crime types.</em></p>
 
-One of the most controversial and politicized issues of recent decades, and currently in recent months, is the development of drug-related crime. It is precisely here that we add an interesting statistic to our analysis: Drug Narcotics violations. In the case of drug-narcotics violations, we obtained the following results:
+<p style="color: #f0b90b;">One of the most controversial and politicized issues of recent decades, and currently in recent months, is the development of drug-related crime. It is precisely here that we add an interesting statistic to our analysis: Drug Narcotics violations. In the case of drug-narcotics violations, we obtained the following results:</p>
 
-* Result 1
+<p style="color: #f0b90b;">* Result 1</p>
 
 <div style="width: 100%; max-width: 800px; margin: auto;">
     <h3 style="text-align:center; margin-bottom:0.5em; color: #f0b90b;">
@@ -882,13 +882,13 @@ One of the most controversial and politicized issues of recent decades, and curr
     </script>
 </div>
 
-**Key Takeaway:**  
-*Drug/Narcotic Violations have the highest proportion of Not Hispanic or Latino offenders, but also a notable number of 'Not Specified' and 'Unknown' cases.*
+<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
+<em>Drug/Narcotic Violations have the highest proportion of Not Hispanic or Latino offenders, but also a notable number of 'Not Specified' and 'Unknown' cases.</em></p>
 
 
-This is revealing because, as in the previous pattern, the incidence of drug-narcotics violations among the Latino community is barely 10%. In the case of the community with the highest incidence of this type of crime, this similarity is not only evident but also reinforced, with 5 out of 10 drug-related crimes being the work of non-Latino, non-Hispanic groups.
+<p style="color: #f0b90b;">This is revealing because, as in the previous pattern, the incidence of drug-narcotics violations among the Latino community is barely 10%. In the case of the community with the highest incidence of this type of crime, this similarity is not only evident but also reinforced, with 5 out of 10 drug-related crimes being the work of non-Latino, non-Hispanic groups.</p>
 
-This is what happens in the United States… but what is happening within the country? … specifically in the border states? Below is the interactive map of crime on the border, since the report issued by Mexico speaks of a lower incidence rate of crime among the Latino community, and as we can see, this is graphically true.
+<p style="color: #f0b90b;">This is what happens in the United States… but what is happening within the country? … specifically in the border states? Below is the interactive map of crime on the border, since the report issued by Mexico speaks of a lower incidence rate of crime among the Latino community, and as we can see, this is graphically true.</p>
 
 <div style="width: 100%; max-width: 900px; margin: auto;">
     <h3 style="text-align:center; margin-bottom:0.5em; color: #f0b90b;">
@@ -932,21 +932,21 @@ This is what happens in the United States… but what is happening within the co
     </p>
 </div>
 
-**Key Takeaway:**  
-*Crime patterns and offender ethnicities vary widely across U.S. border states, with some states showing notably higher rates for certain crimes or groups.*
+<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
+<em>Crime patterns and offender ethnicities vary widely across U.S. border states, with some states showing notably higher rates for certain crimes or groups.</em></p>
 
-At first hand we can see that the usual violent crimes on both borders are assaults and robberies, however, **the issue that infers us in the map is the drug narcotic violations and as you can see on the northern border the incidence is much lower (530,888) crimes related to drug narcotics violations much less than on the southern border (826,866) which again dismisses the vision of the Mexican government**, because even though the northern border of the USA has a greater distance, weather conditions and controls play an important role in the number of crimes of this nature, however **it is also important to highlight here that in most border states, only in New Mexico is where there is evidence that the majority group related to drug narcotic violations is of Latino origin, however in all other border states the Latino group does not appear as the main group, dismissing another deep-rooted idea about the Latino community and drugs.**
+<p style="color: #f0b90b;">At first hand we can see that the usual violent crimes on both borders are assaults and robberies, however, <b>the issue that infers us in the map is the drug narcotic violations and as you can see on the northern border the incidence is much lower (530,888) crimes related to drug narcotics violations much less than on the southern border (826,866) which again dismisses the vision of the Mexican government</b>, because even though the northern border of the USA has a greater distance, weather conditions and controls play an important role in the number of crimes of this nature, however <b>it is also important to highlight here that in most border states, only in New Mexico is where there is evidence that the majority group related to drug narcotic violations is of Latino origin, however in all other border states the Latino group does not appear as the main group, dismissing another deep-rooted idea about the Latino community and drugs.</b></p>
 
 
 Statement 4. **Invesment and Entrepreneurship**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
- - In 2021, one in five immigrants was an entrepreneur, generating $95.6 billion.
+<p style="color: #f0b90b;"> - In 2021, one in five immigrants was an entrepreneur, generating $95.6 billion.</p>
 
-****Myths or Reality?****
+<p style="color: #f0b90b;"><b>Myths or Reality?</b></p>
 
-Answering this question requires taking statistics from the U.S. Census Bureau on self-employment. According to these statistics, there are 17,296,359 native-born citizens who are self-employed through offering their services or creating their own businesses, 960,131 citizens born in Mexico who also participate in the economy through entrepreneurship, and in the case of the migrant community, a total of 528,072.
+<p style="color: #f0b90b;">Answering this question requires taking statistics from the U.S. Census Bureau on self-employment. According to these statistics, there are 17,296,359 native-born citizens who are self-employed through offering their services or creating their own businesses, 960,131 citizens born in Mexico who also participate in the economy through entrepreneurship, and in the case of the migrant community, a total of 528,072.</p>
 
 
 <div style="width: 100%; max-width: 800px; margin: auto;">
@@ -982,11 +982,11 @@ Answering this question requires taking statistics from the U.S. Census Bureau o
     </p>
 </div>
 
-**Key Takeaway:**  
-*This chart shows the distribution of self-employed Native workers across industries in 2022.*
+<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
+<em>This chart shows the distribution of self-employed Native workers across industries in 2022.</em></p>
 
 
-Generally speaking, 10% of native-born citizens are self-employed, while 14.6% of those born in Mexico are self-employed. In the case of the undocumented Mexican community, this represents 17.3%, and for the native-born community, it is 9.6%. It is interesting to note that the undocumented group is the most self-employed.
+<p style="color: #f0b90b;">Generally speaking, 10% of native-born citizens are self-employed, while 14.6% of those born in Mexico are self-employed. In the case of the undocumented Mexican community, this represents 17.3%, and for the native-born community, it is 9.6%. It is interesting to note that the undocumented group is the most self-employed.</p>
 
 <div style="width: 100%; max-width: 800px; margin: auto;">
     <h3 style="text-align:center; margin-bottom:0.5em; color: #00ff88;">
@@ -1021,10 +1021,10 @@ Generally speaking, 10% of native-born citizens are self-employed, while 14.6% o
     </p>
 </div>
 
-**Key Takeaway:**  
-*This chart shows the distribution of self-employed Mexico-born workers across industries in 2022.*
+<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
+<em>This chart shows the distribution of self-employed Mexico-born workers across industries in 2022.</em></p>
 
-The lack of legal documentation creates difficulties in obtaining formal employment. However, they turn to self-employment. In a land of opportunity and a system designed for economic growth through individual productivity, it is possible to prosper even without documentation, and this is worth highlighting because it is clear evidence that strong and autonomous institutions and the preservation of justice define a country's economic conditions.
+<p style="color: #f0b90b;">The lack of legal documentation creates difficulties in obtaining formal employment. However, they turn to self-employment. In a land of opportunity and a system designed for economic growth through individual productivity, it is possible to prosper even without documentation, and this is worth highlighting because it is clear evidence that strong and autonomous institutions and the preservation of justice define a country's economic conditions.</p>
 
 <div style="width: 100%; max-width: 800px; margin: auto;">
     <h3 style="text-align:center; margin-bottom:0.5em; color: #ff6b6b;">
@@ -1059,17 +1059,17 @@ The lack of legal documentation creates difficulties in obtaining formal employm
     </p>
 </div>
 
-**Key Takeaway:**  
-*This chart shows the distribution of self-employed Unauthorized Mexican workers across industries in 2022.*
+<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
+<em>This chart shows the distribution of self-employed Unauthorized Mexican workers across industries in 2022.</em></p>
 
-In the case of the Mexican government's claim that 4 out of 5 immigrants are entrepreneurs, reviewing the data provided by US statistics departments also fails to verify this. Estimating this information shows that for every 10 native-born citizens employed in the US, 1 is an entrepreneur; for every 10 foreign-born Mexican citizens, 1 is an entrepreneur; and in the case of unauthorized Mexicans, approximately 2 out of 10 are entrepreneurs.
+<p style="color: #f0b90b;">In the case of the Mexican government's claim that 4 out of 5 immigrants are entrepreneurs, reviewing the data provided by US statistics departments also fails to verify this. Estimating this information shows that for every 10 native-born citizens employed in the US, 1 is an entrepreneur; for every 10 foreign-born Mexican citizens, 1 is an entrepreneur; and in the case of unauthorized Mexicans, approximately 2 out of 10 are entrepreneurs.</p>
 
-But it is necessary to answer the last question... is the contribution of the Mexican self-employed $95 billion, as claimed by the Mexican authorities? To do this and as we have done throughout the analysis offered we will base ourselves on the estimates made previously (See Statements 1,2,3) leaving our calculation per person self-employed and eye here we must specify that this calculation is still based on the methodology that we have been developing does not take into account elements such as the real heat of the salaries for each sector and neither the estimates based on the profits that these self-employments generate in reality, here we are making an estimate as accurate as possible taking into account the REAL information available, in this case what is said by the Mexican government is not verified since the level of contribution of self-employment is TWO HUNDRED SIXTEEN THOUSAND TWO HUNDRED FORTY-FOUR MILLION THREE HUNDRED NINETY-TWO THOUSAND dollars so it is far from what was argued by the Mexican official media and unfortunately this only politicizes the information which generates divisions and disputes like those seen in the United States and in Mexico in the last days.
+<p style="color: #f0b90b;">But it is necessary to answer the last question... is the contribution of the Mexican self-employed $95 billion, as claimed by the Mexican authorities? To do this and as we have done throughout the analysis offered we will base ourselves on the estimates made previously (See Statements 1,2,3) leaving our calculation per person self-employed and eye here we must specify that this calculation is still based on the methodology that we have been developing does not take into account elements such as the real heat of the salaries for each sector and neither the estimates based on the profits that these self-employments generate in reality, here we are making an estimate as accurate as possible taking into account the REAL information available, in this case what is said by the Mexican government is not verified since the level of contribution of self-employment is TWO HUNDRED SIXTEEN THOUSAND TWO HUNDRED FORTY-FOUR MILLION THREE HUNDRED NINETY-TWO THOUSAND dollars so it is far from what was argued by the Mexican official media and unfortunately this only politicizes the information which generates divisions and disputes like those seen in the United States and in Mexico in the last days.</p>
 
 ---
 
 
-*All charts are live embeds—hover, zoom, and explore the data yourself!*
+<p style="color: #f0b90b;"><em>All charts are live embeds—hover, zoom, and explore the data yourself!</em></p>
 
 
 Take Action
@@ -1077,9 +1077,9 @@ Take Action
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-- **Policy Recommendations**: Invest in sectors with high migrant labor participation (e.g., healthcare, construction).
-- **Investor Opportunities**: Develop bilingual consumer platforms to capture market share.
-- **Future Research**: Extend analysis to other demographic groups and forecast long-term trends.
+<p style="color: #f0b90b;">- <b>Policy Recommendations</b>: Invest in sectors with high migrant labor participation (e.g., healthcare, construction).<br>
+- <b>Investor Opportunities</b>: Develop bilingual consumer platforms to capture market share.<br>
+- <b>Future Research</b>: Extend analysis to other demographic groups and forecast long-term trends.</p>
 
 ---
-*All charts are live embeds—hover, zoom, and explore the data yourself!*.
+<p style="color: #f0b90b;"><em>All charts are live embeds—hover, zoom, and explore the data yourself!</em></p>
