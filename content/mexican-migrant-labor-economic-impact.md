@@ -521,11 +521,11 @@ To answer the concerns that arise it is necessary to divide the problem into som
 **Key Takeaway:**
 Unauthorized immigrant employment fluctuates with economic cycles but consistently supports key U.S. sectors.
 
-<p style="color: #f0b90b;">Based on the data already collected in point 1 and the data on unauthorized individuals in the United States, we will calculate the number of unauthorized employees. Based on the same methodology used to calculate the contribution of citizens of Mexican parents, we need to do the same and determine how many unauthorized individuals are of Mexican origin, as shown in the following graph. Similar to the trends in unauthorized immigration, one of the interesting aspects of this research is that, after 2017, unauthorized immigration to the United States not only decreased, but actually plummeted, as shown in the graph.</p>
+Based on the data already collected in point 1 and the data on unauthorized individuals in the United States, we will calculate the number of unauthorized employees. Based on the same methodology used to calculate the contribution of citizens of Mexican parents, we need to do the same and determine how many unauthorized individuals are of Mexican origin, as shown in the following graph. Similar to the trends in unauthorized immigration, one of the interesting aspects of this research is that, after 2017, unauthorized immigration to the United States not only decreased, but actually plummeted, as shown in the graph.
 
-<p style="color: #f0b90b;">Some point to President Obama's strict deportation priorities and increased border patrols; others, to the devastating COVID-19 lockdowns. Whatever the cause, migration came to a complete halt, only to resurface strongly in 2021 and continue to increase as economic crises related to the disruption of economic dynamism in Latin American countries, the Middle East, and most of the world due to lockdown measures had global repercussions.</p>
+Some point to President Obama's strict deportation priorities and increased border patrols; others, to the devastating COVID-19 lockdowns. Whatever the cause, migration came to a complete halt, only to resurface strongly in 2021 and continue to increase as economic crises related to the disruption of economic dynamism in Latin American countries, the Middle East, and most of the world due to lockdown measures had global repercussions.
 
-<p style="color: #f0b90b;">Starting in 2021, migrant caravans the size of small cities will once again make the news, but now they are a reality in the Americas. They are not just statistics on a spreadsheet; they are humanity in motion, a living barometer of the geopolitical distortions and economic inequality created by the impact of the disruption of many production lines and value chains destroyed during this process.</p>
+Starting in 2021, migrant caravans the size of small cities will once again make the news, but now they are a reality in the Americas. They are not just statistics on a spreadsheet; they are humanity in motion, a living barometer of the geopolitical distortions and economic inequality created by the impact of the disruption of many production lines and value chains destroyed during this process.
 
 <div id="pie-unauthorized-share" style="width: 100%; max-width: 700px; margin: auto; height: 500px;"></div>
 <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
@@ -579,12 +579,12 @@ Plotly.newPlot('bar-employed-unauth-2022', [{
 }, { responsive: true });
 </script>
 
-**Key Takeaway:</b><br>
-<em>Unauthorized employment is concentrated among specific national groups, emphasizing their workforce importance.</em></p>
+**Key Takeaway:**
+Unauthorized employment is concentrated among specific national groups, emphasizing their workforce importance.
 
-<p style="color: #f0b90b;">And the story doesn't end there. Migrants from Guatemala, El Salvador, and Honduras, driven by violence, climate disasters, and extreme poverty, are arriving en masse, turning a regional tragedy into a continental movement. Even China has quietly claimed its share of this migration pie, representing approximately 2% of the unauthorized population, reminding us that the current global economic distortions spare no one.</p>
+And the story doesn't end there. Migrants from Guatemala, El Salvador, and Honduras, driven by violence, climate disasters, and extreme poverty, are arriving en masse, turning a regional tragedy into a continental movement. Even China has quietly claimed its share of this migration pie, representing approximately 2% of the unauthorized population, reminding us that the current global economic distortions spare no one.
 
-<p style="color: #f0b90b;">Based on publicly available databases and based on the unequivocal assumption that American employees pay their taxes directly, we compiled the evolution of tax collection as a percentage of GDP, resulting in the following:</p>
+Based on publicly available databases and based on the unequivocal assumption that American employees pay their taxes directly, we compiled the evolution of tax collection as a percentage of GDP, resulting in the following:
 
 <div id="fed-tax-payroll-chart" style="width: 100%; max-width: 800px; margin: auto; height: 450px;"></div>
 <script>
@@ -620,10 +620,10 @@ Plotly.newPlot('fed-tax-payroll-chart', [
 });
 </script>
 
-**Key Takeaway:</b><br>
-<em>Immigrants contribute to federal taxes and payroll at rates similar to native-born workers.</em></p>
+**Key Takeaway:**
+Immigrants contribute to federal taxes and payroll at rates similar to native-born workers.
 
-<p style="color: #f0b90b;">From this contribution of the country's tax collection rates, we obtain the following distribution of the contributions that unauthorized employees generate as taxes. Once the data on contributions made by American workers and citizens is obtained, the level of contributions from unauthorized workers living in the United States is estimated. The calculation is significant.</p> 
+From this contribution of the country's tax collection rates, we obtain the following distribution of the contributions that unauthorized employees generate as taxes. Once the data on contributions made by American workers and citizens is obtained, the level of contributions from unauthorized workers living in the United States is estimated. The calculation is significant.
 
 <div id="bar-gdp-contrib-unauth-2022" style="width: 100%; max-width: 800px; margin: auto; height: 450px;"></div>
 <script>
@@ -646,10 +646,10 @@ Plotly.newPlot('bar-gdp-contrib-unauth-2022', [{
 }, { responsive: true });
 </script>
 
-**Key Takeaway:</b><br>
-<em>Unauthorized immigrants make significant contributions to the U.S. GDP, underscoring their vital role in the economy.</em></p>
+**Key Takeaway:**
+Unauthorized immigrants make significant contributions to the U.S. GDP, underscoring their vital role in the economy.
 
-<p style="color: #f0b90b;">Even unauthorized Mexican immigrant workers contribute a little over $107 billion to the treasury, a similar amount to the amount mentioned in the report. However, the proportions reported by the Mexican government are unverifiable based on the data, as the contribution to Social Security <strong>is just over $52 billion, $12 billion to Medicare, and just over $42 billion to income tax figures quite different from those determined in the official report.</strong></p>
+Even unauthorized Mexican immigrant workers contribute a little over $107 billion to the treasury, a similar amount to the amount mentioned in the report. However, the proportions reported by the Mexican government are unverifiable based on the data, as the contribution to Social Security <strong>is just over $52 billion, $12 billion to Medicare, and just over $42 billion to income tax figures quite different from those determined in the official report.
 
 <div id="tax-contrib-2022" style="width: 100%; max-width: 800px; margin: auto; height: 450px;"></div>
 <script>
@@ -671,10 +671,10 @@ Plotly.newPlot('tax-contrib-2022', [
 </script>
 </div>
 
-**Key Takeaway:</b><br>
-<em>Tax contributions from unauthorized immigrants vary by country of origin but are a consistent fiscal benefit.</em></p>
+**Key Takeaway:**
+Tax contributions from unauthorized immigrants vary by country of origin but are a consistent fiscal benefit.
 
-<p style="color: #f0b90b;">Another element to check is the contribution of unauthorized workers to the country's industries. To do this, we must estimate the distribution of employees by each industry in the economy for natives and foreign-born workers, which is as follows:</p>
+Another element to check is the contribution of unauthorized workers to the country's industries. To do this, we must estimate the distribution of employees by each industry in the economy for natives and foreign-born workers, which is as follows:
 
 <div style="width: 100%; max-width: 900px; margin: auto; margin-bottom: 32px;">
     <h2 style="text-align:center; margin-top: 0; color: #f0b90b;">Industry Distribution by Origin Group (2022)</h2>
@@ -705,7 +705,7 @@ Plotly.newPlot('tax-contrib-2022', [
     </p>
 </div>
 
-<p style="color: #f0b90b;">Something interesting to note is that the three industries where Native Americans are most heavily employed are services, except for public administration. This represents 12.9% of the total Native American population, followed by the information sector with 8.9% and the transportation and warehousing services sector with 8.6%, showing that services and computer development have the greatest share.</p>
+Something interesting to note is that the three industries where Native Americans are most heavily employed are services, except for public administration. This represents 12.9% of the total Native American population, followed by the information sector with 8.9% and the transportation and warehousing services sector with 8.6%, showing that services and computer development have the greatest share.
 
 <div style="width: 100%; max-width: 1200px; margin: auto; margin-bottom: 32px;">
     <h2 style="text-align:center; margin-top: 0; color: #f0b90b;">Native Employed by Industry (2022)</h2>
@@ -731,7 +731,7 @@ Plotly.newPlot('tax-contrib-2022', [
     </p>
 </div>
 
-<p style="color: #f0b90b;">As well as services, information development and mobility are the sectors where there is the greatest native participation. Based on the available data on the distribution of the employed population by industry in the United States, based on the resulting distribution from population data and estimates of foreigners born in Mexico and unauthorized immigrants from Mexico, we have obtained the following results:</p>
+As well as services, information development and mobility are the sectors where there is the greatest native participation. Based on the available data on the distribution of the employed population by industry in the United States, based on the resulting distribution from population data and estimates of foreigners born in Mexico and unauthorized immigrants from Mexico, we have obtained the following results:
 
 <p style="color: #f0b90b;">Distribution of the foreign-born population of Mexican citizens employed in the USA by industry:</p>
 
@@ -759,7 +759,7 @@ Plotly.newPlot('tax-contrib-2022', [
     </p>
 </div>
 
-<p style="color: #f0b90b;">Distribution of the unauthorized population of Mexican citizens employed in the USA by industry:</p>
+Distribution of the unauthorized population of Mexican citizens employed in the USA by industry:
 
 
 <div style="width: 100%; max-width: 1200px; margin: auto; margin-bottom: 32px;">
@@ -786,9 +786,9 @@ Plotly.newPlot('tax-contrib-2022', [
     </p>
 </div>
 
-<p style="color: #f0b90b;">As can be seen in the chart for both groups, the main industry where the majority of the employed population participates is manufacturing with a share of 15.4%, construction with 12.3%, and professionals in science, management, and administrative and waste management services with 9.6%.</p>
+As can be seen in the chart for both groups, the main industry where the majority of the employed population participates is manufacturing with a share of 15.4%, construction with 12.3%, and professionals in science, management, and administrative and waste management services with 9.6%.
 
-**Interesting results, since it is normally thought that the foreign-born population is dedicated solely to agricultural construction; however, the agricultural sector (8.7%) is the fourth largest activity. These results do not support what Mexican authorities have said about the distribution of immigrant labor and undocumented immigrants in the United States. Again, we address the inconsistency of the Mexican government's information.</b></p>
+**Interesting results, since it is normally thought that the foreign-born population is dedicated solely to agricultural construction; however, the agricultural sector (8.7%) is the fourth largest activity. These results do not support what Mexican authorities have said about the distribution of immigrant labor and undocumented immigrants in the United States. Again, we address the inconsistency of the Mexican government's information.**
 
 
 Statement 3 . **Security**
