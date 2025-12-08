@@ -649,7 +649,7 @@ Plotly.newPlot('bar-gdp-contrib-unauth-2022', [{
 **Key Takeaway:**
 Unauthorized immigrants make significant contributions to the U.S. GDP, underscoring their vital role in the economy.
 
-Even unauthorized Mexican immigrant workers contribute a little over $107 billion to the treasury, a similar amount to the amount mentioned in the report. However, the proportions reported by the Mexican government are unverifiable based on the data, as the contribution to Social Security <strong>is just over $52 billion, $12 billion to Medicare, and just over $42 billion to income tax figures quite different from those determined in the official report.
+Even unauthorized Mexican immigrant workers contribute a little over $107 billion to the treasury, a similar amount to the amount mentioned in the report. However, the proportions reported by the Mexican government are unverifiable based on the data, as the contribution to Social Security **is just over $52 billion, $12 billion to Medicare, and just over $42 billion to income tax figures quite different from those determined in the official report.**
 
 <div id="tax-contrib-2022" style="width: 100%; max-width: 800px; margin: auto; height: 450px;"></div>
 <script>
