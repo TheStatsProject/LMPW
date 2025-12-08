@@ -676,28 +676,69 @@ Tax contributions from unauthorized immigrants vary by country of origin but are
 
 Another element to check is the contribution of unauthorized workers to the country's industries. To do this, we must estimate the distribution of employees by each industry in the economy for natives and foreign-born workers, which is as follows:
 
-<div style="width: 100%; max-width: 900px; margin: auto; margin-bottom: 32px;">
-    <div id="industry-distribution-2022" style="width: 100%; height: 540px;"></div>
-    <script>
-    var industries = ['Other services', 'Information', 'Wholesale trade', 'Transportation', 'Finance/Insurance', 'Manufacturing', 'Construction', 'Retail trade', 'Agriculture'];
-    var nativeData = [12.9, 8.9, 8.6, 8.6, 8.5, 8.4, 8.0, 7.5, 1.2];
-    var mexicanData = [6.5, 2.1, 3.8, 7.2, 3.4, 13.5, 18.2, 8.1, 8.9];
-    var unauthorizedData = [5.8, 1.5, 2.9, 5.4, 2.1, 12.8, 22.5, 6.8, 12.3];
-    Plotly.newPlot('industry-distribution-2022', [
-        {x: industries, y: nativeData, name: 'Native-born', type: 'bar', marker: {color: '#f0b90b'}},
-        {x: industries, y: mexicanData, name: 'Mexican-born', type: 'bar', marker: {color: '#00ff88'}},
-        {x: industries, y: unauthorizedData, name: 'Unauthorized Mexican', type: 'bar', marker: {color: '#ff6b6b'}}
-    ], {
-        barmode: 'group',
-        paper_bgcolor: '#1a3a47',
-        plot_bgcolor: '#1a3a47',
-        font: {color: '#f0b90b'},
-        legend: {orientation: 'h', y: -0.2},
-        yaxis: {title: 'Percentage (%)', gridcolor: '#285F75'},
-        xaxis: {tickangle: -45},
-        annotations: [{ text: '@TheTruthProject', xref: 'paper', yref: 'paper', x: 0.99, y: 0.01, showarrow: false, font: { color: '#f0b90b', size: 10 }, opacity: 0.7 }]
-    });
-    </script>
+<div id="industry-distribution-2022" style="width: 100%; max-width: 900px; margin: auto; height: 540px;"></div>
+<script>
+Plotly.newPlot('industry-distribution-2022', [
+    { 
+        x: ['Other services', 'Information', 'Wholesale trade', 'Transportation', 'Finance/Insurance', 'Manufacturing', 'Construction', 'Retail trade', 'Agriculture'], 
+        y: [12.9, 8.9, 8.6, 8.6, 8.5, 8.4, 8.0, 7.5, 1.2], 
+        type: 'bar', 
+        name: 'Native-born', 
+        marker: { color: '#f0b90b' }
+    },
+    { 
+        x: ['Other services', 'Information', 'Wholesale trade', 'Transportation', 'Finance/Insurance', 'Manufacturing', 'Construction', 'Retail trade', 'Agriculture'], 
+        y: [6.5, 2.1, 3.8, 7.2, 3.4, 13.5, 18.2, 8.1, 8.9], 
+        type: 'bar', 
+        name: 'Mexican-born', 
+        marker: { color: '#00ff88' }
+    },
+    { 
+        x: ['Other services', 'Information', 'Wholesale trade', 'Transportation', 'Finance/Insurance', 'Manufacturing', 'Construction', 'Retail trade', 'Agriculture'], 
+        y: [5.8, 1.5, 2.9, 5.4, 2.1, 12.8, 22.5, 6.8, 12.3], 
+        type: 'bar', 
+        name: 'Unauthorized Mexican', 
+        marker: { color: '#ff6b6b' }
+    }
+], {
+    title: { 
+        text: 'Industry Distribution by Origin Group (2022)', 
+        font: { color: '#f0b90b' } 
+    },
+    paper_bgcolor: '#1a3a47',
+    plot_bgcolor: '#1a3a47',
+    barmode: 'group',
+    xaxis: { 
+        tickangle: -45, 
+        tickfont: { color: '#f0b90b' }, 
+        gridcolor: '#285F75' 
+    },
+    yaxis: { 
+        title: 'Percentage (%)', 
+        tickfont: { color: '#f0b90b' }, 
+        titlefont: { color: '#f0b90b' },
+        gridcolor: '#285F75' 
+    },
+    legend: { 
+        font: { color: '#f0b90b' }, 
+        orientation: 'h', 
+        y: -0.2 
+    },
+    margin: { b: 120, t: 60 },
+    annotations: [
+        { 
+            text: '@TheTruthProject', 
+            xref: 'paper', 
+            yref: 'paper', 
+            x: 0.99, 
+            y: 0.01, 
+            showarrow: false, 
+            font: { color: '#f0b90b', size: 10 }, 
+            opacity: 0.7 
+        }
+    ]
+}, { responsive: true });
+</script>
   
 **Key Takeaway:**
 Compares the industry employment distributions of native-born, Mexican-born, and unauthorized Mexican workers in 2022.
@@ -725,6 +766,7 @@ Something interesting to note is that the three industries where Native American
 
 **Key Takeaway:**
 The distribution of native-born employment across industries in 2022.
+
 
 As well as services, information development and mobility are the sectors where there is the greatest native participation. Based on the available data on the distribution of the employed population by industry in the United States, based on the resulting distribution from population data and estimates of foreigners born in Mexico and unauthorized immigrants from Mexico, we have obtained the following results:
 
@@ -782,10 +824,8 @@ As can be seen in the chart for both groups, the main industry where the majorit
 **Interesting results, since it is normally thought that the foreign-born population is dedicated solely to agricultural construction; however, the agricultural sector (8.7%) is the fourth largest activity. These results do not support what Mexican authorities have said about the distribution of immigrant labor and undocumented immigrants in the United States. Again, we address the inconsistency of the Mexican government's information.**
 
 
-Statement 3 . **Security**
--------------------------
-
 **Statement 3. Security**
+-------------------------
 
 - Immigrants have 60 percent less crime, and the states along the border with Mexico are safer and healthier compared to the northern border of the United States.
 
