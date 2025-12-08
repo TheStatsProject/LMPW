@@ -677,7 +677,6 @@ Tax contributions from unauthorized immigrants vary by country of origin but are
 Another element to check is the contribution of unauthorized workers to the country's industries. To do this, we must estimate the distribution of employees by each industry in the economy for natives and foreign-born workers, which is as follows:
 
 <div style="width: 100%; max-width: 900px; margin: auto; margin-bottom: 32px;">
-    <h2 style="text-align:center; margin-top: 0; color: #f0b90b;">Industry Distribution by Origin Group (2022)</h2>
     <div id="industry-distribution-2022" style="width: 100%; height: 540px;"></div>
     <script>
     var industries = ['Other services', 'Information', 'Wholesale trade', 'Transportation', 'Finance/Insurance', 'Manufacturing', 'Construction', 'Retail trade', 'Agriculture'];
