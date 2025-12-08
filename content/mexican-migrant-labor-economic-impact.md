@@ -315,7 +315,7 @@ Refined calculations reveal the GDP contribution of Mexican-born and other forei
 As we can see in the table ¨GDP & Employment Table by Foreign-Born Group (Excludes Native, 2024)¨ the calculation issued by the Mexican authority has a quite important variation since when considering the total population, as we have mentioned before, it generates distortions that distance us from reality, according to these results the statement of Mexicans born in the U.S. contributed $781 billion to the Gross Domestic Product (GDP) since their real contribution is <strong>$953.3 billion to the Gross Domestic Product (GDP)
 
 
-What remains to be clarified at this point is to contrast the contributions made by the Mexico foreign origin born group. According to the statement (which stated that the 781 billion USD is not accurate information), <strong>the contribution that this group makes to the US GDP is equivalent, compared to the member economies of the OECD, to the tenth largest economy in the world</strong>. Unfortunately, as we can see here, <strong>this is also unverifiable</strong>, since considering their own (implausible) statements, the size of the contribution of 781 billion USD would <strong>actually be equivalent to the fifteenth largest economy in the world</strong>. If we included Russia and China in this analysis, <strong>the position would move to the eighteenth largest economy</strong>, as can be seen in the following graph.</p>
+What remains to be clarified at this point is to contrast the contributions made by the Mexico foreign origin born group. According to the statement (which stated that the 781 billion USD is not accurate information), the contribution that this group makes to the US GDP is equivalent, compared to the member economies of the OECD, to the tenth largest economy in the world. **Unfortunately, as we can see here, this is also unverifiable, since considering their own (implausible) statements, the size of the contribution of 781 billion USD would** actually be equivalent to the fifteenth largest economy in the world. If we included Russia and China in this analysis, the position would move to the eighteenth largest economy, as can be seen in the following graph.
 
 
 <div style="display: flex; justify-content: space-between; gap: 22px; flex-wrap: wrap;">
@@ -418,10 +418,10 @@ As we can see, even considering the contributions discussed in the official repo
   </div>
 </div>
 
-**Key Takeaway:</b><br>
-<em>Mexican foreign-born GDP contributions are significant, rivaling mid-sized OECD economies and far exceeding some official estimates.</em></p>
+**Key Takeaway:**
+Mexican foreign-born GDP contributions are significant, rivaling mid-sized OECD economies and far exceeding some official estimates.
 
-<p style="color: #f0b90b;">But let's not finish this statement without adding that Mexico isn't the only one contributing to the US GDP. Here are the top foreign origin groups that contributed the most in 2024:</p>
+But let's not finish this statement without adding that Mexico isn't the only one contributing to the US GDP. Here are the top foreign origin groups that contributed the most in 2024:
 
 <div style="width: 100%; max-width: 800px; margin: auto;">
 <h4 style="text-align:center; color: #f0b90b; font-family: Arial; margin-bottom: 16px;">Top 10 Foreign-Born GDP Contributors (2024) - USD Billions</h4>
@@ -439,14 +439,13 @@ As we can see, even considering the contributions discussed in the official repo
 </div>
 </div>
 
-**Key Takeaway:</b><br>
-<em>The top ten foreign-born groups, led by Mexican and Indian cohorts, are essential drivers of U.S. GDP growth.</em></p>
+**Key Takeaway:**
+The top ten foreign-born groups, led by Mexican and Indian cohorts, are essential drivers of U.S. GDP growth.
 
+**Statement 2 . Contributions**
+-------------------------
 
-**Statement 2 . Contributions</b></p>
-<hr style="border-color: #f0b90b;">
-
-<p style="color: #f0b90b;">- In 2022, undocumented immigrants paid nearly $100 billion in taxes, including $25.7 billion to Social Security; $6.4 billion to Medicare; and $1.8 billion to unemployment insurance.<br>
+- In 2022, undocumented immigrants paid nearly $100 billion in taxes, including $25.7 billion to Social Security; $6.4 billion to Medicare; and $1.8 billion to unemployment insurance.
 - They complement the U.S. workforce in essential industries, as their workforce represents 51 percent of dairy farms and meat processing; 20 percent of manufacturing and agriculture; 15 percent of education and healthcare; 28 percent of healthcare assistants; and 25 percent of construction workers. and 54.3 percent of agricultural sorters.</p>
 
 <p style="color: #f0b90b;"><strong>Myths or Reality?</strong></p>
@@ -1061,13 +1060,12 @@ Statement 4. **Invesment and Entrepreneurship**
     </p>
 </div>
 
-**Key Takeaway:**
-This chart shows the distribution of self-employed Unauthorized Mexican workers across industries in 2022.
+**Key Takeaway:</b><br>
+<em>This chart shows the distribution of self-employed Unauthorized Mexican workers across industries in 2022.</em></p>
 
+<p style="color: #f0b90b;">In the case of the Mexican government's claim that 4 out of 5 immigrants are entrepreneurs, reviewing the data provided by US statistics departments also fails to verify this. Estimating this information shows that for every 10 native-born citizens employed in the US, 1 is an entrepreneur; for every 10 foreign-born Mexican citizens, 1 is an entrepreneur; and in the case of unauthorized Mexicans, approximately 2 out of 10 are entrepreneurs.</p>
 
-In the case of the Mexican government's claim that 4 out of 5 immigrants are entrepreneurs, reviewing the data provided by US statistics departments also fails to verify this. Estimating this information shows that for every 10 native-born citizens employed in the US, 1 is an entrepreneur; for every 10 foreign-born Mexican citizens, 1 is an entrepreneur; and in the case of unauthorized Mexicans, approximately 2 out of 10 are entrepreneurs.
-
-But it is necessary to answer the last question... is the contribution of the Mexican self-employed $95 billion, as claimed by the Mexican authorities? To do this and as we have done throughout the analysis offered we will base ourselves on the estimates made previously (See Statements 1,2,3) leaving our calculation per person self-employed and eye here we must specify that this calculation is still based on the methodology that we have been developing does not take into account elements such as the real heat of the salaries for each sector and neither the estimates based on the profits that these self-employments generate in reality, here we are making an estimate as accurate as possible taking into account the REAL information available, in this case what is said by the Mexican government is not verified since the level of contribution of self-employment is TWO HUNDRED SIXTEEN THOUSAND TWO HUNDRED FORTY-FOUR MILLION THREE HUNDRED NINETY-TWO THOUSAND dollars so it is far from what was argued by the Mexican official media and unfortunately this only politicizes the information which generates divisions and disputes like those seen in the United States and in Mexico in the last days.
+<p style="color: #f0b90b;">But it is necessary to answer the last question... is the contribution of the Mexican self-employed $95 billion, as claimed by the Mexican authorities? To do this and as we have done throughout the analysis offered we will base ourselves on the estimates made previously (See Statements 1,2,3) leaving our calculation per person self-employed and eye here we must specify that this calculation is still based on the methodology that we have been developing does not take into account elements such as the real heat of the salaries for each sector and neither the estimates based on the profits that these self-employments generate in reality, here we are making an estimate as accurate as possible taking into account the REAL information available, in this case what is said by the Mexican government is not verified since the level of contribution of self-employment is TWO HUNDRED SIXTEEN THOUSAND TWO HUNDRED FORTY-FOUR MILLION THREE HUNDRED NINETY-TWO THOUSAND dollars so it is far from what was argued by the Mexican official media and unfortunately this only politicizes the information which generates divisions and disputes like those seen in the United States and in Mexico in the last days.</p>
 
 ---
 
