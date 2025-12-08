@@ -827,29 +827,91 @@ Plotly.newPlot('native-employed-2022', [
 **Key Takeaway:**
 The distribution of native-born employment across industries in 2022.
 
-
 As well as services, information development and mobility are the sectors where there is the greatest native participation. Based on the available data on the distribution of the employed population by industry in the United States, based on the resulting distribution from population data and estimates of foreigners born in Mexico and unauthorized immigrants from Mexico, we have obtained the following results:
 
 Distribution of the foreign-born population of Mexican citizens employed in the USA by industry:
 
-<div style="width: 100%; max-width: 1200px; margin: auto; margin-bottom: 32px;">
-    <h2 style="text-align:center; margin-top: 0; color: #f0b90b;">Mexican-born Employed by Industry (2022)</h2>
-<div style="font-family: Arial, sans-serif; padding: 10px;">
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Manufacturing</span><div style="background: #00ff88; height: 18px; width: 100%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">433,861</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Construction</span><div style="background: #00ff88; height: 18px; width: 82%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">355,766</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Professional and management services</span><div style="background: #00ff88; height: 18px; width: 65%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">280,563</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Agriculture, forestry, fishing, mining</span><div style="background: #00ff88; height: 18px; width: 57%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">248,747</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Information</span><div style="background: #00ff88; height: 18px; width: 55%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">240,070</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Wholesale trade</span><div style="background: #00ff88; height: 18px; width: 51%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">219,823</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Public administration</span><div style="background: #00ff88; height: 18px; width: 49%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">214,038</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Finance, insurance, and real estate</span><div style="background: #00ff88; height: 18px; width: 45%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">196,683</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Retail trade</span><div style="background: #00ff88; height: 18px; width: 35%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">150,405</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Transportation and utilities</span><div style="background: #00ff88; height: 18px; width: 33%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">144,620</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Other services (except public admin)</span><div style="background: #00ff88; height: 18px; width: 33%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">144,620</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Arts, entertainment, and food services</span><div style="background: #00ff88; height: 18px; width: 32%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">138,835</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Education and health care</span><div style="background: #00ff88; height: 18px; width: 29%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">124,373</span></div>
-<p style="text-align:right; font-size:0.8em; color: #00ff88; opacity: 0.7; margin: 2px 0;">@TheTruthProject</p>
-</div>
+<div id="mexican-employed-2022" style="width: 100%; max-width: 1200px; margin: auto; height: 600px;"></div>
+
+<script>
+var industries = [
+    'Manufacturing',
+    'Construction',
+    'Professional and management services',
+    'Agriculture, forestry, fishing, mining',
+    'Information',
+    'Wholesale trade',
+    'Public administration',
+    'Finance, insurance, and real estate',
+    'Retail trade',
+    'Transportation and utilities',
+    'Other services (except public admin)',
+    'Arts, entertainment, and food services',
+    'Education and health care'
+];
+
+var values = [
+    433861,
+    355766,
+    280563,
+    248747,
+    240070,
+    219823,
+    214038,
+    196683,
+    150405,
+    144620,
+    144620,
+    138835,
+    124373
+];
+
+Plotly.newPlot('mexican-employed-2022', [
+    {
+        type: 'bar',
+        x: values,
+        y: industries,
+        orientation: 'h',
+        marker: { color: '#00ff88' },
+        text: values.map(v => v.toLocaleString()),
+        textposition: 'outside',
+        name: 'Mexican-born Employed'
+    }
+], {
+    title: { 
+        text: 'Mexican-born Employed by Industry (2022)', 
+        font: { color: '#00ff88' }
+    },
+    paper_bgcolor: '#1a3a47',
+    plot_bgcolor: '#1a3a47',
+
+    xaxis: { 
+        title: 'Number of Workers',
+        tickfont: { color: '#00ff88' },
+        titlefont: { color: '#00ff88' },
+        gridcolor: '#285F75'
+    },
+    yaxis: { 
+        tickfont: { color: '#00ff88' },
+        automargin: true
+    },
+
+    margin: { t: 60, b: 80, l: 280, r: 40 },
+
+    annotations: [
+        { 
+            text: '@TheTruthProject', 
+            xref: 'paper', 
+            yref: 'paper', 
+            x: 0.99, 
+            y: 0.01, 
+            showarrow: false, 
+            font: { color: '#00ff88', size: 10 },
+            opacity: 0.7 
+        }
+    ]
+}, { responsive: true });
+</script>
   
 **Key Takeaway:**
 The distribution of Mexican-born employment across industries in 2022.
@@ -857,24 +919,87 @@ The distribution of Mexican-born employment across industries in 2022.
 Distribution of the unauthorized population of Mexican citizens employed in the USA by industry:
 
 
-<div style="width: 100%; max-width: 1200px; margin: auto; margin-bottom: 32px;">
-    <h2 style="text-align:center; margin-top: 0; color: #f0b90b;">Unauthorized Mexican-born Employed by Industry (2022)</h2>
-<div style="font-family: Arial, sans-serif; padding: 10px;">
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Manufacturing</span><div style="background: #ff6b6b; height: 18px; width: 100%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">248,433</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Construction</span><div style="background: #ff6b6b; height: 18px; width: 83%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">205,481</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Professional and management services</span><div style="background: #ff6b6b; height: 18px; width: 66%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">164,120</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Agriculture, forestry, fishing, mining</span><div style="background: #ff6b6b; height: 18px; width: 59%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">146,621</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Information</span><div style="background: #ff6b6b; height: 18px; width: 57%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">141,848</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Wholesale trade</span><div style="background: #ff6b6b; height: 18px; width: 53%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">130,712</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Finance, insurance, and real estate</span><div style="background: #ff6b6b; height: 18px; width: 47%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">117,986</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Retail trade</span><div style="background: #ff6b6b; height: 18px; width: 37%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">92,533</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Transportation and utilities</span><div style="background: #ff6b6b; height: 18px; width: 36%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">89,351</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Other services (except public admin)</span><div style="background: #ff6b6b; height: 18px; width: 36%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">89,351</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Arts, entertainment, and food services</span><div style="background: #ff6b6b; height: 18px; width: 35%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">86,169</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Education and health care</span><div style="background: #ff6b6b; height: 18px; width: 31%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">78,215</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Public administration</span><div style="background: #ff6b6b; height: 18px; width: 0%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">0</span></div>
-<p style="text-align:right; font-size:0.8em; color: #ff6b6b; opacity: 0.7; margin: 2px 0;">@TheTruthProject</p>
-</div>
+<div id="unauth-mexican-employed-2022" style="width: 100%; max-width: 1200px; margin: auto; height: 600px;"></div>
+
+<script>
+var industries = [
+    'Manufacturing',
+    'Construction',
+    'Professional and management services',
+    'Agriculture, forestry, fishing, mining',
+    'Information',
+    'Wholesale trade',
+    'Finance, insurance, and real estate',
+    'Retail trade',
+    'Transportation and utilities',
+    'Other services (except public admin)',
+    'Arts, entertainment, and food services',
+    'Education and health care',
+    'Public administration'
+];
+
+var values = [
+    248433,
+    205481,
+    164120,
+    146621,
+    141848,
+    130712,
+    117986,
+    92533,
+    89351,
+    89351,
+    86169,
+    78215,
+    0
+];
+
+Plotly.newPlot('unauth-mexican-employed-2022', [
+    {
+        type: 'bar',
+        x: values,
+        y: industries,
+        orientation: 'h',
+        marker: { color: '#ff6b6b' },
+        text: values.map(v => v.toLocaleString()),
+        textposition: 'outside',
+        name: 'Unauthorized Mexican-born Employed'
+    }
+], {
+    title: { 
+        text: 'Unauthorized Mexican-born Employed by Industry (2022)', 
+        font: { color: '#ff6b6b' }
+    },
+    paper_bgcolor: '#1a3a47',
+    plot_bgcolor: '#1a3a47',
+
+    xaxis: { 
+        title: 'Number of Workers',
+        tickfont: { color: '#ff6b6b' },
+        titlefont: { color: '#ff6b6b' },
+        gridcolor: '#285F75'
+    },
+    yaxis: { 
+        tickfont: { color: '#ff6b6b' },
+        automargin: true
+    },
+
+    margin: { t: 60, b: 80, l: 280, r: 40 },
+
+    annotations: [
+        { 
+            text: '@TheTruthProject', 
+            xref: 'paper', 
+            yref: 'paper', 
+            x: 0.99, 
+            y: 0.01, 
+            showarrow: false, 
+            font: { color: '#ff6b6b', size: 10 },
+            opacity: 0.7 
+        }
+    ]
+}, { responsive: true });
+</script>
    
 **Key Takeaway:**
 The distribution of unauthorized Mexican-born employment across industries in 2022.
