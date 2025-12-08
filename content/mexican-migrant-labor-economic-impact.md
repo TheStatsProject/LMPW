@@ -188,10 +188,11 @@ For get the datasets for make the calcs we build this dataset base on this varia
 </table>
 </div>
 
-<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
-<em>This table provides a unified summary of key variables from the U.S. Census and FRED, forming the baseline for all following calculations.</em></p>
+**Key Takeaway:**
+This table provides a unified summary of key variables from the U.S. Census and FRED, forming the baseline for all following calculations.
 
-<p style="color: #f0b90b;">With this information we amplify the assumptions made by the Mexican government and will add additional elements to refine this analys adding as follow:</p>
+
+With this information we amplify the assumptions made by the Mexican government and will add additional elements to refine this analys adding as follow:
 
 D. **Assumption 4**: EMP Ratio
 
@@ -245,15 +246,16 @@ Assum Assumption 4 is as follows:
 </table>
 </div>
 
-<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
-<em>The employment ratio has fluctuated over time, impacting GDP calculations by group. Recent years show stronger labor force participation among foreign-born populations.</em></p>
+**Key Takeaway:**
+The employment ratio has fluctuated over time, impacting GDP calculations by group. Recent years show stronger labor force participation among foreign-born populations.
 
-<p style="color: #f0b90b;">By obtaining the EMP ratio, we can calculate, based on this estimator, the number of people by origin group within the United States that are part of the country's workforce. To do this, the following general formula will be used.</p>
+By obtaining the EMP ratio, we can calculate, based on this estimator, the number of people by origin group within the United States that are part of the country's workforce. To do this, the following general formula will be used.
 
 
-<p style="color: #f0b90b;">E. <b>Assumption 6</b>: Foreing-group LFC</p>
+E. **Assumption 6: Foreing-group LFC**
 
-<p style="color: #f0b90b;">Base in alll asummptions we get the next adjust calc of the labor force of USA, for know that we build the next equation:</p>
+Base in alll asummptions we get the next adjust calc of the labor force of USA, for know that we build the next equation:
+
 
 <div style="text-align: center; margin: 16px 0; padding: 12px; background-color: #0d1d30; border: 1px solid #f0b90b; border-radius: 8px;">
 <span style="font-size: 1.2em; color: #f0b90b; font-family: 'Times New Roman', serif;">
@@ -261,8 +263,8 @@ Assum Assumption 4 is as follows:
 </span>
 </div>
 
-
 With all this ingredients we could calculate the contribution of GDP from Mexican-born LFC
+
 
 F. **Contribution of GDP from Foreing-group LFC**
 
@@ -306,12 +308,14 @@ With all this Assumptions and recalibrate the datasets base from `U.S. Census Bu
 </table>
 </div>
 
-<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
-<em>Refined calculations reveal the GDP contribution of Mexican-born and other foreign-born groups, correcting common misconceptions in public discourse.</em></p>
+**Key Takeaway:**
+Refined calculations reveal the GDP contribution of Mexican-born and other foreign-born groups, correcting common misconceptions in public discourse.
 
-<p style="color: #f0b90b;">As we can see in the table ¨GDP & Employment Table by Foreign-Born Group (Excludes Native, 2024)¨ the calculation issued by the Mexican authority has a quite important variation since when considering the total population, as we have mentioned before, it generates distortions that distance us from reality, according to these results the statement of Mexicans born in the U.S. contributed $781 billion to the Gross Domestic Product (GDP) since their real contribution is <strong>$953.3 billion to the Gross Domestic Product (GDP)</strong></p>
 
-<p style="color: #f0b90b;">What remains to be clarified at this point is to contrast the contributions made by the Mexico foreign origin born group. According to the statement (which stated that the 781 billion USD is not accurate information), <strong>the contribution that this group makes to the US GDP is equivalent, compared to the member economies of the OECD, to the tenth largest economy in the world</strong>. Unfortunately, as we can see here, <strong>this is also unverifiable</strong>, since considering their own (implausible) statements, the size of the contribution of 781 billion USD would <strong>actually be equivalent to the fifteenth largest economy in the world</strong>. If we included Russia and China in this analysis, <strong>the position would move to the eighteenth largest economy</strong>, as can be seen in the following graph.</p>
+As we can see in the table ¨GDP & Employment Table by Foreign-Born Group (Excludes Native, 2024)¨ the calculation issued by the Mexican authority has a quite important variation since when considering the total population, as we have mentioned before, it generates distortions that distance us from reality, according to these results the statement of Mexicans born in the U.S. contributed $781 billion to the Gross Domestic Product (GDP) since their real contribution is <strong>$953.3 billion to the Gross Domestic Product (GDP)
+
+
+What remains to be clarified at this point is to contrast the contributions made by the Mexico foreign origin born group. According to the statement (which stated that the 781 billion USD is not accurate information), <strong>the contribution that this group makes to the US GDP is equivalent, compared to the member economies of the OECD, to the tenth largest economy in the world</strong>. Unfortunately, as we can see here, <strong>this is also unverifiable</strong>, since considering their own (implausible) statements, the size of the contribution of 781 billion USD would <strong>actually be equivalent to the fifteenth largest economy in the world</strong>. If we included Russia and China in this analysis, <strong>the position would move to the eighteenth largest economy</strong>, as can be seen in the following graph.</p>
 
 
 <div style="display: flex; justify-content: space-between; gap: 22px; flex-wrap: wrap;">
@@ -414,7 +418,7 @@ As we can see, even considering the contributions discussed in the official repo
   </div>
 </div>
 
-<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
+**Key Takeaway:</b><br>
 <em>Mexican foreign-born GDP contributions are significant, rivaling mid-sized OECD economies and far exceeding some official estimates.</em></p>
 
 <p style="color: #f0b90b;">But let's not finish this statement without adding that Mexico isn't the only one contributing to the US GDP. Here are the top foreign origin groups that contributed the most in 2024:</p>
@@ -435,11 +439,11 @@ As we can see, even considering the contributions discussed in the official repo
 </div>
 </div>
 
-<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
+**Key Takeaway:</b><br>
 <em>The top ten foreign-born groups, led by Mexican and Indian cohorts, are essential drivers of U.S. GDP growth.</em></p>
 
 
-<p style="color: #f0b90b;"><b>Statement 2 . Contributions</b></p>
+**Statement 2 . Contributions</b></p>
 <hr style="border-color: #f0b90b;">
 
 <p style="color: #f0b90b;">- In 2022, undocumented immigrants paid nearly $100 billion in taxes, including $25.7 billion to Social Security; $6.4 billion to Medicare; and $1.8 billion to unemployment insurance.<br>
@@ -515,7 +519,7 @@ To answer the concerns that arise it is necessary to divide the problem into som
 </script>
 </div>
 
-<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
+**Key Takeaway:</b><br>
 <em>Unauthorized immigrant employment fluctuates with economic cycles but consistently supports key U.S. sectors.</em></p>
 
 <p style="color: #f0b90b;">Based on the data already collected in point 1 and the data on unauthorized individuals in the United States, we will calculate the number of unauthorized employees. Based on the same methodology used to calculate the contribution of citizens of Mexican parents, we need to do the same and determine how many unauthorized individuals are of Mexican origin, as shown in the following graph. Similar to the trends in unauthorized immigration, one of the interesting aspects of this research is that, after 2017, unauthorized immigration to the United States not only decreased, but actually plummeted, as shown in the graph.</p>
@@ -576,7 +580,7 @@ Plotly.newPlot('bar-employed-unauth-2022', [{
 }, { responsive: true });
 </script>
 
-<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
+**Key Takeaway:</b><br>
 <em>Unauthorized employment is concentrated among specific national groups, emphasizing their workforce importance.</em></p>
 
 <p style="color: #f0b90b;">And the story doesn't end there. Migrants from Guatemala, El Salvador, and Honduras, driven by violence, climate disasters, and extreme poverty, are arriving en masse, turning a regional tragedy into a continental movement. Even China has quietly claimed its share of this migration pie, representing approximately 2% of the unauthorized population, reminding us that the current global economic distortions spare no one.</p>
@@ -617,7 +621,7 @@ Plotly.newPlot('fed-tax-payroll-chart', [
 });
 </script>
 
-<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
+**Key Takeaway:</b><br>
 <em>Immigrants contribute to federal taxes and payroll at rates similar to native-born workers.</em></p>
 
 <p style="color: #f0b90b;">From this contribution of the country's tax collection rates, we obtain the following distribution of the contributions that unauthorized employees generate as taxes. Once the data on contributions made by American workers and citizens is obtained, the level of contributions from unauthorized workers living in the United States is estimated. The calculation is significant.</p> 
@@ -643,7 +647,7 @@ Plotly.newPlot('bar-gdp-contrib-unauth-2022', [{
 }, { responsive: true });
 </script>
 
-<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
+**Key Takeaway:</b><br>
 <em>Unauthorized immigrants make significant contributions to the U.S. GDP, underscoring their vital role in the economy.</em></p>
 
 <p style="color: #f0b90b;">Even unauthorized Mexican immigrant workers contribute a little over $107 billion to the treasury, a similar amount to the amount mentioned in the report. However, the proportions reported by the Mexican government are unverifiable based on the data, as the contribution to Social Security <strong>is just over $52 billion, $12 billion to Medicare, and just over $42 billion to income tax figures quite different from those determined in the official report.</strong></p>
@@ -668,7 +672,7 @@ Plotly.newPlot('tax-contrib-2022', [
 </script>
 </div>
 
-<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
+**Key Takeaway:</b><br>
 <em>Tax contributions from unauthorized immigrants vary by country of origin but are a consistent fiscal benefit.</em></p>
 
 <p style="color: #f0b90b;">Another element to check is the contribution of unauthorized workers to the country's industries. To do this, we must estimate the distribution of employees by each industry in the economy for natives and foreign-born workers, which is as follows:</p>
@@ -785,7 +789,7 @@ Plotly.newPlot('tax-contrib-2022', [
 
 <p style="color: #f0b90b;">As can be seen in the chart for both groups, the main industry where the majority of the employed population participates is manufacturing with a share of 15.4%, construction with 12.3%, and professionals in science, management, and administrative and waste management services with 9.6%.</p>
 
-<p style="color: #f0b90b;"><b>Interesting results, since it is normally thought that the foreign-born population is dedicated solely to agricultural construction; however, the agricultural sector (8.7%) is the fourth largest activity. These results do not support what Mexican authorities have said about the distribution of immigrant labor and undocumented immigrants in the United States. Again, we address the inconsistency of the Mexican government's information.</b></p>
+**Interesting results, since it is normally thought that the foreign-born population is dedicated solely to agricultural construction; however, the agricultural sector (8.7%) is the fourth largest activity. These results do not support what Mexican authorities have said about the distribution of immigrant labor and undocumented immigrants in the United States. Again, we address the inconsistency of the Mexican government's information.</b></p>
 
 
 Statement 3 . **Security**
@@ -794,7 +798,7 @@ Statement 3 . **Security**
 
 <p style="color: #f0b90b;"> - Immigrants have 60 percent less crime, and the states along the border with Mexico are safer and healthier compared to the northern border of the United States.</p>
 
-<p style="color: #f0b90b;"><b>Myths or Reality?</b></p>
+**Myths or Reality?</b></p>
 
 <p style="color: #f0b90b;">In order to answer the question of crime, we had to adapt our search to the analysis of cub scouts offered by the best agency, the FBI. For this, we analyzed the violent crimes reported on their website (link). From there, we branched the search by violent crimes and the origin of those who commit them. With these assumptions, we classified violent crimes according to the FBI under the following categories:</p>
 
@@ -848,7 +852,7 @@ Statement 3 . **Security**
     </script>
 </div>
 
-<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
+**Key Takeaway:</b><br>
 <em>Most crimes are committed by people identified as Not Hispanic or Latino, but the data also shows a significant number of 'Not Specified' and 'Unknown' offenders across all major crime types.</em></p>
 
 <p style="color: #f0b90b;">One of the most controversial and politicized issues of recent decades, and currently in recent months, is the development of drug-related crime. It is precisely here that we add an interesting statistic to our analysis: Drug Narcotics violations. In the case of drug-narcotics violations, we obtained the following results:</p>
@@ -880,7 +884,7 @@ Statement 3 . **Security**
     </script>
 </div>
 
-<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
+**Key Takeaway:</b><br>
 <em>Drug/Narcotic Violations have the highest proportion of Not Hispanic or Latino offenders, but also a notable number of 'Not Specified' and 'Unknown' cases.</em></p>
 
 
@@ -930,7 +934,7 @@ Statement 3 . **Security**
     </p>
 </div>
 
-<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
+**Key Takeaway:</b><br>
 <em>Crime patterns and offender ethnicities vary widely across U.S. border states, with some states showing notably higher rates for certain crimes or groups.</em></p>
 
 <p style="color: #f0b90b;">At first hand we can see that the usual violent crimes on both borders are assaults and robberies, however, <b>the issue that infers us in the map is the drug narcotic violations and as you can see on the northern border the incidence is much lower (530,888) crimes related to drug narcotics violations much less than on the southern border (826,866) which again dismisses the vision of the Mexican government</b>, because even though the northern border of the USA has a greater distance, weather conditions and controls play an important role in the number of crimes of this nature, however <b>it is also important to highlight here that in most border states, only in New Mexico is where there is evidence that the majority group related to drug narcotic violations is of Latino origin, however in all other border states the Latino group does not appear as the main group, dismissing another deep-rooted idea about the Latino community and drugs.</b></p>
@@ -942,7 +946,7 @@ Statement 4. **Invesment and Entrepreneurship**
 
 <p style="color: #f0b90b;"> - In 2021, one in five immigrants was an entrepreneur, generating $95.6 billion.</p>
 
-<p style="color: #f0b90b;"><b>Myths or Reality?</b></p>
+**Myths or Reality?</b></p>
 
 <p style="color: #f0b90b;">Answering this question requires taking statistics from the U.S. Census Bureau on self-employment. According to these statistics, there are 17,296,359 native-born citizens who are self-employed through offering their services or creating their own businesses, 960,131 citizens born in Mexico who also participate in the economy through entrepreneurship, and in the case of the migrant community, a total of 528,072.</p>
 
@@ -980,7 +984,7 @@ Statement 4. **Invesment and Entrepreneurship**
     </p>
 </div>
 
-<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
+**Key Takeaway:</b><br>
 <em>This chart shows the distribution of self-employed Native workers across industries in 2022.</em></p>
 
 
@@ -1019,7 +1023,7 @@ Statement 4. **Invesment and Entrepreneurship**
     </p>
 </div>
 
-<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
+**Key Takeaway:</b><br>
 <em>This chart shows the distribution of self-employed Mexico-born workers across industries in 2022.</em></p>
 
 <p style="color: #f0b90b;">The lack of legal documentation creates difficulties in obtaining formal employment. However, they turn to self-employment. In a land of opportunity and a system designed for economic growth through individual productivity, it is possible to prosper even without documentation, and this is worth highlighting because it is clear evidence that strong and autonomous institutions and the preservation of justice define a country's economic conditions.</p>
@@ -1057,12 +1061,13 @@ Statement 4. **Invesment and Entrepreneurship**
     </p>
 </div>
 
-<p style="color: #f0b90b;"><b>Key Takeaway:</b><br>
-<em>This chart shows the distribution of self-employed Unauthorized Mexican workers across industries in 2022.</em></p>
+**Key Takeaway:**
+This chart shows the distribution of self-employed Unauthorized Mexican workers across industries in 2022.
 
-<p style="color: #f0b90b;">In the case of the Mexican government's claim that 4 out of 5 immigrants are entrepreneurs, reviewing the data provided by US statistics departments also fails to verify this. Estimating this information shows that for every 10 native-born citizens employed in the US, 1 is an entrepreneur; for every 10 foreign-born Mexican citizens, 1 is an entrepreneur; and in the case of unauthorized Mexicans, approximately 2 out of 10 are entrepreneurs.</p>
 
-<p style="color: #f0b90b;">But it is necessary to answer the last question... is the contribution of the Mexican self-employed $95 billion, as claimed by the Mexican authorities? To do this and as we have done throughout the analysis offered we will base ourselves on the estimates made previously (See Statements 1,2,3) leaving our calculation per person self-employed and eye here we must specify that this calculation is still based on the methodology that we have been developing does not take into account elements such as the real heat of the salaries for each sector and neither the estimates based on the profits that these self-employments generate in reality, here we are making an estimate as accurate as possible taking into account the REAL information available, in this case what is said by the Mexican government is not verified since the level of contribution of self-employment is TWO HUNDRED SIXTEEN THOUSAND TWO HUNDRED FORTY-FOUR MILLION THREE HUNDRED NINETY-TWO THOUSAND dollars so it is far from what was argued by the Mexican official media and unfortunately this only politicizes the information which generates divisions and disputes like those seen in the United States and in Mexico in the last days.</p>
+In the case of the Mexican government's claim that 4 out of 5 immigrants are entrepreneurs, reviewing the data provided by US statistics departments also fails to verify this. Estimating this information shows that for every 10 native-born citizens employed in the US, 1 is an entrepreneur; for every 10 foreign-born Mexican citizens, 1 is an entrepreneur; and in the case of unauthorized Mexicans, approximately 2 out of 10 are entrepreneurs.
+
+But it is necessary to answer the last question... is the contribution of the Mexican self-employed $95 billion, as claimed by the Mexican authorities? To do this and as we have done throughout the analysis offered we will base ourselves on the estimates made previously (See Statements 1,2,3) leaving our calculation per person self-employed and eye here we must specify that this calculation is still based on the methodology that we have been developing does not take into account elements such as the real heat of the salaries for each sector and neither the estimates based on the profits that these self-employments generate in reality, here we are making an estimate as accurate as possible taking into account the REAL information available, in this case what is said by the Mexican government is not verified since the level of contribution of self-employment is TWO HUNDRED SIXTEEN THOUSAND TWO HUNDRED FORTY-FOUR MILLION THREE HUNDRED NINETY-TWO THOUSAND dollars so it is far from what was argued by the Mexican official media and unfortunately this only politicizes the information which generates divisions and disputes like those seen in the United States and in Mexico in the last days.
 
 ---
 
