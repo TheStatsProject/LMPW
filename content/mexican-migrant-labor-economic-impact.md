@@ -674,7 +674,9 @@ Plotly.newPlot('tax-contrib-2022', [
 **Key Takeaway:**
 Tax contributions from unauthorized immigrants vary by country of origin but are a consistent fiscal benefit.
 
+
 Another element to check is the contribution of unauthorized workers to the country's industries. To do this, we must estimate the distribution of employees by each industry in the economy for natives and foreign-born workers, which is as follows:
+
 
 <div id="industry-distribution-2022" style="width: 100%; max-width: 900px; margin: auto; height: 540px;"></div>
 <script>
@@ -743,7 +745,9 @@ Plotly.newPlot('industry-distribution-2022', [
 **Key Takeaway:**
 Compares the industry employment distributions of native-born, Mexican-born, and unauthorized Mexican workers in 2022.
 
+
 Something interesting to note is that the three industries where Native Americans are most heavily employed are services, except for public administration. This represents 12.9% of the total Native American population, followed by the information sector with 8.9% and the transportation and warehousing services sector with 8.6%, showing that services and computer development have the greatest share.
+
 
 <div id="native-employed-2022" style="width: 100%; max-width: 1200px; margin: auto; height: 600px;"></div>
 
@@ -827,9 +831,12 @@ Plotly.newPlot('native-employed-2022', [
 **Key Takeaway:**
 The distribution of native-born employment across industries in 2022.
 
+
 As well as services, information development and mobility are the sectors where there is the greatest native participation. Based on the available data on the distribution of the employed population by industry in the United States, based on the resulting distribution from population data and estimates of foreigners born in Mexico and unauthorized immigrants from Mexico, we have obtained the following results:
 
+
 Distribution of the foreign-born population of Mexican citizens employed in the USA by industry:
+
 
 <div id="mexican-employed-2022" style="width: 100%; max-width: 1200px; margin: auto; height: 600px;"></div>
 
