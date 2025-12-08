@@ -727,7 +727,6 @@ Something interesting to note is that the three industries where Native American
 **Key Takeaway:**
 The distribution of native-born employment across industries in 2022.
 
-
 As well as services, information development and mobility are the sectors where there is the greatest native participation. Based on the available data on the distribution of the employed population by industry in the United States, based on the resulting distribution from population data and estimates of foreigners born in Mexico and unauthorized immigrants from Mexico, we have obtained the following results:
 
 Distribution of the foreign-born population of Mexican citizens employed in the USA by industry:
@@ -784,8 +783,10 @@ As can be seen in the chart for both groups, the main industry where the majorit
 **Interesting results, since it is normally thought that the foreign-born population is dedicated solely to agricultural construction; however, the agricultural sector (8.7%) is the fourth largest activity. These results do not support what Mexican authorities have said about the distribution of immigrant labor and undocumented immigrants in the United States. Again, we address the inconsistency of the Mexican government's information.**
 
 
-**Statement 3. Security**
+Statement 3 . **Security**
 -------------------------
+
+**Statement 3. Security**
 
 - Immigrants have 60 percent less crime, and the states along the border with Mexico are safer and healthier compared to the northern border of the United States.
 
