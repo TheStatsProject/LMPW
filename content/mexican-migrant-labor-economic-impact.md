@@ -446,23 +446,15 @@ The top ten foreign-born groups, led by Mexican and Indian cohorts, are essentia
 **Statement 2 . Contributions**
 -------------------------
 
-<p style="color: #f0b90b;">
-- In 2022, undocumented immigrants paid nearly $100 billion in taxes, including $25.7 billion to Social Security; $6.4 billion to Medicare; and $1.8 billion to unemployment insurance.
-</p>
 
-<p style="color: #f0b90b;">
+- In 2022, undocumented immigrants paid nearly $100 billion in taxes, including $25.7 billion to Social Security; $6.4 billion to Medicare; and $1.8 billion to unemployment insurance.
 - They complement the U.S. workforce in essential industries, as their workforce represents 51 percent of dairy farms and meat processing; 20 percent of manufacturing and agriculture; 15 percent of education and healthcare; 28 percent of healthcare assistants; and 25 percent of construction workers. and 54.3 percent of agricultural sorters.
-</p>
 
 **Myths or Reality?**
 
-<p style="color: #f0b90b;">
 In order to address these assertions about the contributions of "undocumented" people, understood as those stays not authorized by the state are employed. The way in which these details are obtained is even more confusing, given that even within the same statistical analysis groups of the census boreau, they agree on the difficulty of obtaining precise data on this point. However, we attempt to obtain more credible statistics based on the information available at the time of this analysis.
-</p>
 
-<p style="color: #f0b90b;">
 To answer the concerns that arise it is necessary to divide the problem into some parts more accessible to the calculation, so first of all we are going to quantify the number of unauthorized persons and for this what was collected is based on the information provided by the `Office of Homeland Security Statistics <https://ohss.dhs.gov/>`_ office that collects statistical information on this subject and in whose reports you can find the most precise information, in this sense we interpolate some extraneous data and based on the results, Below is the estimated number of these unauthorized persons and how many are employed, based on the employment rates and GDP per capita estimated for the years that have been presented above, as follows:
-</p>
 
 <div style="width: 100%; max-width: 900px; margin: auto;">
 <h4 style="text-align: center; color: #f0b90b; margin-bottom: 16px;">Estimated Employed Unauthorized Population (2009–2024)</h4>
