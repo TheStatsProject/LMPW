@@ -784,7 +784,6 @@ As can be seen in the chart for both groups, the main industry where the majorit
 **Interesting results, since it is normally thought that the foreign-born population is dedicated solely to agricultural construction; however, the agricultural sector (8.7%) is the fourth largest activity. These results do not support what Mexican authorities have said about the distribution of immigrant labor and undocumented immigrants in the United States. Again, we address the inconsistency of the Mexican government's information.**
 
 
-
 **Statement 3. Security**
 -------------------------
 
@@ -801,19 +800,19 @@ In order to answer the question of crime, we had to adapt our search to the anal
 
 To identify the Latinos mentioned in the report, each group was categorized as follows:
 
-<p style="color: #f0b90b;">-- Not Hispanic or Latino<br>
--- Not Specified<br>
--- Unknown<br>
--- Hispanic or Latino</p>
+-- Not Hispanic or Latino
+-- Not Specified
+-- Unknown
+-- Hispanic or Latino
 
-<p style="color: #f0b90b;">Based on the FBI's results for the entire country, we obtained the following interesting conclusions about violent crimes committed in the United States:</p>
+Based on the FBI's results for the entire country, we obtained the following interesting conclusions about violent crimes committed in the United States:
 
-<p style="color: #f0b90b;">- Rape is the second most frequent violent crime in the country, with 205,593 violent crimes, according to statistics provided by the FBI. Of these crimes, 4 out of 10 were committed by non-Hispanic or non-Latino groups. Based on the data for this atrocious violent crime, the Latino community has the lowest incidence, with 1 in 10 cases of rape as a violent crime in the USA (67,267).<br>
-- Aggravated Assault presents similar patterns in this case, with 4 out of 10 cases generated within the country being of non-Hispanic or non-Latino origin (38,171).<br>
-- In this case, homicide is observed to be of Latino origin (8,576), while 4 out of 10 are from non-Hispanic or non-Latino groups (38,171).<br>
-- Robbery repeats the same pattern, with approximately 3.9 incidents per 10 inhabitants caused by non-Hispanic or non-Latino groups (412,161).</p>
+- Rape is the second most frequent violent crime in the country, with 205,593 violent crimes, according to statistics provided by the FBI. Of these crimes, 4 out of 10 were committed by non-Hispanic or non-Latino groups. Based on the data for this atrocious violent crime, the Latino community has the lowest incidence, with 1 in 10 cases of rape as a violent crime in the USA (67,267).
+- Aggravated Assault presents similar patterns in this case, with 4 out of 10 cases generated within the country being of non-Hispanic or non-Latino origin (38,171).
+- In this case, homicide is observed to be of Latino origin (8,576), while 4 out of 10 are from non-Hispanic or non-Latino groups (38,171).
+- Robbery repeats the same pattern, with approximately 3.9 incidents per 10 inhabitants caused by non-Hispanic or non-Latino groups (412,161).
 
-<p style="color: #f0b90b;">As seen in the following graph, we can analyze in detail the ethnic distribution of violent crimes within the country:</p>
+As seen in the following graph, we can analyze in detail the ethnic distribution of violent crimes within the country:
 
 <div style="width: 100%; max-width: 800px; margin: auto;">
     <h3 style="text-align:center; margin-bottom:0.5em; color: #f0b90b;">
@@ -844,8 +843,8 @@ To identify the Latinos mentioned in the report, each group was categorized as f
     </script>
 </div>
 
-**Key Takeaway:</b><br>
-<em>Most crimes are committed by people identified as Not Hispanic or Latino, but the data also shows a significant number of 'Not Specified' and 'Unknown' offenders across all major crime types.</em></p>
+**Key Takeaway:**
+Most crimes are committed by people identified as Not Hispanic or Latino, but the data also shows a significant number of 'Not Specified' and 'Unknown' offenders across all major crime types.
 
 <p style="color: #f0b90b;">One of the most controversial and politicized issues of recent decades, and currently in recent months, is the development of drug-related crime. It is precisely here that we add an interesting statistic to our analysis: Drug Narcotics violations. In the case of drug-narcotics violations, we obtained the following results:</p>
 
