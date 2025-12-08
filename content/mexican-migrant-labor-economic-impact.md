@@ -677,7 +677,6 @@ Plotly.newPlot('tax-contrib-2022', [
 Tax contributions from unauthorized immigrants vary by country of origin but are a consistent fiscal benefit.
 
 
-
 Another element to check is the contribution of unauthorized workers to the country's industries. To do this, we must estimate the distribution of employees by each industry in the economy for natives and foreign-born workers, which is as follows:
 
 
@@ -749,12 +748,10 @@ Plotly.newPlot('industry-distribution-2022', [
 Compares the industry employment distributions of native-born, Mexican-born, and unauthorized Mexican workers in 2022.
 
 
-
 Something interesting to note is that the three industries where Native Americans are most heavily employed are services, except for public administration. This represents 12.9% of the total Native American population, followed by the information sector with 8.9% and the transportation and warehousing services sector with 8.6%, showing that services and computer development have the greatest share.
 
 
 <div id="native-employed-2022" style="width: 100%; max-width: 1200px; margin: auto; height: 600px;"></div>
-
 <script>
 var industries = [
     'Other services (except public admin)',
@@ -836,9 +833,7 @@ Plotly.newPlot('native-employed-2022', [
 The distribution of native-born employment across industries in 2022.
 
 
-
 As well as services, information development and mobility are the sectors where there is the greatest native participation. Based on the available data on the distribution of the employed population by industry in the United States, based on the resulting distribution from population data and estimates of foreigners born in Mexico and unauthorized immigrants from Mexico, we have obtained the following results:
-
 
 
 
@@ -846,9 +841,7 @@ Distribution of the foreign-born population of Mexican citizens employed in the 
 
 
 
-
 <div id="mexican-employed-2022" style="width: 100%; max-width: 1200px; margin: auto; height: 600px;"></div>
-
 <script>
 var industries = [
     'Manufacturing',
@@ -940,7 +933,6 @@ Distribution of the unauthorized population of Mexican citizens employed in the 
 
 
 <div id="unauth-mexican-employed-2022" style="width: 100%; max-width: 1200px; margin: auto; height: 600px;"></div>
-
 <script>
 var industries = [
     'Manufacturing',
@@ -1096,7 +1088,7 @@ Most crimes are committed by people identified as Not Hispanic or Latino, but th
 
 One of the most controversial and politicized issues of recent decades, and currently in recent months, is the development of drug-related crime. It is precisely here that we add an interesting statistic to our analysis: Drug Narcotics violations. In the case of drug-narcotics violations, we obtained the following results:
 
-<p style="color: #f0b90b;">* Result 1</p>
+* Result 1*
 
 <div style="width: 100%; max-width: 800px; margin: auto;">
     <h3 style="text-align:center; margin-bottom:0.5em; color: #f0b90b;">
@@ -1179,14 +1171,13 @@ At first hand we can see that the usual violent crimes on both borders are assau
 
 
 Statement 4. **Invesment and Entrepreneurship**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
-<p style="color: #f0b90b;"> - In 2021, one in five immigrants was an entrepreneur, generating $95.6 billion.</p>
+ - In 2021, one in five immigrants was an entrepreneur, generating $95.6 billion.</p>
 
 **Myths or Reality?**
 
-<p style="color: #f0b90b;">Answering this question requires taking statistics from the U.S. Census Bureau on self-employment. According to these statistics, there are 17,296,359 native-born citizens who are self-employed through offering their services or creating their own businesses, 960,131 citizens born in Mexico who also participate in the economy through entrepreneurship, and in the case of the migrant community, a total of 528,072.</p>
+Answering this question requires taking statistics from the U.S. Census Bureau on self-employment. According to these statistics, there are 17,296,359 native-born citizens who are self-employed through offering their services or creating their own businesses, 960,131 citizens born in Mexico who also participate in the economy through entrepreneurship, and in the case of the migrant community, a total of 528,072.
 
 
 <div style="width: 100%; max-width: 800px; margin: auto;">
@@ -1222,11 +1213,11 @@ Statement 4. **Invesment and Entrepreneurship**
     </p>
 </div>
 
-**Key Takeaway:</b><br>
-<em>This chart shows the distribution of self-employed Native workers across industries in 2022.</em></p>
+**Key Takeaway:**
+This chart shows the distribution of self-employed Native workers across industries in 2022.
 
 
-<p style="color: #f0b90b;">Generally speaking, 10% of native-born citizens are self-employed, while 14.6% of those born in Mexico are self-employed. In the case of the undocumented Mexican community, this represents 17.3%, and for the native-born community, it is 9.6%. It is interesting to note that the undocumented group is the most self-employed.</p>
+Generally speaking, 10% of native-born citizens are self-employed, while 14.6% of those born in Mexico are self-employed. In the case of the undocumented Mexican community, this represents 17.3%, and for the native-born community, it is 9.6%. It is interesting to note that the undocumented group is the most self-employed.
 
 <div style="width: 100%; max-width: 800px; margin: auto;">
     <h3 style="text-align:center; margin-bottom:0.5em; color: #00ff88;">
@@ -1261,10 +1252,10 @@ Statement 4. **Invesment and Entrepreneurship**
     </p>
 </div>
 
-**Key Takeaway:</b><br>
-<em>This chart shows the distribution of self-employed Mexico-born workers across industries in 2022.</em></p>
+**Key Takeaway:**
+This chart shows the distribution of self-employed Mexico-born workers across industries in 2022.
 
-<p style="color: #f0b90b;">The lack of legal documentation creates difficulties in obtaining formal employment. However, they turn to self-employment. In a land of opportunity and a system designed for economic growth through individual productivity, it is possible to prosper even without documentation, and this is worth highlighting because it is clear evidence that strong and autonomous institutions and the preservation of justice define a country's economic conditions.</p>
+The lack of legal documentation creates difficulties in obtaining formal employment. However, they turn to self-employment. In a land of opportunity and a system designed for economic growth through individual productivity, it is possible to prosper even without documentation, and this is worth highlighting because it is clear evidence that strong and autonomous institutions and the preservation of justice define a country's economic conditions.
 
 <div style="width: 100%; max-width: 800px; margin: auto;">
     <h3 style="text-align:center; margin-bottom:0.5em; color: #ff6b6b;">
@@ -1299,17 +1290,15 @@ Statement 4. **Invesment and Entrepreneurship**
     </p>
 </div>
 
-**Key Takeaway:</b><br>
-<em>This chart shows the distribution of self-employed Unauthorized Mexican workers across industries in 2022.</em></p>
+**Key Takeaway:**
+This chart shows the distribution of self-employed Unauthorized Mexican workers across industries in 2022.
 
-<p style="color: #f0b90b;">In the case of the Mexican government's claim that 4 out of 5 immigrants are entrepreneurs, reviewing the data provided by US statistics departments also fails to verify this. Estimating this information shows that for every 10 native-born citizens employed in the US, 1 is an entrepreneur; for every 10 foreign-born Mexican citizens, 1 is an entrepreneur; and in the case of unauthorized Mexicans, approximately 2 out of 10 are entrepreneurs.</p>
+In the case of the Mexican government's claim that 4 out of 5 immigrants are entrepreneurs, reviewing the data provided by US statistics departments also fails to verify this. Estimating this information shows that for every 10 native-born citizens employed in the US, 1 is an entrepreneur; for every 10 foreign-born Mexican citizens, 1 is an entrepreneur; and in the case of unauthorized Mexicans, approximately 2 out of 10 are entrepreneurs.
 
-<p style="color: #f0b90b;">But it is necessary to answer the last question... is the contribution of the Mexican self-employed $95 billion, as claimed by the Mexican authorities? To do this and as we have done throughout the analysis offered we will base ourselves on the estimates made previously (See Statements 1,2,3) leaving our calculation per person self-employed and eye here we must specify that this calculation is still based on the methodology that we have been developing does not take into account elements such as the real heat of the salaries for each sector and neither the estimates based on the profits that these self-employments generate in reality, here we are making an estimate as accurate as possible taking into account the REAL information available, in this case what is said by the Mexican government is not verified since the level of contribution of self-employment is TWO HUNDRED SIXTEEN THOUSAND TWO HUNDRED FORTY-FOUR MILLION THREE HUNDRED NINETY-TWO THOUSAND dollars so it is far from what was argued by the Mexican official media and unfortunately this only politicizes the information which generates divisions and disputes like those seen in the United States and in Mexico in the last days.</p>
-
----
+But it is necessary to answer the last question... is the contribution of the Mexican self-employed $95 billion, as claimed by the Mexican authorities? To do this and as we have done throughout the analysis offered we will base ourselves on the estimates made previously (See Statements 1,2,3) leaving our calculation per person self-employed and eye here we must specify that this calculation is still based on the methodology that we have been developing does not take into account elements such as the real heat of the salaries for each sector and neither the estimates based on the profits that these self-employments generate in reality, here we are making an estimate as accurate as possible taking into account the REAL information available, in this case what is said by the Mexican government is not verified since the level of contribution of self-employment is TWO HUNDRED SIXTEEN THOUSAND TWO HUNDRED FORTY-FOUR MILLION THREE HUNDRED NINETY-TWO THOUSAND dollars so it is far from what was argued by the Mexican official media and unfortunately this only politicizes the information which generates divisions and disputes like those seen in the United States and in Mexico in the last days.
 
 
-<p style="color: #f0b90b;"><em>All charts are live embeds—hover, zoom, and explore the data yourself!</em></p>
+All charts are live embeds—hover, zoom, and explore the data yourself!
 
 
 Take Action
