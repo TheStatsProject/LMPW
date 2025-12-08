@@ -1008,7 +1008,6 @@ As can be seen in the chart for both groups, the main industry where the majorit
 
 **Interesting results, since it is normally thought that the foreign-born population is dedicated solely to agricultural construction; however, the agricultural sector (8.7%) is the fourth largest activity. These results do not support what Mexican authorities have said about the distribution of immigrant labor and undocumented immigrants in the United States. Again, we address the inconsistency of the Mexican government's information.**
 
-
 **Statement 3. Security**
 -------------------------
 
