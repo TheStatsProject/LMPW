@@ -442,8 +442,10 @@ But let's not finish this statement without adding that Mexico isn't the only on
 **Key Takeaway:**
 The top ten foreign-born groups, led by Mexican and Indian cohorts, are essential drivers of U.S. GDP growth.
 
+
 **Statement 2 . Contributions**
 -------------------------
+
 
 - In 2022, undocumented immigrants paid nearly $100 billion in taxes, including $25.7 billion to Social Security; $6.4 billion to Medicare; and $1.8 billion to unemployment insurance.
 - They complement the U.S. workforce in essential industries, as their workforce represents 51 percent of dairy farms and meat processing; 20 percent of manufacturing and agriculture; 15 percent of education and healthcare; 28 percent of healthcare assistants; and 25 percent of construction workers. and 54.3 percent of agricultural sorters.
@@ -651,6 +653,7 @@ Unauthorized immigrants make significant contributions to the U.S. GDP, undersco
 
 Even unauthorized Mexican immigrant workers contribute a little over $107 billion to the treasury, a similar amount to the amount mentioned in the report. However, the proportions reported by the Mexican government are unverifiable based on the data, as the contribution to Social Security **is just over $52 billion, $12 billion to Medicare, and just over $42 billion to income tax figures quite different from those determined in the official report.**
 
+
 <div id="tax-contrib-2022" style="width: 100%; max-width: 800px; margin: auto; height: 450px;"></div>
 <script>
 Plotly.newPlot('tax-contrib-2022', [
@@ -673,7 +676,6 @@ Plotly.newPlot('tax-contrib-2022', [
 
 **Key Takeaway:**
 Tax contributions from unauthorized immigrants vary by country of origin but are a consistent fiscal benefit.
-
 
 Another element to check is the contribution of unauthorized workers to the country's industries. To do this, we must estimate the distribution of employees by each industry in the economy for natives and foreign-born workers, which is as follows:
 
@@ -744,7 +746,6 @@ Plotly.newPlot('industry-distribution-2022', [
   
 **Key Takeaway:**
 Compares the industry employment distributions of native-born, Mexican-born, and unauthorized Mexican workers in 2022.
-
 
 Something interesting to note is that the three industries where Native Americans are most heavily employed are services, except for public administration. This represents 12.9% of the total Native American population, followed by the information sector with 8.9% and the transportation and warehousing services sector with 8.6%, showing that services and computer development have the greatest share.
 
@@ -830,7 +831,6 @@ Plotly.newPlot('native-employed-2022', [
 
 **Key Takeaway:**
 The distribution of native-born employment across industries in 2022.
-
 
 As well as services, information development and mobility are the sectors where there is the greatest native participation. Based on the available data on the distribution of the employed population by industry in the United States, based on the resulting distribution from population data and estimates of foreigners born in Mexico and unauthorized immigrants from Mexico, we have obtained the following results:
 
@@ -1011,15 +1011,14 @@ Plotly.newPlot('unauth-mexican-employed-2022', [
 **Key Takeaway:**
 The distribution of unauthorized Mexican-born employment across industries in 2022.
 
-
-
-
 As can be seen in the chart for both groups, the main industry where the majority of the employed population participates is manufacturing with a share of 15.4%, construction with 12.3%, and professionals in science, management, and administrative and waste management services with 9.6%.
 
 **Interesting results, since it is normally thought that the foreign-born population is dedicated solely to agricultural construction; however, the agricultural sector (8.7%) is the fourth largest activity. These results do not support what Mexican authorities have said about the distribution of immigrant labor and undocumented immigrants in the United States. Again, we address the inconsistency of the Mexican government's information.**
 
+
 **Statement 3. Security**
 -------------------------
+
 
 - Immigrants have 60 percent less crime, and the states along the border with Mexico are safer and healthier compared to the northern border of the United States.
 
