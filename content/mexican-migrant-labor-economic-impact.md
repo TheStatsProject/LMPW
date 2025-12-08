@@ -699,11 +699,9 @@ Another element to check is the contribution of unauthorized workers to the coun
         annotations: [{ text: '@TheTruthProject', xref: 'paper', yref: 'paper', x: 0.99, y: 0.01, showarrow: false, font: { color: '#f0b90b', size: 10 }, opacity: 0.7 }]
     });
     </script>
-    <p style="text-align:center; font-size:1.06em; color: #f0b90b;">
-        <b>Key Takeaway:</b><br>
-        Compares the industry employment distributions of native-born, Mexican-born, and unauthorized Mexican workers in 2022.
-    </p>
-</div>
+  
+**Key Takeaway:**
+Compares the industry employment distributions of native-born, Mexican-born, and unauthorized Mexican workers in 2022.
 
 Something interesting to note is that the three industries where Native Americans are most heavily employed are services, except for public administration. This represents 12.9% of the total Native American population, followed by the information sector with 8.9% and the transportation and warehousing services sector with 8.6%, showing that services and computer development have the greatest share.
 
@@ -725,15 +723,14 @@ Something interesting to note is that the three industries where Native American
 <div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Arts, entertainment, and food services</span><div style="background: #f0b90b; height: 18px; width: 37%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">8,286,983</span></div>
 <p style="text-align:right; font-size:0.8em; color: #f0b90b; opacity: 0.7; margin: 2px 0;">@TheTruthProject</p>
 </div>
-    <p style="text-align:center; font-size:1.06em; color: #f0b90b;">
-        <b>Key Takeaway:</b><br>
-        The distribution of native-born employment across industries in 2022.
-    </p>
-</div>
+
+**Key Takeaway:**
+The distribution of native-born employment across industries in 2022.
+
 
 As well as services, information development and mobility are the sectors where there is the greatest native participation. Based on the available data on the distribution of the employed population by industry in the United States, based on the resulting distribution from population data and estimates of foreigners born in Mexico and unauthorized immigrants from Mexico, we have obtained the following results:
 
-<p style="color: #f0b90b;">Distribution of the foreign-born population of Mexican citizens employed in the USA by industry:</p>
+Distribution of the foreign-born population of Mexican citizens employed in the USA by industry:
 
 <div style="width: 100%; max-width: 1200px; margin: auto; margin-bottom: 32px;">
     <h2 style="text-align:center; margin-top: 0; color: #f0b90b;">Mexican-born Employed by Industry (2022)</h2>
@@ -753,11 +750,9 @@ As well as services, information development and mobility are the sectors where 
 <div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #00ff88; font-size: 12px;">Education and health care</span><div style="background: #00ff88; height: 18px; width: 29%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #00ff88; font-size: 12px; margin-left: 8px;">124,373</span></div>
 <p style="text-align:right; font-size:0.8em; color: #00ff88; opacity: 0.7; margin: 2px 0;">@TheTruthProject</p>
 </div>
-    <p style="text-align:center; font-size:1.06em; color: #f0b90b;">
-        <b>Key Takeaway:</b><br>
-        The distribution of Mexican-born employment across industries in 2022.
-    </p>
-</div>
+  
+**Key Takeaway:**
+The distribution of Mexican-born employment across industries in 2022.
 
 Distribution of the unauthorized population of Mexican citizens employed in the USA by industry:
 
@@ -780,11 +775,9 @@ Distribution of the unauthorized population of Mexican citizens employed in the 
 <div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #ff6b6b; font-size: 12px;">Public administration</span><div style="background: #ff6b6b; height: 18px; width: 0%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #ff6b6b; font-size: 12px; margin-left: 8px;">0</span></div>
 <p style="text-align:right; font-size:0.8em; color: #ff6b6b; opacity: 0.7; margin: 2px 0;">@TheTruthProject</p>
 </div>
-    <p style="text-align:center; font-size:1.06em; color: #f0b90b;">
-        <b>Key Takeaway:</b><br>
-        The distribution of unauthorized Mexican-born employment across industries in 2022.
-    </p>
-</div>
+   
+**Key Takeaway:**
+The distribution of unauthorized Mexican-born employment across industries in 2022.
 
 As can be seen in the chart for both groups, the main industry where the majority of the employed population participates is manufacturing with a share of 15.4%, construction with 12.3%, and professionals in science, management, and administrative and waste management services with 9.6%.
 
@@ -794,19 +787,18 @@ As can be seen in the chart for both groups, the main industry where the majorit
 Statement 3 . **Security**
 -------------------------
 
-
 - Immigrants have 60 percent less crime, and the states along the border with Mexico are safer and healthier compared to the northern border of the United States.
 
 **Myths or Reality?**
 
-<p style="color: #f0b90b;">In order to answer the question of crime, we had to adapt our search to the analysis of cub scouts offered by the best agency, the FBI. For this, we analyzed the violent crimes reported on their website (link). From there, we branched the search by violent crimes and the origin of those who commit them. With these assumptions, we classified violent crimes according to the FBI under the following categories:</p>
+In order to answer the question of crime, we had to adapt our search to the analysis of cub scouts offered by the best agency, the FBI. For this, we analyzed the violent crimes reported on their website (link). From there, we branched the search by violent crimes and the origin of those who commit them. With these assumptions, we classified violent crimes according to the FBI under the following categories:
 
-<p style="color: #f0b90b;">--* Rape<br>
---* Aggravated Assault<br>
---* Homicide<br>
---* Robbery</p>
+--* Rape
+--* Aggravated Assault
+--* Homicide
+--* Robbery
 
-<p style="color: #f0b90b;">To identify the Latinos mentioned in the report, each group was categorized as follows:</p>
+To identify the Latinos mentioned in the report, each group was categorized as follows:
 
 <p style="color: #f0b90b;">-- Not Hispanic or Latino<br>
 -- Not Specified<br>
