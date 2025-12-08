@@ -312,7 +312,7 @@ With all this Assumptions and recalibrate the datasets base from `U.S. Census Bu
 Refined calculations reveal the GDP contribution of Mexican-born and other foreign-born groups, correcting common misconceptions in public discourse.
 
 
-As we can see in the table ¨GDP & Employment Table by Foreign-Born Group (Excludes Native, 2024)¨ the calculation issued by the Mexican authority has a quite important variation since when considering the total population, as we have mentioned before, it generates distortions that distance us from reality, according to these results the statement of Mexicans born in the U.S. contributed $781 billion to the Gross Domestic Product (GDP) since their real contribution is <strong>$953.3 billion to the Gross Domestic Product (GDP)
+As we can see in the table ¨GDP & Employment Table by Foreign-Born Group (Excludes Native, 2024)¨ the calculation issued by the Mexican authority has a quite important variation since when considering the total population, as we have mentioned before, it generates distortions that distance us from reality, according to these results the statement of Mexicans born in the U.S. contributed $781 billion to the Gross Domestic Product (GDP) since their real contribution is **$953.3 billion to the Gross Domestic Product (GDP)**.
 
 
 What remains to be clarified at this point is to contrast the contributions made by the Mexico foreign origin born group. According to the statement (which stated that the 781 billion USD is not accurate information), the contribution that this group makes to the US GDP is equivalent, compared to the member economies of the OECD, to the tenth largest economy in the world. **Unfortunately, as we can see here, this is also unverifiable, since considering their own (implausible) statements, the size of the contribution of 781 billion USD would** actually be equivalent to the fifteenth largest economy in the world. If we included Russia and China in this analysis, the position would move to the eighteenth largest economy, as can be seen in the following graph.
@@ -446,11 +446,11 @@ The top ten foreign-born groups, led by Mexican and Indian cohorts, are essentia
 -------------------------
 
 - In 2022, undocumented immigrants paid nearly $100 billion in taxes, including $25.7 billion to Social Security; $6.4 billion to Medicare; and $1.8 billion to unemployment insurance.
-- They complement the U.S. workforce in essential industries, as their workforce represents 51 percent of dairy farms and meat processing; 20 percent of manufacturing and agriculture; 15 percent of education and healthcare; 28 percent of healthcare assistants; and 25 percent of construction workers. and 54.3 percent of agricultural sorters.</p>
+- They complement the U.S. workforce in essential industries, as their workforce represents 51 percent of dairy farms and meat processing; 20 percent of manufacturing and agriculture; 15 percent of education and healthcare; 28 percent of healthcare assistants; and 25 percent of construction workers. and 54.3 percent of agricultural sorters.
 
-<p style="color: #f0b90b;"><strong>Myths or Reality?</strong></p>
+**Myths or Reality?**
 
-<p style="color: #f0b90b;">In order to address these assertions about the contributions of "undocumented" people, understood as those stays not authorized by the state are employed. The way in which these details are obtained is even more confusing, given that even within the same statistical analysis groups of the census boreau, they agree on the difficulty of obtaining precise data on this point. However, we attempt to obtain more credible statistics based on the information available at the time of this analysis.</p>
+In order to address these assertions about the contributions of "undocumented" people, understood as those stays not authorized by the state are employed. The way in which these details are obtained is even more confusing, given that even within the same statistical analysis groups of the census boreau, they agree on the difficulty of obtaining precise data on this point. However, we attempt to obtain more credible statistics based on the information available at the time of this analysis.
 
 To answer the concerns that arise it is necessary to divide the problem into some parts more accessible to the calculation, so first of all we are going to quantify the number of unauthorized persons and for this what was collected is based on the information provided by the `Office of Homeland Security Statistics <https://ohss.dhs.gov/>`_ office that collects statistical information on this subject and in whose reports you can find the most precise information, in this sense we interpolate some extraneous data and based on the results, Below is the estimated number of these unauthorized persons and how many are employed, based on the employment rates and GDP per capita estimated for the years that have been presented above, as follows:
 
@@ -518,8 +518,8 @@ To answer the concerns that arise it is necessary to divide the problem into som
 </script>
 </div>
 
-**Key Takeaway:</b><br>
-<em>Unauthorized immigrant employment fluctuates with economic cycles but consistently supports key U.S. sectors.</em></p>
+**Key Takeaway:**
+Unauthorized immigrant employment fluctuates with economic cycles but consistently supports key U.S. sectors.
 
 <p style="color: #f0b90b;">Based on the data already collected in point 1 and the data on unauthorized individuals in the United States, we will calculate the number of unauthorized employees. Based on the same methodology used to calculate the contribution of citizens of Mexican parents, we need to do the same and determine how many unauthorized individuals are of Mexican origin, as shown in the following graph. Similar to the trends in unauthorized immigration, one of the interesting aspects of this research is that, after 2017, unauthorized immigration to the United States not only decreased, but actually plummeted, as shown in the graph.</p>
 
