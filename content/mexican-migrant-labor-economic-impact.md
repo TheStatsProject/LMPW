@@ -745,24 +745,84 @@ Compares the industry employment distributions of native-born, Mexican-born, and
 
 Something interesting to note is that the three industries where Native Americans are most heavily employed are services, except for public administration. This represents 12.9% of the total Native American population, followed by the information sector with 8.9% and the transportation and warehousing services sector with 8.6%, showing that services and computer development have the greatest share.
 
-<div style="width: 100%; max-width: 1200px; margin: auto; margin-bottom: 32px;">
-    <h2 style="text-align:center; margin-top: 0; color: #f0b90b;">Native Employed by Industry (2022)</h2>
-<div style="font-family: Arial, sans-serif; padding: 10px;">
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Other services (except public admin)</span><div style="background: #f0b90b; height: 18px; width: 100%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">22,098,620</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Information</span><div style="background: #f0b90b; height: 18px; width: 70%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">15,365,447</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Wholesale trade</span><div style="background: #f0b90b; height: 18px; width: 66%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">14,674,865</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Transportation and utilities</span><div style="background: #f0b90b; height: 18px; width: 66%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">14,674,865</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Finance, insurance, and real estate</span><div style="background: #f0b90b; height: 18px; width: 66%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">14,502,219</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Manufacturing</span><div style="background: #f0b90b; height: 18px; width: 65%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">14,329,574</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Construction</span><div style="background: #f0b90b; height: 18px; width: 62%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">13,638,992</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Retail trade</span><div style="background: #f0b90b; height: 18px; width: 60%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">13,293,701</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Professional and management services</span><div style="background: #f0b90b; height: 18px; width: 55%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">12,085,183</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Education and health care</span><div style="background: #f0b90b; height: 18px; width: 47%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">10,358,728</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Public administration</span><div style="background: #f0b90b; height: 18px; width: 44%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">9,668,146</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Agriculture, forestry, fishing, mining</span><div style="background: #f0b90b; height: 18px; width: 42%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">9,322,855</span></div>
-<div style="display: flex; align-items: center; margin: 4px 0;"><span style="min-width: 320px; color: #f0b90b; font-size: 12px;">Arts, entertainment, and food services</span><div style="background: #f0b90b; height: 18px; width: 37%; margin-left: 8px; border-radius: 2px;"></div><span style="min-width: 90px; text-align: right; color: #f0b90b; font-size: 12px; margin-left: 8px;">8,286,983</span></div>
-<p style="text-align:right; font-size:0.8em; color: #f0b90b; opacity: 0.7; margin: 2px 0;">@TheTruthProject</p>
-</div>
+<div id="native-employed-2022" style="width: 100%; max-width: 1200px; margin: auto; height: 600px;"></div>
+
+<script>
+var industries = [
+    'Other services (except public admin)',
+    'Information',
+    'Wholesale trade',
+    'Transportation and utilities',
+    'Finance, insurance, and real estate',
+    'Manufacturing',
+    'Construction',
+    'Retail trade',
+    'Professional and management services',
+    'Education and health care',
+    'Public administration',
+    'Agriculture, forestry, fishing, mining',
+    'Arts, entertainment, and food services'
+];
+
+var values = [
+    22098620,
+    15365447,
+    14674865,
+    14674865,
+    14502219,
+    14329574,
+    13638992,
+    13293701,
+    12085183,
+    10358728,
+    9668146,
+    9322855,
+    8286983
+];
+
+Plotly.newPlot('native-employed-2022', [
+    {
+        type: 'bar',
+        x: values,
+        y: industries,
+        orientation: 'h',
+        marker: { color: '#f0b90b' },
+        text: values.map(v => v.toLocaleString()),
+        textposition: 'outside',
+        name: 'Native Employed'
+    }
+], {
+    title: { 
+        text: 'Native Employed by Industry (2022)', 
+        font: { color: '#f0b90b' }
+    },
+    paper_bgcolor: '#1a3a47',
+    plot_bgcolor: '#1a3a47',
+    xaxis: { 
+        title: 'Number of Workers',
+        tickfont: { color: '#f0b90b' },
+        titlefont: { color: '#f0b90b' },
+        gridcolor: '#285F75'
+    },
+    yaxis: { 
+        tickfont: { color: '#f0b90b' },
+        automargin: true
+    },
+    margin: { t: 60, b: 80, l: 280, r: 40 },
+    annotations: [
+        { 
+            text: '@TheTruthProject', 
+            xref: 'paper', 
+            yref: 'paper', 
+            x: 0.99, 
+            y: 0.01, 
+            showarrow: false, 
+            font: { color: '#f0b90b', size: 10 },
+            opacity: 0.7 
+        }
+    ]
+}, { responsive: true });
+</script>
 
 **Key Takeaway:**
 The distribution of native-born employment across industries in 2022.
