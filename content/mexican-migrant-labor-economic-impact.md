@@ -1040,17 +1040,18 @@ As can be seen in the chart for both groups, the main industry where the majorit
 
 In order to answer the question of crime, we had to adapt our search to the analysis of cub scouts offered by the best agency, the FBI. For this, we analyzed the violent crimes reported on their website (link). From there, we branched the search by violent crimes and the origin of those who commit them. With these assumptions, we classified violent crimes according to the FBI under the following categories:
 
--- Rape
--- Aggravated Assault
--- Homicide
--- Robbery
+1. Rape
+2. Aggravated Assault
+3. Homicide
+5. Robbery
 
 To identify the Latinos mentioned in the report, each group was categorized as follows:
 
--- Not Hispanic or Latino
--- Not Specified
--- Unknown
--- Hispanic or Latino
+- Not Hispanic or Latino
+- Not Specified
+- Unknown
+- Hispanic or Latino
+
 
 Based on the FBI's results for the entire country, we obtained the following interesting conclusions about violent crimes committed in the United States:
 
@@ -1174,7 +1175,7 @@ This is what happens in the United States… but what is happening within the co
 **Key Takeaway:**
 Crime patterns and offender ethnicities vary widely across U.S. border states, with some states showing notably higher rates for certain crimes or groups.
 
-At first hand we can see that the usual violent crimes on both borders are assaults and robberies, however, <b>the issue that infers us in the map is the drug narcotic violations and as you can see on the northern border the incidence is much lower (530,888) crimes related to drug narcotics violations much less than on the southern border (826,866) which again dismisses the vision of the Mexican government</b>, because even though the northern border of the USA has a greater distance, weather conditions and controls play an important role in the number of crimes of this nature, however <b>it is also important to highlight here that in most border states, only in New Mexico is where there is evidence that the majority group related to drug narcotic violations is of Latino origin, however in all other border states the Latino group does not appear as the main group, dismissing another deep-rooted idea about the Latino community and drugs.
+At first hand we can see that the usual violent crimes on both borders are assaults and robberies, however, **the issue that infers us in the map is the drug narcotic violations and as you can see on the northern border the incidence is much lower (530,888) crimes related to drug narcotics violations much less than on the southern border (826,866) which again dismisses the vision of the Mexican government**, because even though the northern border of the USA has a greater distance, weather conditions and controls play an important role in the number of crimes of this nature, however **it is also important to highlight here that in most border states, only in New Mexico is where there is evidence that the majority group related to drug narcotic violations is of Latino origin, however in all other border states the Latino group does not appear as the main group, dismissing another deep-rooted idea about the Latino community and drugs.**
 
 
 Statement 4. **Invesment and Entrepreneurship**
@@ -1183,7 +1184,7 @@ Statement 4. **Invesment and Entrepreneurship**
 
 <p style="color: #f0b90b;"> - In 2021, one in five immigrants was an entrepreneur, generating $95.6 billion.</p>
 
-**Myths or Reality?</b></p>
+**Myths or Reality?**
 
 <p style="color: #f0b90b;">Answering this question requires taking statistics from the U.S. Census Bureau on self-employment. According to these statistics, there are 17,296,359 native-born citizens who are self-employed through offering their services or creating their own businesses, 960,131 citizens born in Mexico who also participate in the economy through entrepreneurship, and in the case of the migrant community, a total of 528,072.</p>
 
