@@ -1210,28 +1210,45 @@ This is revealing because, as in the previous pattern, the incidence of drug-nar
 </div>
 
 <script>
-var states = ['California', 'Arizona', 'New Mexico', 'Texas'];
-var stateCodes = ['CA', 'AZ', 'NM', 'TX'];
-var drugViolations = [530888, 98456, 45632, 826866];
-var assaults = [245678, 78234, 34567, 398765];
-var homicides = [1890, 456, 234, 1567];
+// All US states for complete border display
+var allStates = ['AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY'];
+
+// Border states with detailed crime data
+var borderStates = {
+    'CA': {name: 'California', total: 328847, common: 'Assault (152,589)', drugs: 69571, ethnicity: 'Not Hispanic or Latino (21,501)'},
+    'AZ': {name: 'Arizona', total: 92962, common: 'Robbery (84,922)', drugs: 20775, ethnicity: 'Not Specified (7,534)'},
+    'NM': {name: 'New Mexico', total: 24516, common: 'Assault (15,088)', drugs: 10428, ethnicity: 'Hispanic or Latino (4,391)'},
+    'TX': {name: 'Texas', total: 525233, common: 'Assault (372,203)', drugs: 152030, ethnicity: 'Not Hispanic or Latino (75,482)'}
+};
+
+// Create hover text for all states
+var hoverText = allStates.map(state => {
+    if (borderStates[state]) {
+        var data = borderStates[state];
+        return '<b>' + data.name + '</b><br>' +
+               '<span style="font-size:15px;">Total Crimes: <b>' + data.total.toLocaleString() + '</b></span><br>' +
+               '<span style="font-size:15px;">Most Common: <b>' + data.common + '</b></span><br>' +
+               '<span style="font-size:15px;">Drug/Narcotic Violations: <b>' + data.drugs.toLocaleString() + '</b></span><br>' +
+               '<span style="font-size:15px;">Top Drug Ethnicity: <b>' + data.ethnicity + '</b></span>';
+    }
+    return state; // Minimal hover for non-border states
+});
+
+// Z-values (drug violations for color scale, 0 for non-border states)
+var zValues = allStates.map(state => borderStates[state] ? borderStates[state].drugs : 0);
 
 var data = [{
     type: 'choropleth',
     locationmode: 'USA-states',
-    locations: stateCodes,
-    z: drugViolations,
-    text: states.map((state, i) => 
-        state + '<br>' +
-        'Drug Violations: ' + drugViolations[i].toLocaleString() + '<br>' +
-        'Assaults: ' + assaults[i].toLocaleString() + '<br>' +
-        'Homicides: ' + homicides[i].toLocaleString()
-    ),
+    locations: allStates,
+    z: zValues,
+    text: hoverText,
     hovertemplate: '%{text}<extra></extra>',
     colorscale: [
-        [0, '#1a3a4a'],
-        [0.5, '#f0b90b'],
-        [1, '#ff6b6b']
+        [0, '#E7E7E7'],
+        [0.3, '#1a3a4a'],
+        [0.6, '#f0b90b'],
+        [1, '#C43D37']
     ],
     colorbar: {
         title: {
@@ -1246,7 +1263,7 @@ var data = [{
     marker: {
         line: {
             color: '#f0b90b',
-            width: 2
+            width: 1.5
         }
     }
 }];
