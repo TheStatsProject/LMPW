@@ -1067,3 +1067,36 @@ As can be seen in the chart for both groups, the main industry where the majorit
 
 
 **Interesting results, since it is normally thought that the foreign-born population is dedicated solely to agricultural construction; however, the agricultural sector (8.7%) is the fourth largest activity. These results do not support what Mexican authorities have said about the distribution of immigrant labor and undocumented immigrants in the United States. Again, we address the inconsistency of the Mexican government's information.**
+
+
+**Statement 3. Security**
+-------------------------
+
+
+- Immigrants have 60 percent less crime, and the states along the border with Mexico are safer and healthier compared to the northern border of the United States.
+
+**Myths or Reality?**
+
+In order to answer the question of crime, we had to adapt our search to the analysis of cub scouts offered by the best agency, the FBI. For this, we analyzed the violent crimes reported on their website (link). From there, we branched the search by violent crimes and the origin of those who commit them. With these assumptions, we classified violent crimes according to the FBI under the following categories:
+
+1. Rape
+2. Aggravated Assault
+3. Homicide
+5. Robbery
+
+To identify the Latinos mentioned in the report, each group was categorized as follows:
+
+- Not Hispanic or Latino
+- Not Specified
+- Unknown
+- Hispanic or Latino
+
+
+Based on the FBI's results for the entire country, we obtained the following interesting conclusions about violent crimes committed in the United States:
+
+- Rape is the second most frequent violent crime in the country, with 205,593 violent crimes, according to statistics provided by the FBI. Of these crimes, 4 out of 10 were committed by non-Hispanic or non-Latino groups. Based on the data for this atrocious violent crime, the Latino community has the lowest incidence, with 1 in 10 cases of rape as a violent crime in the USA (67,267).
+- Aggravated Assault presents similar patterns in this case, with 4 out of 10 cases generated within the country being of non-Hispanic or non-Latino origin (38,171).
+- In this case, homicide is observed to be of Latino origin (8,576), while 4 out of 10 are from non-Hispanic or non-Latino groups (38,171).
+- Robbery repeats the same pattern, with approximately 3.9 incidents per 10 inhabitants caused by non-Hispanic or non-Latino groups (412,161).
+
+As seen in the following graph, we can analyze in detail the ethnic distribution of violent crimes within the country:
