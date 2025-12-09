@@ -1202,170 +1202,20 @@ Drug/Narcotic Violations have the highest proportion of Not Hispanic or Latino o
 
 This is revealing because, as in the previous pattern, the incidence of drug-narcotics violations among the Latino community is barely 10%. In the case of the community with the highest incidence of this type of crime, this similarity is not only evident but also reinforced, with 5 out of 10 drug-related crimes being the work of non-Latino, non-Hispanic groups.
 
-<p style="color: #f0b90b;">This is what happens in the United States… but what is happening within the country? … specifically in the border states? Below is the interactive map of crime on the border, since the report issued by Mexico speaks of a lower incidence rate of crime among the Latino community, and as we can see, this is graphically true.</p>
+This is what happens in the United States… but what is happening within the country? … specifically in the border states? Below is the interactive map of crime on the border, since the report issued by Mexico speaks of a lower incidence rate of crime among the Latino community, and as we can see, this is graphically true.
 
 <div style="width: 100%; max-width: 900px; margin: auto;">
     <h3 style="text-align:center; color: #f0b90b; margin-bottom: 16px;">Border States Crime Summary (Map)</h3>
     <div id="border-states-map"></div>
 </div>
-
-<script>
-// All US states for complete border display
-var allStates = ['AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY'];
-
-// Border states with comprehensive crime statistics matching original HTML visualization
-var borderStates = {
-    'CA': {
-        name: 'California', 
-        total: 328847, 
-        common: 'Assault', 
-        commonCount: 152589,
-        drugs: 69571, 
-        ethnicity: 'Not Hispanic or Latino', 
-        ethnicityCount: 21501,
-        assaults: 152589,
-        robbery: 45123,
-        homicide: 5234,
-        rape: 15602,
-        other: 110299
-    },
-    'AZ': {
-        name: 'Arizona', 
-        total: 92962, 
-        common: 'Assault', 
-        commonCount: 48291,
-        drugs: 20775, 
-        ethnicity: 'Not Specified', 
-        ethnicityCount: 7534,
-        assaults: 48291,
-        robbery: 18456,
-        homicide: 2145,
-        rape: 7829,
-        other: 16241
-    },
-    'NM': {
-        name: 'New Mexico', 
-        total: 24516, 
-        common: 'Assault', 
-        commonCount: 15088,
-        drugs: 10428, 
-        ethnicity: 'Hispanic or Latino', 
-        ethnicityCount: 4391,
-        assaults: 15088,
-        robbery: 6201,
-        homicide: 892,
-        rape: 2335
-    },
-    'TX': {
-        name: 'Texas', 
-        total: 525233, 
-        common: 'Assault', 
-        commonCount: 372203,
-        drugs: 152030, 
-        ethnicity: 'Not Hispanic or Latino', 
-        ethnicityCount: 75482,
-        assaults: 372203,
-        robbery: 89456,
-        homicide: 8921,
-        rape: 54653
-    }
-};
-
-// Create detailed hover text for all states
-var hoverText = allStates.map(state => {
-    if (borderStates[state]) {
-        var data = borderStates[state];
-        return '<b>' + data.name + '</b><br><br>' +
-               '<b style="font-size:14px;">Total Crimes: ' + data.total.toLocaleString() + '</b><br>' +
-               '<b style="font-size:13px;">Most Common Crime:</b><br>' +
-               '  ' + data.common + ': ' + data.commonCount.toLocaleString() + '<br><br>' +
-               '<b style="font-size:13px;">Crime Breakdown:</b><br>' +
-               '  Assaults: ' + data.assaults.toLocaleString() + '<br>' +
-               '  Robbery: ' + data.robbery.toLocaleString() + '<br>' +
-               '  Homicide: ' + data.homicide.toLocaleString() + '<br>' +
-               '  Rape: ' + data.rape.toLocaleString() + '<br><br>' +
-               '<b style="font-size:13px;">Drug/Narcotic Violations: ' + data.drugs.toLocaleString() + '</b><br>' +
-               '<b style="font-size:13px;">Top Drug Offense Ethnicity:</b><br>' +
-               '  ' + data.ethnicity + ': ' + data.ethnicityCount.toLocaleString();
-    }
-    return state; // Minimal hover for non-border states
-});
-
-// Z-values (drug violations for color scale, 0 for non-border states)
-var zValues = allStates.map(state => borderStates[state] ? borderStates[state].drugs : 0);
-
-var data = [{
-    type: 'choropleth',
-    locationmode: 'USA-states',
-    locations: allStates,
-    z: zValues,
-    text: hoverText,
-    hovertemplate: '%{text}<extra></extra>',
-    colorscale: [
-        [0, '#E7E7E7'],
-        [0.3, '#1a3a4a'],
-        [0.6, '#f0b90b'],
-        [1, '#C43D37']
-    ],
-    colorbar: {
-        title: {
-            text: 'Drug<br>Violations',
-            font: {color: '#f0b90b', size: 12}
-        },
-        tickfont: {color: '#f0b90b', size: 10},
-        bgcolor: '#1a3a4a',
-        bordercolor: '#f0b90b',
-        borderwidth: 1
-    },
-    marker: {
-        line: {
-            color: '#f0b90b',
-            width: 1.5
-        }
-    }
-}];
-
-var layout = {
-    geo: {
-        scope: 'usa',
-        projection: {type: 'albers usa'},
-        showlakes: true,
-        lakecolor: '#0a1a2a',
-        bgcolor: '#0a1a2a',
-        landcolor: '#1a3a4a',
-        coastlinecolor: '#f0b90b',
-        coastlinewidth: 1,
-        showland: true,
-        showcountries: false,
-        countrycolor: '#f0b90b',
-        countrywidth: 1
-    },
-    plot_bgcolor: '#1a3a4a',
-    paper_bgcolor: '#1a3a4a',
-    font: {
-        color: '#f0b90b',
-        family: 'Arial, sans-serif',
-        size: 12
-    },
-    margin: {t: 0, b: 0, l: 0, r: 0},
-    annotations: [{
-        text: '@TheTruthProject',
-        xref: 'paper',
-        yref: 'paper',
-        x: 0.98,
-        y: 0.02,
-        showarrow: false,
-        font: {
-            size: 10,
-            color: '#f0b90b'
-        },
-        opacity: 0.7
-    }]
-};
-
-var config = {responsive: true, displayModeBar: false};
-
-Plotly.newPlot('border-states-map', data, layout, config);
-</script>
-
-<p style="color: #f0b90b; text-align: center; margin-top: 16px;"><strong>Key Takeaway:</strong><br><em>Crime patterns and offender ethnicities vary widely across U.S. border states, with some states showing notably higher rates for certain crimes or groups.</em></p>
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <h3 style="text-align:center; margin-bottom:0.5em;">
+            Border States Crime Summary (Map)
+        </h3>
+        <iframe src="_static/us_highlighted_map_border_states.html"
+                title="Border States Crime Summary (Map)"
+                style="width: 100%; height: 520px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/us_highlighted_map_border_states.html">this link</a>.
+        </iframe>
+    </div>away:</strong><br><em>Crime patterns and offender ethnicities vary widely across U.S. border states, with some states showing notably higher rates for certain crimes or groups.</em></p>
