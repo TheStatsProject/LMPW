@@ -1132,3 +1132,36 @@ As seen in the following graph, we can analyze in detail the ethnic distribution
 
 **Key Takeaway:**
 Most crimes are committed by people identified as Not Hispanic or Latino, but the data also shows a significant number of 'Not Specified' and 'Unknown' offenders across all major crime types.
+
+
+One of the most controversial and politicized issues of recent decades, and currently in recent months, is the development of drug-related crime. It is precisely here that we add an interesting statistic to our analysis: Drug Narcotics violations. In the case of drug-narcotics violations, we obtained the following results:
+
+- ** Result 1**
+
+<div style="width: 100%; max-width: 800px; margin: auto;">
+    <h3 style="text-align:center; margin-bottom:0.5em; color: #f0b90b;">
+        Offender Ethnicity Profile for Drug/Narcotic Violations
+    </h3>
+    <div id="drug-ethnicity-chart" style="width: 100%; height: 500px;"></div>
+    <script>
+    Plotly.newPlot('drug-ethnicity-chart', [{
+        values: [50, 10, 22, 18],
+        labels: ['Not Hispanic/Latino', 'Hispanic/Latino', 'Not Specified', 'Unknown'],
+        type: 'pie',
+        marker: {colors: ['#f0b90b', '#00ff88', '#888888', '#555555']},
+        textinfo: 'label+percent',
+        textfont: {color: '#fff'},
+        hole: 0.3
+    }], {
+        paper_bgcolor: '#1a3a47',
+        plot_bgcolor: '#1a3a47',
+        font: {color: '#f0b90b'},
+        title: {text: 'Drug/Narcotic Violations by Ethnicity', font: {color: '#f0b90b'}},
+        legend: {font: {color: '#f0b90b'}},
+        annotations: [{ text: '@TheTruthProject', xref: 'paper', yref: 'paper', x: 0.99, y: 0.01, showarrow: false, font: { color: '#f0b90b', size: 10 }, opacity: 0.7 }]
+    });
+    </script>
+</div>
+
+**Key Takeaway:**
+Drug/Narcotic Violations have the highest proportion of Not Hispanic or Latino offenders, but also a notable number of 'Not Specified' and 'Unknown' cases.
