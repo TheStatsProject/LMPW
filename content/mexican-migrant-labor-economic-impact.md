@@ -280,7 +280,7 @@ To calculate it and taking into account all the assumptions, it is as follows:
 </span>
 </div>
 
-With all this Assumptions and recalibrate the datasets base from `U.S. Census Bureau <https://www.census.gov/>`_ and the `Federal Reserve's FRED <https://fred.stlouisfed.org>`_ database we get the next results:
+With all this Assumptions and recalibrate the datasets base from [U.S. Census Bureau](https://www.census.gov/) and the [Federal Reserve's FRED](https://fred.stlouisfed.org) database we get the next results:
 
 <div style="width: 100%; max-width: 900px; margin: auto;">
 <h4 style="text-align:center; color: #f0b90b; font-family: Arial; margin-bottom: 16px;">GDP & Employment Table by Foreign-Born Group (Excludes Native, 2024)</h4>
@@ -454,7 +454,7 @@ The top ten foreign-born groups, led by Mexican and Indian cohorts, are essentia
 
 In order to address these assertions about the contributions of "undocumented" people, understood as those stays not authorized by the state are employed. The way in which these details are obtained is even more confusing, given that even within the same statistical analysis groups of the census boreau, they agree on the difficulty of obtaining precise data on this point. However, we attempt to obtain more credible statistics based on the information available at the time of this analysis.
 
-To answer the concerns that arise it is necessary to divide the problem into some parts more accessible to the calculation, so first of all we are going to quantify the number of unauthorized persons and for this what was collected is based on the information provided by the `Office of Homeland Security Statistics <https://ohss.dhs.gov/>`_ office that collects statistical information on this subject and in whose reports you can find the most precise information, in this sense we interpolate some extraneous data and based on the results, Below is the estimated number of these unauthorized persons and how many are employed, based on the employment rates and GDP per capita estimated for the years that have been presented above, as follows:
+To answer the concerns that arise it is necessary to divide the problem into some parts more accessible to the calculation, so first of all we are going to quantify the number of unauthorized persons and for this what was collected is based on the information provided by the [Office of Homeland Security Statistics](https://ohss.dhs.gov/) office that collects statistical information on this subject and in whose reports you can find the most precise information, in this sense we interpolate some extraneous data and based on the results, Below is the estimated number of these unauthorized persons and how many are employed, based on the employment rates and GDP per capita estimated for the years that have been presented above, as follows:
 
 <div style="width: 100%; max-width: 900px; margin: auto;">
 <h4 style="text-align: center; color: #f0b90b; margin-bottom: 16px;">Estimated Employed Unauthorized Population (2009–2024)</h4>
