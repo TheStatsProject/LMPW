@@ -1224,22 +1224,24 @@ var borderStates = {
         ethnicity: 'Not Hispanic or Latino', 
         ethnicityCount: 21501,
         assaults: 152589,
-        robbery: 84922,
+        robbery: 45123,
         homicide: 5234,
-        rape: 15602
+        rape: 15602,
+        other: 110299
     },
     'AZ': {
         name: 'Arizona', 
         total: 92962, 
-        common: 'Robbery', 
-        commonCount: 84922,
+        common: 'Assault', 
+        commonCount: 48291,
         drugs: 20775, 
         ethnicity: 'Not Specified', 
         ethnicityCount: 7534,
         assaults: 48291,
-        robbery: 84922,
+        robbery: 18456,
         homicide: 2145,
-        rape: 7829
+        rape: 7829,
+        other: 16241
     },
     'NM': {
         name: 'New Mexico', 
