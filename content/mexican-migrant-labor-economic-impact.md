@@ -884,3 +884,90 @@ Plotly.newPlot('native-employed-2022', [
 **Key Takeaway:**
 The distribution of native-born employment across industries in 2022.
 
+
+As well as services, information development and mobility are the sectors where there is the greatest native participation. Based on the available data on the distribution of the employed population by industry in the United States, based on the resulting distribution from population data and estimates of foreigners born in Mexico and unauthorized immigrants from Mexico, we have obtained the following:
+
+<div id="mexican-employed-2022" style="width: 100%; max-width: 1200px; margin: auto; height: 600px;"></div>
+<script>
+var industries = [
+    'Manufacturing',
+    'Construction',
+    'Professional and management services',
+    'Agriculture, forestry, fishing, mining',
+    'Information',
+    'Wholesale trade',
+    'Public administration',
+    'Finance, insurance, and real estate',
+    'Retail trade',
+    'Transportation and utilities',
+    'Other services (except public admin)',
+    'Arts, entertainment, and food services',
+    'Education and health care'
+];
+
+var values = [
+    433861,
+    355766,
+    280563,
+    248747,
+    240070,
+    219823,
+    214038,
+    196683,
+    150405,
+    144620,
+    144620,
+    138835,
+    124373
+];
+
+Plotly.newPlot('mexican-employed-2022', [
+    {
+        type: 'bar',
+        x: values,
+        y: industries,
+        orientation: 'h',
+        marker: { color: '#00ff88' },
+        text: values.map(v => v.toLocaleString()),
+        textposition: 'outside',
+        name: 'Mexican-born Employed'
+    }
+], {
+    title: { 
+        text: 'Mexican-born Employed by Industry (2022)', 
+        font: { color: '#00ff88' }
+    },
+    paper_bgcolor: '#1a3a47',
+    plot_bgcolor: '#1a3a47',
+
+    xaxis: { 
+        title: 'Number of Workers',
+        tickfont: { color: '#00ff88' },
+        titlefont: { color: '#00ff88' },
+        gridcolor: '#285F75'
+    },
+    yaxis: { 
+        tickfont: { color: '#00ff88' },
+        automargin: true
+    },
+
+    margin: { t: 60, b: 80, l: 280, r: 40 },
+
+    annotations: [
+        { 
+            text: '@TheTruthProject', 
+            xref: 'paper', 
+            yref: 'paper', 
+            x: 0.99, 
+            y: 0.01, 
+            showarrow: false, 
+            font: { color: '#00ff88', size: 10 },
+            opacity: 0.7 
+        }
+    ]
+}, { responsive: true });
+</script>
+  
+**Key Takeaway:**
+The distribution of Mexican-born employment across industries in 2022.
+
