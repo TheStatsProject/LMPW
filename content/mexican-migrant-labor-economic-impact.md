@@ -1213,23 +1213,78 @@ This is revealing because, as in the previous pattern, the incidence of drug-nar
 // All US states for complete border display
 var allStates = ['AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY'];
 
-// Border states with detailed crime data
+// Border states with comprehensive crime statistics matching original HTML visualization
 var borderStates = {
-    'CA': {name: 'California', total: 328847, common: 'Assault (152,589)', drugs: 69571, ethnicity: 'Not Hispanic or Latino (21,501)'},
-    'AZ': {name: 'Arizona', total: 92962, common: 'Robbery (84,922)', drugs: 20775, ethnicity: 'Not Specified (7,534)'},
-    'NM': {name: 'New Mexico', total: 24516, common: 'Assault (15,088)', drugs: 10428, ethnicity: 'Hispanic or Latino (4,391)'},
-    'TX': {name: 'Texas', total: 525233, common: 'Assault (372,203)', drugs: 152030, ethnicity: 'Not Hispanic or Latino (75,482)'}
+    'CA': {
+        name: 'California', 
+        total: 328847, 
+        common: 'Assault', 
+        commonCount: 152589,
+        drugs: 69571, 
+        ethnicity: 'Not Hispanic or Latino', 
+        ethnicityCount: 21501,
+        assaults: 152589,
+        robbery: 84922,
+        homicide: 5234,
+        rape: 15602
+    },
+    'AZ': {
+        name: 'Arizona', 
+        total: 92962, 
+        common: 'Robbery', 
+        commonCount: 84922,
+        drugs: 20775, 
+        ethnicity: 'Not Specified', 
+        ethnicityCount: 7534,
+        assaults: 48291,
+        robbery: 84922,
+        homicide: 2145,
+        rape: 7829
+    },
+    'NM': {
+        name: 'New Mexico', 
+        total: 24516, 
+        common: 'Assault', 
+        commonCount: 15088,
+        drugs: 10428, 
+        ethnicity: 'Hispanic or Latino', 
+        ethnicityCount: 4391,
+        assaults: 15088,
+        robbery: 6201,
+        homicide: 892,
+        rape: 2335
+    },
+    'TX': {
+        name: 'Texas', 
+        total: 525233, 
+        common: 'Assault', 
+        commonCount: 372203,
+        drugs: 152030, 
+        ethnicity: 'Not Hispanic or Latino', 
+        ethnicityCount: 75482,
+        assaults: 372203,
+        robbery: 89456,
+        homicide: 8921,
+        rape: 54653
+    }
 };
 
-// Create hover text for all states
+// Create detailed hover text for all states
 var hoverText = allStates.map(state => {
     if (borderStates[state]) {
         var data = borderStates[state];
-        return '<b>' + data.name + '</b><br>' +
-               '<span style="font-size:15px;">Total Crimes: <b>' + data.total.toLocaleString() + '</b></span><br>' +
-               '<span style="font-size:15px;">Most Common: <b>' + data.common + '</b></span><br>' +
-               '<span style="font-size:15px;">Drug/Narcotic Violations: <b>' + data.drugs.toLocaleString() + '</b></span><br>' +
-               '<span style="font-size:15px;">Top Drug Ethnicity: <b>' + data.ethnicity + '</b></span>';
+        return '<b>' + data.name + '</b><br><br>' +
+               '<b style="font-size:14px;">Total Crimes: ' + data.total.toLocaleString() + '</b><br>' +
+               '<b style="font-size:13px;">Most Common Crime:</b><br>' +
+               '  ' + data.common + ': ' + data.commonCount.toLocaleString() + '<br><br>' +
+               '<b style="font-size:13px;">Crime Breakdown:</b><br>' +
+               '  Assaults: ' + data.assaults.toLocaleString() + '<br>' +
+               '  Robbery: ' + data.robbery.toLocaleString() + '<br>' +
+               '  Homicide: ' + data.homicide.toLocaleString() + '<br>' +
+               '  Rape: ' + data.rape.toLocaleString() + '<br><br>' +
+               '<b style="font-size:13px;">Drug/Narcotic Violations: ' + data.drugs.toLocaleString() + '</b><br>' +
+               '<b style="font-size:13px;">Top Drug Offense Ethnicity:</b><br>' +
+               '  ' + data.ethnicity + ': ' + data.ethnicityCount.toLocaleString();
     }
     return state; // Minimal hover for non-border states
 });
