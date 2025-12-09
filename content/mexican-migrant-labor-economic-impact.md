@@ -803,3 +803,84 @@ Compares the industry employment distributions of native-born, Mexican-born, and
 
 Something interesting to note is that the three industries where Native Americans are most heavily employed are services, except for public administration. This represents 12.9% of the total Native American population, followed by the information sector with 8.9% and the transportation and warehousing services sector with 8.6%, showing that services and computer development have the greatest share.
 
+<div id="native-employed-2022" style="width: 100%; max-width: 1200px; margin: auto; height: 600px;"></div>
+<script>
+var industries = [
+    'Other services (except public admin)',
+    'Information',
+    'Wholesale trade',
+    'Transportation and utilities',
+    'Finance, insurance, and real estate',
+    'Manufacturing',
+    'Construction',
+    'Retail trade',
+    'Professional and management services',
+    'Education and health care',
+    'Public administration',
+    'Agriculture, forestry, fishing, mining',
+    'Arts, entertainment, and food services'
+];
+
+var values = [
+    22098620,
+    15365447,
+    14674865,
+    14674865,
+    14502219,
+    14329574,
+    13638992,
+    13293701,
+    12085183,
+    10358728,
+    9668146,
+    9322855,
+    8286983
+];
+
+Plotly.newPlot('native-employed-2022', [
+    {
+        type: 'bar',
+        x: values,
+        y: industries,
+        orientation: 'h',
+        marker: { color: '#f0b90b' },
+        text: values.map(v => v.toLocaleString()),
+        textposition: 'outside',
+        name: 'Native Employed'
+    }
+], {
+    title: { 
+        text: 'Native Employed by Industry (2022)', 
+        font: { color: '#f0b90b' }
+    },
+    paper_bgcolor: '#1a3a47',
+    plot_bgcolor: '#1a3a47',
+    xaxis: { 
+        title: 'Number of Workers',
+        tickfont: { color: '#f0b90b' },
+        titlefont: { color: '#f0b90b' },
+        gridcolor: '#285F75'
+    },
+    yaxis: { 
+        tickfont: { color: '#f0b90b' },
+        automargin: true
+    },
+    margin: { t: 60, b: 80, l: 280, r: 40 },
+    annotations: [
+        { 
+            text: '@TheTruthProject', 
+            xref: 'paper', 
+            yref: 'paper', 
+            x: 0.99, 
+            y: 0.01, 
+            showarrow: false, 
+            font: { color: '#f0b90b', size: 10 },
+            opacity: 0.7 
+        }
+    ]
+}, { responsive: true });
+</script>
+
+**Key Takeaway:**
+The distribution of native-born employment across industries in 2022.
+
