@@ -1100,3 +1100,35 @@ Based on the FBI's results for the entire country, we obtained the following int
 - Robbery repeats the same pattern, with approximately 3.9 incidents per 10 inhabitants caused by non-Hispanic or non-Latino groups (412,161).
 
 As seen in the following graph, we can analyze in detail the ethnic distribution of violent crimes within the country:
+
+<div style="width: 100%; max-width: 800px; margin: auto;">
+    <h3 style="text-align:center; margin-bottom:0.5em; color: #f0b90b;">
+        Offender Ethnicity Profile per Crime
+    </h3>
+    <div id="ethnicity-crime-chart" style="width: 100%; height: 500px;"></div>
+    <script>
+    var crimes = ['Rape', 'Aggravated Assault', 'Homicide', 'Robbery'];
+    var notHispanic = [40, 38, 40, 39];
+    var hispanic = [10, 15, 18, 15];
+    var notSpecified = [25, 22, 20, 23];
+    var unknown = [25, 25, 22, 23];
+    Plotly.newPlot('ethnicity-crime-chart', [
+        {x: crimes, y: notHispanic, name: 'Not Hispanic/Latino', type: 'bar', marker: {color: '#f0b90b'}},
+        {x: crimes, y: hispanic, name: 'Hispanic/Latino', type: 'bar', marker: {color: '#00ff88'}},
+        {x: crimes, y: notSpecified, name: 'Not Specified', type: 'bar', marker: {color: '#888888'}},
+        {x: crimes, y: unknown, name: 'Unknown', type: 'bar', marker: {color: '#555555'}}
+    ], {
+        barmode: 'stack',
+        paper_bgcolor: '#1a3a47',
+        plot_bgcolor: '#1a3a47',
+        font: {color: '#f0b90b'},
+        legend: {orientation: 'h', y: -0.2},
+        yaxis: {title: 'Percentage (%)', gridcolor: '#285F75'},
+        title: {text: 'Violent Crime by Ethnicity (FBI Data)', font: {color: '#f0b90b'}},
+        annotations: [{ text: '@TheTruthProject', xref: 'paper', yref: 'paper', x: 0.99, y: 0.01, showarrow: false, font: { color: '#f0b90b', size: 10 }, opacity: 0.7 }]
+    });
+    </script>
+</div>
+
+**Key Takeaway:**
+Most crimes are committed by people identified as Not Hispanic or Latino, but the data also shows a significant number of 'Not Specified' and 'Unknown' offenders across all major crime types.
