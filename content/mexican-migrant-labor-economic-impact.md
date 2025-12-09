@@ -656,24 +656,79 @@ Even unauthorized Mexican immigrant workers contribute a little over $107 billio
 <div id="tax-contrib-2022" style="width: 100%; max-width: 800px; margin: auto; height: 450px;"></div>
 <script>
 Plotly.newPlot('tax-contrib-2022', [
-    { x: ['Mexico'], y: [52.5], type: 'bar', name: 'Social Security', marker: { color: '#00ff88' }, text: ['$52.5B'], textposition: 'auto' },
-    { x: ['Mexico'], y: [12.3], type: 'bar', name: 'Medicare', marker: { color: '#f0b90b' }, text: ['$12.3B'], textposition: 'auto' },
-    { x: ['Mexico'], y: [42.4], type: 'bar', name: 'Income Tax', marker: { color: '#ff6b6b' }, text: ['$42.4B'], textposition: 'auto' }
+    { 
+        x: ['Mexico'], 
+        y: [52.5], 
+        type: 'bar', 
+        name: 'Social Security', 
+        marker: { color: '#00ff88' }, 
+        text: ['$52.5B'], 
+        textposition: 'outside',
+        textfont: { color: '#f0b90b' }
+    },
+    { 
+        x: ['Mexico'], 
+        y: [12.3], 
+        type: 'bar', 
+        name: 'Medicare', 
+        marker: { color: '#f0b90b' }, 
+        text: ['$12.3B'], 
+        textposition: 'outside',
+        textfont: { color: '#f0b90b' }
+    },
+    { 
+        x: ['Mexico'], 
+        y: [42.4], 
+        type: 'bar', 
+        name: 'Income Tax', 
+        marker: { color: '#ff6b6b' }, 
+        text: ['$42.4B'], 
+        textposition: 'outside',
+        textfont: { color: '#f0b90b' }
+    }
 ], {
-    title: { text: 'Mexican Unauthorized Immigrant Tax Contributions (2022)', font: { color: '#f0b90b' } },
+    title: { 
+        text: 'Mexican Unauthorized Immigrant Tax Contributions (2022)', 
+        font: { color: '#f0b90b' } 
+    },
     paper_bgcolor: '#1a3a4a',
     plot_bgcolor: '#1a3a4a',
     barmode: 'stack',
-    xaxis: { tickfont: { color: '#f0b90b' }, gridcolor: '#2a5a6a' },
-    yaxis: { title: 'Contribution (Billions USD)', tickfont: { color: '#f0b90b' }, titlefont: { color: '#f0b90b' }, gridcolor: '#2a5a6a' },
-    legend: { font: { color: '#f0b90b' }, orientation: 'h', y: -0.2 },
+    xaxis: { 
+        title: 'Country',
+        tickfont: { color: '#f0b90b' }, 
+        titlefont: { color: '#f0b90b' },
+        gridcolor: '#2a5a6a' 
+    },
+    yaxis: { 
+        title: 'Contribution (Billions USD)', 
+        tickfont: { color: '#f0b90b' }, 
+        titlefont: { color: '#f0b90b' }, 
+        gridcolor: '#2a5a6a' 
+    },
+    legend: { 
+        font: { color: '#f0b90b' }, 
+        orientation: 'h', 
+        y: -0.2 
+    },
     margin: { b: 80, t: 60 },
-    annotations: [{ text: '@TheTruthProject', xref: 'paper', yref: 'paper', x: 0.99, y: 0.01, showarrow: false, font: { color: '#f0b90b', size: 10 }, opacity: 0.7 }]
+    annotations: [
+        { 
+            text: '@TheTruthProject', 
+            xref: 'paper', 
+            yref: 'paper', 
+            x: 0.99, 
+            y: 0.01, 
+            showarrow: false, 
+            font: { color: '#f0b90b', size: 10 }, 
+            opacity: 0.7 
+        }
+    ]
 }, { responsive: true });
 </script>
-</div>
 
 **Key Takeaway:**
 Tax contributions from unauthorized immigrants vary by country of origin but are a consistent fiscal benefit.
+
 
 Another element to check is the contribution of unauthorized workers to the country's industries. To do this, we must estimate the distribution of employees by each industry in the economy for natives and foreign-born workers, which is as follows:
