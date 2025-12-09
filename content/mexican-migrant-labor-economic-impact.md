@@ -732,3 +732,70 @@ Tax contributions from unauthorized immigrants vary by country of origin but are
 
 
 Another element to check is the contribution of unauthorized workers to the country's industries. To do this, we must estimate the distribution of employees by each industry in the economy for natives and foreign-born workers, which is as follows:
+
+<div id="industry-distribution-2022" style="width: 100%; max-width: 900px; margin: auto; height: 540px;"></div>
+<script>
+Plotly.newPlot('industry-distribution-2022', [
+    { 
+        x: ['Other services', 'Information', 'Wholesale trade', 'Transportation', 'Finance/Insurance', 'Manufacturing', 'Construction', 'Retail trade', 'Agriculture'], 
+        y: [12.9, 8.9, 8.6, 8.6, 8.5, 8.4, 8.0, 7.5, 1.2], 
+        type: 'bar', 
+        name: 'Native-born', 
+        marker: { color: '#f0b90b' }
+    },
+    { 
+        x: ['Other services', 'Information', 'Wholesale trade', 'Transportation', 'Finance/Insurance', 'Manufacturing', 'Construction', 'Retail trade', 'Agriculture'], 
+        y: [6.5, 2.1, 3.8, 7.2, 3.4, 13.5, 18.2, 8.1, 8.9], 
+        type: 'bar', 
+        name: 'Mexican-born', 
+        marker: { color: '#00ff88' }
+    },
+    { 
+        x: ['Other services', 'Information', 'Wholesale trade', 'Transportation', 'Finance/Insurance', 'Manufacturing', 'Construction', 'Retail trade', 'Agriculture'], 
+        y: [5.8, 1.5, 2.9, 5.4, 2.1, 12.8, 22.5, 6.8, 12.3], 
+        type: 'bar', 
+        name: 'Unauthorized Mexican', 
+        marker: { color: '#ff6b6b' }
+    }
+], {
+    title: { 
+        text: 'Industry Distribution by Origin Group (2022)', 
+        font: { color: '#f0b90b' } 
+    },
+    paper_bgcolor: '#1a3a47',
+    plot_bgcolor: '#1a3a47',
+    barmode: 'group',
+    xaxis: { 
+        tickangle: -45, 
+        tickfont: { color: '#f0b90b' }, 
+        gridcolor: '#285F75' 
+    },
+    yaxis: { 
+        title: 'Percentage (%)', 
+        tickfont: { color: '#f0b90b' }, 
+        titlefont: { color: '#f0b90b' },
+        gridcolor: '#285F75' 
+    },
+    legend: { 
+        font: { color: '#f0b90b' }, 
+        orientation: 'h', 
+        y: -0.2 
+    },
+    margin: { b: 120, t: 60 },
+    annotations: [
+        { 
+            text: '@TheTruthProject', 
+            xref: 'paper', 
+            yref: 'paper', 
+            x: 0.99, 
+            y: 0.01, 
+            showarrow: false, 
+            font: { color: '#f0b90b', size: 10 }, 
+            opacity: 0.7 
+        }
+    ]
+}, { responsive: true });
+</script>
+  
+**Key Takeaway:**
+Compares the industry employment distributions of native-born, Mexican-born, and unauthorized Mexican workers in 2022.
