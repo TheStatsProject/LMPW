@@ -1198,3 +1198,25 @@ One of the most controversial and politicized issues of recent decades, and curr
 
 **Key Takeaway:**
 Drug/Narcotic Violations have the highest proportion of Not Hispanic or Latino offenders, but also a notable number of 'Not Specified' and 'Unknown' cases.
+
+
+This is revealing because, as in the previous pattern, the incidence of drug-narcotics violations among the Latino community is barely 10%. In the case of the community with the highest incidence of this type of crime, this similarity is not only evident but also reinforced, with 5 out of 10 drug-related crimes being the work of non-Latino, non-Hispanic groups.
+
+This is what happens in the United States… but what is happening within the country? … specifically in the border states? Below is the interactive map of crime on the border, since the report issued by Mexico speaks of a lower incidence rate of crime among the Latino community, and as we can see, this is graphically true.
+
+.. raw:: html
+
+    <div style="width: 100%; max-width: 800px; margin: auto;">
+        <h3 style="text-align:center; margin-bottom:0.5em;">
+            Border States Crime Summary (Map)
+        </h3>
+        <iframe src="_static/us_highlighted_map_border_states.html"
+                title="Border States Crime Summary (Map)"
+                style="width: 100%; height: 520px; border: none;">
+            Your browser does not support iframes. Please view the visualization directly at
+            <a href="_static/us_highlighted_map_border_states.html">this link</a>.
+        </iframe>
+    </div>
+
+**Key Takeaway:**  
+*Crime patterns and offender ethnicities vary widely across U.S. border states, with some states showing notably higher rates for certain crimes or groups.*
