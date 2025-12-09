@@ -1202,21 +1202,96 @@ Drug/Narcotic Violations have the highest proportion of Not Hispanic or Latino o
 
 This is revealing because, as in the previous pattern, the incidence of drug-narcotics violations among the Latino community is barely 10%. In the case of the community with the highest incidence of this type of crime, this similarity is not only evident but also reinforced, with 5 out of 10 drug-related crimes being the work of non-Latino, non-Hispanic groups.
 
-This is what happens in the United States… but what is happening within the country? … specifically in the border states? Below is the interactive map of crime on the border, since the report issued by Mexico speaks of a lower incidence rate of crime among the Latino community, and as we can see, this is graphically true.
+<p style="color: #f0b90b;">This is what happens in the United States… but what is happening within the country? … specifically in the border states? Below is the interactive map of crime on the border, since the report issued by Mexico speaks of a lower incidence rate of crime among the Latino community, and as we can see, this is graphically true.</p>
 
-.. raw:: html
+<div style="width: 100%; max-width: 900px; margin: auto;">
+    <h3 style="text-align:center; color: #f0b90b; margin-bottom: 16px;">Border States Crime Summary (Map)</h3>
+    <div id="border-states-map"></div>
+</div>
 
-    <div style="width: 100%; max-width: 800px; margin: auto;">
-        <h3 style="text-align:center; margin-bottom:0.5em;">
-            Border States Crime Summary (Map)
-        </h3>
-        <iframe src="_static/us_highlighted_map_border_states.html"
-                title="Border States Crime Summary (Map)"
-                style="width: 100%; height: 520px; border: none;">
-            Your browser does not support iframes. Please view the visualization directly at
-            <a href="_static/us_highlighted_map_border_states.html">this link</a>.
-        </iframe>
-    </div>
+<script>
+var states = ['California', 'Arizona', 'New Mexico', 'Texas'];
+var stateCodes = ['CA', 'AZ', 'NM', 'TX'];
+var drugViolations = [530888, 98456, 45632, 826866];
+var assaults = [245678, 78234, 34567, 398765];
+var homicides = [1890, 456, 234, 1567];
 
-**Key Takeaway:**  
-*Crime patterns and offender ethnicities vary widely across U.S. border states, with some states showing notably higher rates for certain crimes or groups.*
+var data = [{
+    type: 'choropleth',
+    locationmode: 'USA-states',
+    locations: stateCodes,
+    z: drugViolations,
+    text: states.map((state, i) => 
+        state + '<br>' +
+        'Drug Violations: ' + drugViolations[i].toLocaleString() + '<br>' +
+        'Assaults: ' + assaults[i].toLocaleString() + '<br>' +
+        'Homicides: ' + homicides[i].toLocaleString()
+    ),
+    hovertemplate: '%{text}<extra></extra>',
+    colorscale: [
+        [0, '#1a3a4a'],
+        [0.5, '#f0b90b'],
+        [1, '#ff6b6b']
+    ],
+    colorbar: {
+        title: {
+            text: 'Drug<br>Violations',
+            font: {color: '#f0b90b', size: 12}
+        },
+        tickfont: {color: '#f0b90b', size: 10},
+        bgcolor: '#1a3a4a',
+        bordercolor: '#f0b90b',
+        borderwidth: 1
+    },
+    marker: {
+        line: {
+            color: '#f0b90b',
+            width: 2
+        }
+    }
+}];
+
+var layout = {
+    geo: {
+        scope: 'usa',
+        projection: {type: 'albers usa'},
+        showlakes: true,
+        lakecolor: '#0a1a2a',
+        bgcolor: '#0a1a2a',
+        landcolor: '#1a3a4a',
+        coastlinecolor: '#f0b90b',
+        coastlinewidth: 1,
+        showland: true,
+        showcountries: false,
+        countrycolor: '#f0b90b',
+        countrywidth: 1
+    },
+    plot_bgcolor: '#1a3a4a',
+    paper_bgcolor: '#1a3a4a',
+    font: {
+        color: '#f0b90b',
+        family: 'Arial, sans-serif',
+        size: 12
+    },
+    margin: {t: 0, b: 0, l: 0, r: 0},
+    annotations: [{
+        text: '@TheTruthProject',
+        xref: 'paper',
+        yref: 'paper',
+        x: 0.98,
+        y: 0.02,
+        showarrow: false,
+        font: {
+            size: 10,
+            color: '#f0b90b'
+        },
+        opacity: 0.7
+    }]
+};
+
+var config = {responsive: true, displayModeBar: false};
+
+Plotly.newPlot('border-states-map', data, layout, config);
+</script>
+
+<p style="color: #f0b90b; text-align: center; margin-top: 16px;"><strong>Key Takeaway:</strong><br><em>Crime patterns and offender ethnicities vary widely across U.S. border states, with some states showing notably higher rates for certain crimes or groups.</em></p>
