@@ -799,3 +799,7 @@ Plotly.newPlot('industry-distribution-2022', [
   
 **Key Takeaway:**
 Compares the industry employment distributions of native-born, Mexican-born, and unauthorized Mexican workers in 2022.
+
+
+Something interesting to note is that the three industries where Native Americans are most heavily employed are services, except for public administration. This represents 12.9% of the total Native American population, followed by the information sector with 8.9% and the transportation and warehousing services sector with 8.6%, showing that services and computer development have the greatest share.
+
