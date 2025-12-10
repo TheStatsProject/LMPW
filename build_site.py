@@ -557,6 +557,16 @@ def generate_html_page(title, body_content, page_type="article"):
     <title>{title} | {SITE_TITLE}</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <style>{css}</style>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+        MathJax = {{
+            tex: {{
+                inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],
+                displayMath: [['$$', '$$'], ['\\\\[', '\\\\]']]
+            }}
+        }};
+    </script>
 </head>
 <body>
     <header>
@@ -684,8 +694,20 @@ def build_site():
     # Create output directory
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Copy static files (favicon, logo) if they exist
+    # Copy static files to static folder for iframe embeds
     if STATIC_DIR.exists():
+        # Create static directory for HTML embeds
+        static_output = OUTPUT_DIR / "static"
+        static_output.mkdir(parents=True, exist_ok=True)
+        
+        # Copy all files from static/ to site/static/
+        for static_file in STATIC_DIR.iterdir():
+            if static_file.is_file():
+                dest = static_output / static_file.name
+                shutil.copy(static_file, dest)
+                print(f"  Copied to static: {static_file.name}")
+        
+        # Also copy favicon and logo to root for backward compatibility
         favicon_src = STATIC_DIR / "favicon.svg"
         if favicon_src.exists():
             shutil.copy(favicon_src, OUTPUT_DIR / "favicon.svg")
